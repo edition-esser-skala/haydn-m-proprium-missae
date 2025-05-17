@@ -12,6 +12,7 @@ sources:
     license: public domain
     principal: true
 toe: |
+  –   & –  & This work is a reworking of the first aria from the applausus \textit{Amor subditorum} MH 289. \\
   104 & ob & grace note added by editor \\
 parts:
   cor12: Corno I, II in \flat B
