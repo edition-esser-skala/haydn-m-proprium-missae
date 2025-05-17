@@ -4,23 +4,26 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
-\paper {
-  top-system-spacing.basic-distance = #10
-  top-system-spacing.minimum-distance = #10
-  top-markup-spacing.basic-distance = #0
-  top-markup-spacing.minimum-distance = #0
-  markup-system-spacing.basic-distance = #10
-  markup-system-spacing.minimum-distance = #10
-  systems-per-page = #2
-}
-
 \book {
   \bookpart {
     \section "379" "Felix es sacra"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = "Oboe I, II"
+            \partCombine #'(0 . 10) \CCCLXXIXOboeI \CCCLXXIXOboeII
+          >>
+        >>
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \transposedName "Corno I, II" "F" ""
+            % \transpose c f,
+            \partCombine #'(0 . 10) \CCCLXXIXCornoI \CCCLXXIXCornoII
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "Violino"

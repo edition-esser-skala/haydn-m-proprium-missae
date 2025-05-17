@@ -4,20 +4,20 @@ CCCLXXIXViolinoII = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \tempoCCCLXXIX
-    a8(\fE c f a g b)
-    c,( e f a g b)
-    c,( e f f f b)
+    a8(\fE c) f( a) g( b)
+    c,( e) f( a) g b
+    c,( e) f f f b
     b4 a8 c c e
-    f c c a f a %5
+    f( c) c( a) f( a) %5
     g f e g f4
     f f e8 g
-    f8. g16 a f a f' e c e g
+    f8. g16 a f c' f e c e g
     f4 f, f
     f2 f4 %10
     e e g
-    f8. e16 f a f' e f c f a
+    f8. e16 f c' f e f c f a
     f,4 e f
-    f g b16 a b g'
+    f( g) b16 a b g'
     e,4 f g8 b %15
     b4 a16 b a g f a c f
     f4 d16 b a b f b d f
@@ -29,12 +29,12 @@ CCCLXXIXViolinoII = {
     e4 e,8 f g e
     c4 a' f
     f e16 g a h c d e f %25
-    g8 e e, f g e
+    g8( e) e,( f) g( e)
     c4 a' f
     f e16 g a h c d e f
     g8 g, r g g' g,
     a a' r a, a' a, %30
-    h h' r h, h' h,
+    h h' r \hA h, \hA h' \hA h,
     c c' r e,, a g
     f f' f16 d g f e d e c
     g8 f' f16 d g f e h c g
@@ -42,18 +42,18 @@ CCCLXXIXViolinoII = {
     c16 e d e c8 c d e
     e4( f8) f a f
     f4( e8) c d e
-    e( f a f a f)
-    f4( e8) e16 g c e g e %40
+    e( f) a( f) a( f)
+    f4 e8 e16 g c e g e %40
     f8 f f16 d g f e d e c
     g8 f' f16 d g f e h c g
     a f a f e8 e d d
     c g'16 b! a c h d c e d f
-    e8[ g g g] h,8.\trill a32 h %45
-    c8[ g' g g] h,8.\trill a32 h
+    e8[ g g g] h,8.\trill a32 \hA h %45
+    c8[ g' g g] h,8.\trill a32 \hA h
     c4 r r
     R2.
-    r8 g'[ g g] h,8.\trill a32 h
-    c8[ g' g g] h,8.\trill a32 h %50
+    r8 g'[ g g] h,8.\trill a32 \hA h
+    c8[ g' g g] h,8.\trill a32 \hA h %50
     c4 r r
     R2.
     r8 c'[ c c] e,8.\trill d32 e
@@ -67,28 +67,28 @@ CCCLXXIXViolinoII = {
     c4 r r
     r8 c,[ g' g] g8.\trill f32 g
     b8[ b, b b] b,8.\trill a32 b
-    a8( c f a g b)
-    c,( e f a g b) %65
-    c,( e f f f b)
+    a8( c) f( a) g( b)
+    c,( e) f( a) g( b) %65
+    c,( e) f f f b
     b4 a8 c c e
-    f c c a f a
+    f( c) c( a) f( a)
     g f e g f4
     f f e8 g %70
     f8. g16 a f c' f e c e g
     f4 f, f
     f2 f4
     e e g
-    f8. e16 f a f' e f c f a %75
+    f8. e16 f c' f e f c f a %75
     f,4 e f
-    f g b16 a b g'
+    f( g) b16 a b g'
     e,4 f g8 b
     b4 a16 b a g f a c es
     es8 d d16 f g f f, a c es %80
     es8. d16 d c d b' a c, d c
-    c4 b16 g' a g b b, a b
+    c4 b16 g' a g b b, c b
     b8 g16 e f8 f a f
     d4 b d
-    c e8 g16 e a f g e %85
+    c c8 g'16 e a f g e %85
     a4. g8 f4
     f d' b
     b a16 f' e f f, a c f
@@ -107,8 +107,8 @@ CCCLXXIXViolinoII = {
     f16 a c b a8 f e es
     es4( d8) f b, d
     f4 f8 f e es
-    es d b d b b'
-    b4( a16) f' g f e b' g e %105
+    es( d) b( d) b b'
+    b4 a16 f' g f e b' g e %105
     f8 c r c a' f
     d' d r d, g b
     c c r c, f a
@@ -130,9 +130,9 @@ CCCLXXIXViolinoII = {
     b,8[ f f f] f8.\trill e32 f
     d'8[ f f f] f8.\trill e32 f %125
     c8 c,16 d e f g f e d e g
-    f8( c e c f c)
-    a' f g b16 g' b, a b g'
-    e,8( c f c g' b)
+    f8 c e c f c
+    a'( f) g b16 g' b, a b g'
+    e,8 c f c g' b
     b16 c d b a b a g f a c f %130
     f8 d d16 b a b f b d f
     f8 c c16 a g a f a c f

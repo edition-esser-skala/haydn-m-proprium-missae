@@ -37,15 +37,15 @@ CCCLXXIXOrgano = {
     g g, g' f e g
     a a, a' g f e
     d d' h g c g
-    h g h g c e,
+    h g \hA h g c e,
     f d g f g g, %35
     c c' c,4 r
     c8 c' c,4 r
     c8 c' c,4 r
     c8 c' c,4 r
     c8 c' c, c' e c %40
-    h g h g c g
-    h g h g c e,
+    h g \hA h g c g
+    h g \hA h g c e,
     f d g f g g,
     c e-\solo f g a h
     c4 e, g %45
@@ -59,15 +59,15 @@ CCCLXXIXOrgano = {
     f a c
     f a, c
     f, g a %55
-    b r b,
+    b! r b,
     f' r f
     g e c
     f f, f'
     b, g c %60
     a b h
-    c r c'
+    c r c'-\solo
     e, c e
-    f8 f, a' f e c
+    f8-\tutti f, a' f e c
     f f, a' f e c %65
     f f, f' es d b
     f' e f a g b
@@ -101,7 +101,7 @@ CCCLXXIXOrgano = {
     g g, g' f e d %95
     c c' c, h c cis
     d d' d, cis d c
-    b b' b, c d b
+    b! b' b, c d b
     f' f, f' g a f
     b g c b c c, %100
     f f, f'4 r
@@ -113,9 +113,9 @@ CCCLXXIXOrgano = {
     b fis g a b g
     a e f g a f
     g g, g' f e d
-    c h c h c cis %110
-    d cis d cis d c
-    b a b c d b
+    c h c \hA h c cis %110
+    d cis d \hA cis d c
+    b! a b c d b
     f' e f g a f
     b g c b c c,
     d f a, f' a, a' %115
@@ -152,15 +152,15 @@ CCCLXXIXOrgano = {
 CCCLXXIXBassFigures = \figuremode {
   r2 <6>8 <7>
   <9 4>4 <6> <6>8 <7>
-  <9 4>4 <8 3>8 <\t \t> <6>4
-  <6 4> <5 3> <6>
-  q2. %5
+  <9 4>4 <3>8 <\t> <6>4
+  <6 4> <[5] 3> <6>
+  q2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %5
   q2 q4
   <6 5> <6 4> <7 [3]>
   r2 <6>4
   q2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
-  r2 <6 5>8 <\t \t> %10
-  <9>4 <8> <5>
+  r2 <6 5>4 %10
+  <9> <8> <5>
   <3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
   <6>4 q2
   <6 4>4 \bo <7 [5]>4. \once \bassFigureExtendersOn \bc q8
@@ -170,75 +170,75 @@ CCCLXXIXBassFigures = \figuremode {
   <6>2 q8 q
   <6\! 5>2 <6 5>8 q
   <3>2 q8 q %20
-  <6>4. q8 <7>8 <\t>
-  <6 4>4 \bo <[5] 3>4. \bc q8
+  <6>4. q8 \bassFigureExtendersOff <7>8 <\t>
+  <6 4>4 \bo <[5] 3>4. \once \bassFigureExtendersOn \bc q8
   r4. <6!>8 <6>4
-  <5>2 q8 q
-  <6 4>4 <5 3>4. q8 %25
-  r4. <6!>8 <6>4
-  <5>2 q8 q
-  <6 4>4 <5 3>4. q8 \bassFigureExtendersOff
   r2.
-  <5>4 <6>2 %30
-  <[5] _!>4 <6 \t> <[5!]>
+  <6 4>4 \bo <[5] 3>4. \once \bassFigureExtendersOn \bc q8 %25
+  r4. <6!>8 <6>4
+  r2.
+  <6 4>4 \bo <[5] 3>4. \once \bassFigureExtendersOn \bc q8
+  r2.
+  r4 <6>2 %30
+  <_!>4 <6 [_!]>2
   r2.
   r4 <6 5>2
   q2.
   <6>4 <6 4> <[7] _!> %35
-  <5 3>2.
-  <\t \t>4 <6 4>2
+  r2.
+  <5 3>4 <6 4>2
   <\t \t>4 <5 3>2
-  <\t \t>4 <6 4>2
-  <\t \t>4 <5 3>2 %40
+  <\t \t>4 <6 4> <\t \t>
+  q <5 3>2 %40
   <6 5>2.
   q
-  <6 5>4 <6 4> <5 _!>
+  <6 5>4 <6 4> <[5] _!>
   r2.
-  r4 <6> <_!> %45
-  r <6> <_!>
+  r2 <_!>4 %45
+  r2 q4
   r2.
-  <_ _!>2 <7 \t>4
+  <[5] _!>4 <6 4> <7 [_!]>4
   <9 4> <6> <_!>
   r <6> <_!> %50
   r2.
   <6 4>8 <5- 3>4. <6 4>8 <5 3>
-  <9 4>4 <[6]>2
-  r4 <6>2
-  r4 <6> <5-> %55
+  <9 4>4 <6>2
+  r4 q2
+  r4 q <5-> %55
   r2.
   r
   r4 <6 5> <7>
   r2.
   r %60
   <6>4 q <7>
-  <6 4> <5 3>2
+  <6 4> <[5] 3>2
   <6 5> \once \bassFigureExtendersOn q4
-  r4 <6> q8 <7>
-  <9 4>4 <[6]> <6>8 <7> %65
-  <6 4>4 <5 3>8 <\t \t> <6>4
+  r2 <6>8 <7>
+  <9 4>4 <6> q8 <7> %65
+  <9 4>4 <3>8 <\t> <6>4
   <6 4> <[5] 3> <6>
   <6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
   q2 q4
   <6 5> <6 4> <7 [5]> %70
   r2 <6>4
   q2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
-  r2 <6 5>8 <\t \t>
-  <9>4 <8> <5>
+  r2 <6 5>4
+  <9> <8> <5>
   <3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %75
   <6>4 q2
   <6 4>4 \bo <7 [5]>4. \once \bassFigureExtendersOn \bc q8
   <5>8 <\t> <6>4 <2>8 <\t>
-  <6 4>4 \bo <[5] 3>8 \bc <[\t] \t> <5-> <\t>
-  <9 4->4 <6> q8 <7-> %80
+  <6 4>4 \bo <[5] 3>8 \bc <[\t] \t> <5->4
+  <9 4->4 <6> <[6]>8 <7-> %80
   <9 4->4 <6> <6 5>
   <9 4> \bo <[8] 3>8 \bc <[\t] \t> <6 5>4
-  <9 4> \bo <[8] 3> <5>
-  \bc <[6]>2 <7>8 <\t>
-  <6 4>4 <[5] 3>8 <4 2> <6> q %85
+  <9 4> <[8] 3>2
+  <6>2 <7>4
+  <6 4> \bo <[5] 3>8 \bc <[\t] \t> <6> q %85
   r4. q8 q4
   r2.
-  <6 4>4 <5 3>4. \once \bassFigureExtendersOn q8
-  <5>4. <\t>8 <6> <6 _->
+  <6 4>4 \bo <[5] 3>4. \once \bassFigureExtendersOn \bc q8
+  r4. <\t>8 <6> <6 _->
   r2 <6>4 %90
   <6 4> <[5] 3> <6>
   q2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
@@ -253,9 +253,9 @@ CCCLXXIXBassFigures = \figuremode {
   r2.
   <5 3>4 <6 4>2
   <\t \t>4 <5 3>2
-  <\t \t>4 <6 4>2
-  <\t \t>4 <5 3> <6> %105
-  q2.
+  <\t \t>4 <6 4> <\t \t>
+  q <5 3> <6> %105
+  q2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
   q8 q r2
   <6[!]>8 <6> r2
   <6>2 \bassFigureExtendersOn q8 q
@@ -263,18 +263,18 @@ CCCLXXIXBassFigures = \figuremode {
   <5>2 q8 q \bassFigureExtendersOff
   r2.
   r
-  <6>4 <6 4> <5 3>
+  <6>4 <6 4> <[5] 3>
   <5> <6>4. \once \bassFigureExtendersOn q8 %115
-  r4 <6 4> <5 3>
+  r4 <6 4> <[5] 3>
   r2.
-  r4 <6>2
+  r4 <[6]>2
   r4 <6>2
   r2. %120
   r
   <7>4. \once \bassFigureExtendersOn q8 <6 5>4
-  <5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
-  <6>2 q4
-  <5>2 <7>8 <\t> %125
+  r2 r8 <\t>
+  <6>4. \once \bassFigureExtendersOn q8 q4
+  r2 <7>8 <\t> %125
   <6 4>4 \bo <[5] 3>4. \once \bassFigureExtendersOn \bc q8
   <6>4 q2
   <6 4>4 \bo <7 [3]>4. \once \bassFigureExtendersOn \bc q8
@@ -282,14 +282,14 @@ CCCLXXIXBassFigures = \figuremode {
   <6 4>4 <[5] 3> <6> %130
   <3>2 \bassFigureExtendersOn q8 q
   <6>2 q8 q
-  <6\! 5>2 <6 5>8 q \bassFigureExtendersOff
-  <5>2 <6>4
-  q <6 4> <[5] 3> %135
+  <6\! 5>2 <6 5>8 q
+  <3>2 q8 q \bassFigureExtendersOff
+  <6>4 <6 4> <[5] 3> %135
   <6>2.
   q4 <6 5>2
   <6>2.
-  q4 <6 5>2
-  r4 <6>2 %140
-  r4 <6> <7>
-  r2. %142 finis
+  <\t>4 <6 5>2
+  r2. %140
+  r
+  r %142 finis
 }

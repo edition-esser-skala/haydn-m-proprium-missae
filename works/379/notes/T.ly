@@ -4,14 +4,14 @@ CCCLXXIXTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \major \time 3/4 \tempoCCCLXXIX \autoBeamOff
-    \mvTr a2\fE^\tutti c4
+    \mvTr a2\fE^\tuttiE c4
     c2 c8 c
     c4 c8 c b b
     b4 a r
     c c f8([ c)] %5
     c2 c4
     d c c
-    c2 r4
+    c8. c16 c4 r
     c c c
     d2 f4 %10
     e e c
@@ -58,7 +58,7 @@ CCCLXXIXTenore = {
     c4 c c
     c8. c16 c4 r
     r c c
-    c b c %55
+    c b! c %55
     b d4. b8
     a4 c4. f8
     d8. d16 c4 r
@@ -154,10 +154,10 @@ CCCLXXIXTenoreLyrics = \lyricmode {
   es, sa -- cra
   Vir -- go, Vir -- go Ma --
   ri -- a,
-  et o -- mni %5
-  lau -- de
-  di -- gnis -- si --
-  ma,
+  et o -- mni, %5
+  o -- mni
+  lau -- de di --
+  gnis -- si -- ma,
   et o -- mni
   lau -- de, %10
   lau -- de di --

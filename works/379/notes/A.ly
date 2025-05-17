@@ -4,7 +4,7 @@ CCCLXXIXAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \tempoCCCLXXIX \autoBeamOff
-    \mvTr c2\fE^\tutti c8([ g')]
+    \mvTr c2\fE^\tuttiE c8([ g')]
     g4( f) g8 g
     g4 f8 f f f
     f4 f r
@@ -35,7 +35,7 @@ CCCLXXIXAlto = {
     e g g
     f f a %30
     g g h
-    a8. g16 a4 r
+    a8. gis16 a4 r
     a( g) g
     g4. g8 g4
     f e( f) %35
@@ -55,7 +55,7 @@ CCCLXXIXAlto = {
     d c r
     r g'2 %50
     g4( e) f
-    a8([ g)] f([ g)] a([ g)]
+    a8([ g)] fis([ g)] a([ g)]
     g8. f16 f4 r
     r f g
     a g f %55
@@ -97,7 +97,7 @@ CCCLXXIXAlto = {
     f8. f16 f4 r
     f f f
     g8([ a)] g4 g
-    f!8([ g)] f4 f
+    f8([ g)] f4 f
     e8. e16 e4 r %95
     g2.
     f
@@ -154,8 +154,8 @@ CCCLXXIXAltoLyrics = \lyricmode {
   es, __ sa -- cra
   Vir -- go, Vir -- go Ma --
   ri -- a,
-  et o -- mni %5
-  lau -- de,
+  et o -- mni, %5
+  o -- mni
   lau -- de di --
   gnis -- si -- ma,
   et o -- mni

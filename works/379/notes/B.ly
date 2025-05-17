@@ -11,7 +11,7 @@ CCCLXXIXBasso = {
     a a4. f8 %5
     e([ d c b)] a4
     b c4. e8
-    f2 r4
+    f8. f16 f4 r
     a a a,
     b4.( a8) b([ h)] %10
     c([ h)] c4 e
@@ -59,8 +59,8 @@ CCCLXXIXBasso = {
     f8. f16 f4 r
     r a c
     f, g a %55
-    b b4. b8
-    f4 f f
+    b! b4. b8
+    f4 f4. f8
     g8. g16 e4 r
     f4. f8 f f
     b,4( g) c %60
@@ -101,13 +101,13 @@ CCCLXXIXBasso = {
     g8. g16 g4 r %95
     c,4.( h8[ c cis)]
     d2 r4
-    b2.
+    b!2.
     f'4 a2
     b4 c( c,) %100
     f r f~
     f f2
     f f4
-    f4. f8 f4~
+    f4. f8 f4
     f2 r4 %105
     a a f
     b8([ fis)] g4 b
@@ -115,7 +115,7 @@ CCCLXXIXBasso = {
     g8. g16 g4 r
     c,4.( h8[ c cis)] %110
     d2 r4
-    b2.
+    b!2.
     f'4 f2
     b4 c( c,)
     d a2 %115
@@ -143,7 +143,7 @@ CCCLXXIXBasso = {
     a b c
     a r r
     a b c
-    f, r r %140
+    f r r %140
     R2.
     R\fermata \bar "|." %142 finis
   }
@@ -154,9 +154,10 @@ CCCLXXIXBassoLyrics = \lyricmode {
   es, sa -- cra
   Vir -- go, Vir -- go Ma --
   ri -- a,
-  et o -- mni %5
-  lau -- de
-  di -- gnis -- si --
+  et o -- mni, %5
+  o -- mni
+  lau -- de di --
+  gnis -- si --
   ma,
   et o -- mni
   lau -- de, __ %10
@@ -253,8 +254,8 @@ CCCLXXIXBassoLyrics = \lyricmode {
   ster. Fe --
   lix
   es di --
-  gnis -- si -- ma, __
-  %105
+  gnis -- si -- ma
+  es, %105
   qui -- a ex
   te __ or -- tus
   est sol iu --

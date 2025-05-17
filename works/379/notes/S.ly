@@ -4,7 +4,7 @@ CCCLXXIXSoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \tempoCCCLXXIX \autoBeamOff
-    \mvTr f2\fE^\tutti g8([ b)]
+    \mvTr f2\fE^\tuttiE g8([ b)]
     b4( a) g8 b
     b4 a8 a b d
     d4 c r
@@ -154,8 +154,8 @@ CCCLXXIXSopranoLyrics = \lyricmode {
   es, __ sa -- cra
   Vir -- go, Vir -- go Ma --
   ri -- a,
-  et o -- mni %5
-  lau -- de,
+  et o -- mni, %5
+  o -- mni
   lau -- de di --
   gnis -- si -- ma,
   et o -- mni
