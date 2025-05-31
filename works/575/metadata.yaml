@@ -14,11 +14,11 @@ sources:
 parts:
   ottoni: Corno I, II in D\\Clarino I, II in \flat B/C
 lyrics:
-  \textit{Das Lobgeſang Mariæ}\\\enlargethispage\baselineskip
+  \textit{Das Lobgeſang Mariæ}\\
   1) Ganz vom Dankgefühl gerühret\\
   lobet meine Seel den Herrn;\\
   Ihn, dem allzeit Lob gebühret,\\
-  hier, und in dem Reich der Stern’.\\
+  hier, und in dem Reich der Stern’.\clearpage
   2) Und mein Geiſt frohlockt vor Freude\\
   zu dem Heiland meinem Gott,\\
   der, nach Adams langem Leide,\\
