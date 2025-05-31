@@ -1,16 +1,14 @@
 # Changelog
 
-## v2024.09.0
+## 2024.09.0 – 2024-09-28
 
 ### Added
 
 - general preface, containing a short introduction and the changelog
 
-
 ### Changed
 
 - build workflow; notably, MIDI files are now provided in separate archives
-
 
 ### Fixed
 
@@ -19,35 +17,34 @@
 - MH 643: shelfmark
 
 
-## v2024.07.0
+## 2024.07.0 – 2024-07-13
 
 ### Added
 
 - works: MH 547
 
 
-## v2024.05.0
+## 2024.05.0 – 2024-05-25
 
 ### Added
 
 - works: MH 260
 
 
-## v2024.03.0
+## 2024.03.0 – 2024-03-28
 
 ### Added
 
 - works: MH 49 and 217
-- realized bass figures and ottoni for MH 482
-- global macro \hA
-
+- MH 482: realized bass figures and ottoni
+- global macro `\hA`
 
 ### Fixed
 
 - MH 372 now has the correct catalogue of works number (previously, it was 371).
 
 
-## v2024.02.0
+## 2024.02.0 – 2024-03-01
 
 ### Changed
 
@@ -56,10 +53,10 @@
 
 ### Removed
 
-- some works for which an editio princeps claim has been registered (see *ignored_works*)
+- Some works for which an editio princeps claim has been registered are not released as pdf anymore (see *ignored_works*).
 
 
-## v2023.12.0
+## 2023.12.0 – 2023-12-17
 
 ### Added
 
@@ -67,20 +64,19 @@
 
 ### Changed
 
-- All works are now available under a CC BY-SA 4.0 license.
-
+- all works are now available under a CC BY-SA 4.0 license
 
 ### Fixed
 
 - generation of MIDI archive
 
 
-## v2023.11.0
+## 2023.11.0 – 2023-11-29
 
 ### Added
 
 - works: MH 101, 643, and D1 (A-RB R 222)
-- source D2 (A-RB) for MH 259
+- MH 259: source D2 (A-RB)
 
 ### Changed
 
@@ -88,35 +84,35 @@
 - use EES Tools 2023.10.0 based on LilyPond 2.24.2
 
 
-## v2023.07.0
+## 2023.07.0 – 2023-07-22
 
 ### Added
 
 - works: MH 253, 269, 379, and 400
-- realized bass figures to MH 29
+- MH 29: realized bass figures
 
 
-## v2023.06.0
+## 2023.06.0 – 2023-06-30
 
 ### Added
 
 - works: MH 426, 436, 437, 526, 528, 792, and 793
 
 
-## v2023.05.0
+## 2023.05.0 – 2023-06-02
 
 ### Added
 
 - works: MH 98, 99, 131, 342, 359, 392, 554, 798, 810, 827, 828, D2 (A-Ed E 68), and D3 (A-Ed F 25)
 - a cross reference from MH 363 to MH 810
-- parts for trb 1–3 and org realized to MH 365
+- MH 365: parts for trb 1–3 and org realized
 
 ### Fixed
 
 - removed long instrument name from template for org realized
 
 
-## v2023.04.0
+## 2023.04.0 – 2023-04-30
 
 ### Added
 
@@ -128,80 +124,75 @@
 - MH 183 is now based upon the autograph manuscript
 
 
-## v2023.03.0
+## 2023.03.0 – 2023-03-31
 
 ### Added
 
 - works: MH 326, 351–353, 355, 356, 360, 363–365, and 369
 
 
-## v2023.02.0
+## 2023.02.0 – 2023-02-28
 
 ### Added
 
-- works: MH 370–377, and 829
-
+- works: MH 370–377 and 829
 
 ### Changed
 
-- full score template now includes \articulate
+- full score template now includes `\articulate`
 
 
-## v2023.01.0
+## 2023.01.0 – 2023-01-31
 
 ### Added
 
 - works: MH 277, 278, 378, 380, 382, and 385–387
 
 
-## v2022.12.0
+## 2022.12.0 – 2022-12-31
 
 ### Added
 
 - works: MH 389, 390, 394, 401–403, 408, and 409
 - creation of a ZIP archive with all MIDIs in the GitHub actions workflow
 
-
 ### Changed
 
 - use EES Tools 2022.12.0 based on LilyPond 2.24.0
 
 
-## v2022.11.0
+## 2022.11.0 – 2022-11-30
 
 ### Added
 
 - works: MH 415, 494, 505f, 509–511, 513, and 519–524
-- manually curated MIDI files for all edited works in folder `midi` (created with \articulate)
-
+- manually curated MIDI files for all edited works in folder `midi` (created with `\articulate`)
 
 ### Changed
 
-- \partCombine now automatically combines intervals up to the tenth
-
+- `\partCombine` now automatically combines intervals up to the tenth
 
 ### Fixed
 
-- MH 215: errors in org (bar 42, 2nd eighth: c8 -> G8) and cor 1 (bar 34, 6th eighth: e'8 -> g'8)
+- MH 215: errors in org (bar 42, 2nd eighth: c8 → G8) and cor 1 (bar 34, 6th eighth: e'8 → g'8)
 - MH 488: typo in tempo indication
 - MH 497: transposition of cor
 - MH 773: transposition of cor
 
 
-## v2022.10.0
+## 2022.10.0 – 2022-10-31
 
 ### Added
 
 - works: MH 213, 361, 366, 388, 588, 635, and 800
 - additional source for MH 653
 
-
 ### Fixed
 
-- error in clno parts of MH 525 which prevented compilation of the project
+- MH 525: error in clno parts which prevented compilation of the project
 
 
-## v2022.09.0
+## 2022.09.0 – 2022-10-02
 
 ### Added
 
@@ -209,35 +200,35 @@
 - additional sources for MH 324, 362, 391, 397, 482-492, 501-503, and 525
 
 
-## v2022.08.0
+## 2022.08.0 – 2022-08-28
 
 ### Added
 
 - works: MH 29–34, 93, 162, 410, 627, and 696
 
 
-## v2022.07.0
+## 2022.07.0 – 2022-07-31
 
 ### Added
 
 - works: MH 28, 180, 192, 368, 381, 391, 429, 430, 492, 497, 504, 525, 574–576, 670, 694, 695, and 836
 
 
-## v2022.06.0
+## 2022.06.0 – 2022-07-01
 
 ### Added
 
 - works: MH 491 and 503
 
 
-## v2022.05.0
+## 2022.05.0 – 2022-05-30
 
 ### Added
 
 - works: MH 327–329, 404, 490, 502, 567, 772, 773, 831
 
 
-## v2022.04.0
+## 2022.04.0 – 2022-05-02
 
 ### Added
 
@@ -245,7 +236,7 @@
 - template for realized organo
 
 
-## v2022.02.0
+## 2022.02.0 – 2022-02-28
 
 ### Added
 
@@ -253,10 +244,10 @@
 
 ### Fixed
 
-- siglum of source B1 for MH 484
+- MH 484: siglum of source B1
 
 
-## v2022.01.0
+## 2022.01.0 – 2022-01-31
 
 ### Added
 
@@ -265,11 +256,10 @@
 - multicolumn support in critical report
 
 
-## v2021.12.0
+## 2021.12.0 – 2022-01-02
 
 ### Added
 
 - initial tagged version
 - uses EES Tools and editorial guidelines
-- works: MH 46, 142, 145, 183, 215, 248, 259, 324, 344, 442–448, 451–453,
-  479–481, 495, 496, 498, and 654
+- works: MH 46, 142, 145, 183, 215, 248, 259, 324, 344, 442–448, 451–453, 479–481, 495, 496, 498, and 654
