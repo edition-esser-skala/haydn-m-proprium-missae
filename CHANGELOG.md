@@ -18,6 +18,7 @@
 ### Fixed
 
 - general preface is now actually rendered
+- MH 575 and 588: rendering of preface (which broke the pipeline)
 
 
 ## 2024.09.0 – 2024-09-28
