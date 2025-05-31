@@ -7,6 +7,7 @@
 - MH 283: realized bass figures
 - MH 460: realized bass figures
 - MH 640: cross-reference to MH 289
+- a list of available works to the general preface
 
 ### Changed
 
