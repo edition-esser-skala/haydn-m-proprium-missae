@@ -5,10 +5,10 @@ festival: Pro omni tempore
 scoring: B (solo), S, A, T, B (coro), 2 cor (G), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
-  A1:
+  B1:
     siglum: A-RB
     shelfmark: Kasten IV, fasc. 123
-    license: CC BY-SA 4.0
+    license: public domain
     principal: true
 toe: |
   32  & vla   & 4th \eighthNote\ in \B1: d′8 \\
