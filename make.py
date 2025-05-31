@@ -23,6 +23,7 @@ LILYPOND = lilypond \
 MAKE_PREFACE: Final = """\
 .PHONY: preface
 preface:
+>python front_matter/make_work_table.py
 >latexmk -cd \\
 >        -lualatex \\
 >        -outdir=../final \\
