@@ -1,5 +1,25 @@
 # Changelog
 
+## 2025.05.0 – 2025-05-31
+
+### Added
+
+- MH 283: realized bass figures
+- MH 460: realized bass figures
+- MH 640: cross-reference to MH 289
+
+### Changed
+
+- MH 269: revised after autograph parts in H-Bn (unreleased)
+- MH 357: revised after autograph score in H-Bn
+- MH 379: revised after autograph score in H-Bn (unreleased)
+- format of changelog (now, captions also display the date of a version)
+
+### Fixed
+
+- general preface is now actually rendered
+
+
 ## 2024.09.0 – 2024-09-28
 
 ### Added
