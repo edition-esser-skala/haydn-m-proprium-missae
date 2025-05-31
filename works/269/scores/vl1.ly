@@ -7,8 +7,9 @@
 
 \book {
   \bookpart {
-    \section "269" "Canta Ierusalem"
+    \section "269" "Canta Jerusalem"
     \addTocEntry
+    \paper { page-count = #4 }
     \score {
       <<
         \new Staff { \CCLXIXViolinoI }

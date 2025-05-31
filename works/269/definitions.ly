@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoCCLXIX = \tempoMarkup "Andante maestoso"
+tempoCCLXIX = \tempoMarkup "Andante e maestoso"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

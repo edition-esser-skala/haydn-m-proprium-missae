@@ -5,7 +5,7 @@ CCLXIXViola = {
     \clef alto
     \key a \major \time 4/4 \tempoCCLXIX
     a8\p a a a a a r e'\f
-    h-! cis-! \parOn e-\parenthesize-! \parOff e-\parenthesize-! e[ r16 e] e'( cis) d( h)
+    h-! cis-! e-! e-\parenthesize-! e[ r16 e] e'( cis) d( h)
     a4 e r8 fis( e) e
     d\p e fis e16. d32 cis8 e\f d e
     e e d e e r e r %5
@@ -14,7 +14,7 @@ CCLXIXViola = {
     e' e e e e4 r8 cis
     h h e e r d d d
     r d d fis e e, r e'\f %10
-    fis16 fis8\p fis16 fis\f fis8\p fis16 h,8 h r4
+    fis16-! fis8\p fis16 fis\f fis8\p fis16 h,8 h r4
     e16\f e8\p e16 e\f e8\p e16 a,8 a r4
     r8 fis4 h8 h h( cis) d
     e[ r16 d] e8 e, a a'\f e cis
@@ -25,7 +25,7 @@ CCLXIXViola = {
     h16 fis'8 fis16 h, fis'8 fis16 h,8 h r4
     a16 e'8 e16 a, e'8 e16 a,8 a r4 %20
     d16( e) fis-! g-! fis( e) d-! cis-! h8 h cis d
-    e d16 fis e8 d cis e d e
+    e d16 fis e8 d cis-! e d e
     e e d e e r e r
     a,16 a cis cis d d e e a8 e16. e32 a,8 r
     a2\p a %25
@@ -38,7 +38,7 @@ CCLXIXViola = {
     e h r8 dis( e) fis
     e e,4\fz e\p e\fz e8~\p
     e e' gis e a a, r16 a a a
-    a8 a' h h, e16 \parOn gis\f-\parenthesize-! h-! \parOff gis-\parenthesize-! e d'! cis gis %35
+    a8 a' h h, e16 gis\f h gis e d'! cis gis %35
     a8 cis, e gis, a cis e4~
     e8 cis16 a e8 e' e8. d16 cis4
     r8 e e e r d d fis
@@ -49,7 +49,7 @@ CCLXIXViola = {
     e d16 fis e8 d cis e d e
     e e d e e r e r
     a,16 a cis cis d d e e a,8 a16-! a-! h-! h-! cis-! cis-! %45
-    fis,8 r a-!\p cis-! fis-\parenthesize-! fis,4 fis8
+    fis,8 r a-!\p cis-! fis-! fis,4 fis8
     fis r a-! cis-! fis-\parenthesize-! fis,4 fis8
     fis r gis a h4 r
     r8 cis( d) his \tuplet 3/2 8 { cis16 cis'\f cis cis[ eis, gis] } cis8 r

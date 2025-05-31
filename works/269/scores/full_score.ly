@@ -6,10 +6,10 @@
 
 \book {
   \bookpart {
-    \section "269" "Canta Ierusalem"
+    \section "269" "Canta Jerusalem"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<

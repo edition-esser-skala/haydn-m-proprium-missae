@@ -15,7 +15,7 @@ CCLXIXOboeII = {
     R1
     r2 r4 r8 gis\f %10
     a r a r r gis\p gis gis
-    g\f r g r r fis\p fis fis
+    g\f r \hA g r r fis\p fis fis
     fis r r4 r2
     r r8 e\f a a
     cis4 a16( cis) h( d) cis4. h16 a %15
@@ -23,7 +23,7 @@ CCLXIXOboeII = {
     gis4 h8 a d4~ d16 cis h( a)
     d4~ d16 cis h( a) a8. gis16 gis8 r
     a a16 a a8 a \appoggiatura a16 gis8 gis4 gis8
-    g g16 g g8 g \appoggiatura g16 fis8 fis4 fis8 %20
+    g g16 g g8 g \hA \appoggiatura g16 fis8 fis4 fis8 %20
     d'16( cis) h-! ais-! h( fis) fis8 e4 a8 h
     cis16( a) d( h) \once \slurDashed a8( gis) a e4 h'8
     a e4 h'8 a a4 a8
@@ -43,7 +43,7 @@ CCLXIXOboeII = {
     gis4 h8 a d4~ d16 cis h( a)
     d4~ d16 cis h( a) a8. gis16 gis8 r
     a a16 a a8 a \appoggiatura a16 gis8 gis4 gis8 %40
-    g g16 g g8 g \appoggiatura g16 fis8 fis4 fis8
+    g g16 g g8 g \hA \appoggiatura g16 fis8 fis4 fis8
     d'16( cis) h-! ais-! h( fis) fis8 e4 a8 h
     cis16( a) d h a8( gis) a e4 e8~
     e e4 h'8 a a4 a8
@@ -54,7 +54,7 @@ CCLXIXOboeII = {
     gis4 fis eis8 cis'\f cis4
     r2 r4 e,\pE %50
     fis gis\f fis r
-    r8 gis\p \once \slurDashed fis( eis) fis r fis r
+    r8 gis\p fis( eis) fis r fis r
     eis r fis r eis cis'\fE cis r
     R1
     r2 r8 a\f h h %55
@@ -63,7 +63,7 @@ CCLXIXOboeII = {
     gis4 h8 a d4~ d16 cis h a
     d4~ d16 cis h a a8. gis16 gis8 r
     a a16 a a8 a \appoggiatura a16 gis8 gis4 gis8 %60
-    g g16 g g8 g \appoggiatura g16 fis8 fis4 fis8
+    g g16 g g8 g \hA \appoggiatura g16 fis8 fis4 fis8
     d'16( cis) h-! ais-! h( a) gis-! fis-! e4 a8 h
     cis16( a) d h a8( gis) a4 r
     fis2\p e4 e'8\fE g,
@@ -80,8 +80,8 @@ CCLXIXOboeII = {
     gis4 h8 a d4~ d16 cis \once \slurDashed h( a)
     d4~ d16 cis \once \slurDashed h( a) a8. gis16 gis8 r %80
     a a16 a a8 a \appoggiatura a16 gis8 gis4 gis8
-    g g16 g g8 g \appoggiatura g16 fis8 fis4 fis8
-    d'16( cis) h ais h( a) gis fis e4 a8 h
+    g g16 g g8 g \hA \appoggiatura g16 fis8 fis4 fis8
+    d'16( cis) h ais \once \slurDashed h( a) gis fis e4 a8 h
     cis16( a) d h a8 gis \appoggiatura gis a4 r8 cis
     d16( cis) h ais h( fis) fis8 e4 a8 h %85
     cis16( a) d h a8( gis) a cis r4

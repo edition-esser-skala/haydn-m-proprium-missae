@@ -14,7 +14,7 @@ CCLXIXOboeI = {
     cis4. d16 h \appoggiatura h8 cis4 r
     R1
     r2 r4 r8 e\f %10
-    dis r dis r r e\p e e
+    dis r \hA dis r r e\p e e
     cis\f r cis r r d\p d d
     d r r4 r2
     r r8 e,\f a cis
@@ -22,7 +22,7 @@ CCLXIXOboeI = {
     cis4. d16 h \appoggiatura h8 cis8. h16 a8 r
     d d4 cis8 fis4~ fis16 e d( cis)
     fis4~ fis16 e d( cis) cis8. h16 h8 r
-    dis dis16 dis dis8 dis \appoggiatura dis16 e8 e4 e8
+    dis dis16 dis dis8 dis \hA \appoggiatura dis16 e8 e4 e8
     cis cis16 cis cis8 cis \appoggiatura cis16 d8 d4 a8 %20
     fis'16( e) d-! cis-! d( cis) h-! a-! \appoggiatura a gis8 gis e'4~
     e16 cis fis d cis8( h) a e'4 d8
@@ -42,7 +42,7 @@ CCLXIXOboeI = {
     cis4. d16 h \appoggiatura h8 cis8. h16 a8 r
     d d4 cis8 fis4~ fis16 e d( cis)
     fis4~ fis16 e d( cis) cis8. h16 h8 r
-    dis dis16 dis dis8 dis \appoggiatura dis16 e8 e4 e8 %40
+    dis dis16 dis dis8 dis \hA \appoggiatura dis16 e8 e4 e8 %40
     cis cis16 cis cis8 cis \appoggiatura cis16 d8 d4 a8
     fis'16( e) d-! cis-! d( cis) h-! a-! \appoggiatura a gis8 gis e'4~
     e16 cis fis d cis8( h) a e'4 h8
@@ -62,7 +62,7 @@ CCLXIXOboeI = {
     cis4. d16 h \appoggiatura h8 cis8. h16 a8 r
     d d4 cis8 fis4~ fis16 e d cis
     fis4~ fis16 e d cis cis8. h16 h8 r
-    dis dis16 dis dis8 dis \appoggiatura dis16 e8 e4 e8 %60
+    dis dis16 dis dis8 dis \hA \appoggiatura dis16 e8 e4 e8 %60
     cis cis16 cis cis8 cis \appoggiatura cis16 d8 d4 a8
     fis'16( e) d-! cis-! d( cis) h-! a-! \appoggiatura a gis8 gis e'4~
     e16 cis fis d cis8( h) a4 r
@@ -79,7 +79,7 @@ CCLXIXOboeI = {
     cis4. d16 h \appoggiatura h8 cis8. h16 a8 r
     d d4 cis8 fis4~ fis16 e d( cis)
     fis4~ fis16 e d( cis) cis8. h16 h8 r %80
-    dis dis16 dis dis8 dis \appoggiatura dis16 e8 e4 e8
+    dis dis16 dis dis8 dis \hA \appoggiatura dis16 e8 e4 e8
     cis cis16 cis cis8 cis \appoggiatura cis16 d8 d4 a8
     fis'16( e) d cis d( cis) h a \appoggiatura a gis8 gis e' gis
     a16( cis,) fis d cis8 h \appoggiatura h cis4 r8 e

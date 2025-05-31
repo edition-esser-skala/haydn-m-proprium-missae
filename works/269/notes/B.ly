@@ -10,7 +10,7 @@ CCLXIXBasso = {
     r gis h a d4~ d16[ cis] h a
     d4~ d16[ cis] h a a8. gis16 gis8 r %10
     a a16 a a8 a \appoggiatura a16 gis8 gis r4
-    g8 g4 g8 \appoggiatura g16 fis8 fis r4
+    g8 g4 g8 \hA \appoggiatura g16 fis8 fis r4
     d'16([ cis)] h ais h([ a)] gis([ fis)] e4 e8 r
     cis'16([ a)] d h a8([ gis)] a4 r
     \mvTr a,\fE^\tutti a8 a a8. a'16 a4 %15
@@ -38,10 +38,10 @@ CCLXIXBasso = {
     fis4. fis8 fis fis16 fis fis8 fis %50
     fis fis gis h16 d cis8 fis, h,4~
     h16[ gis'] h gis fis8([ eis)] fis4 r8 a16 fis
-    eis eis eis8 r16 a a fis eis eis eis8 r eis16 fis
+    eis eis eis8 r16 a a fis eis eis eis8 r \hA eis16 fis
     gis8 gis16 gis h8 d cis fis, h,4~
     h16[ gis'] h gis fis8([ eis)] fis4 r %55
-    \mvTr a,4\fE^\tutti a8 a a8. a'16 a4
+    \mvTr a,4\fE^\tuttiE a8 a a8. a'16 a4
     e4. e16 e a8. a,16 a8 r
     r h' gis a d,8. d16 d4
     d4. d16 d e8. e16 e8 r
@@ -51,7 +51,7 @@ CCLXIXBasso = {
     a d,16 d e4 a, r
     R1
     \key d \major R1*12 %76
-    \key a \major \mvTr a4\fE^\tutti a8 a a8. a'16 a4
+    \key a \major \mvTr a4\fE^\tuttiE a8 a a8. a'16 a4
     e4. e16 e a8. a,16 a8 r
     r h' gis a d,8. d16 d4
     d4. d16 d e8. e16 e8 r %80
@@ -67,7 +67,7 @@ CCLXIXBasso = {
 }
 
 CCLXIXBassoLyrics = \lyricmode {
-  Can -- ta __ Ie -- ru -- sa -- lem %7
+  Can -- ta __ Je -- ru -- sa -- lem %7
   re -- gi -- a ci -- vi -- tas,
   et gra -- to Do -- mi -- num
   car -- mi -- ne prae -- di -- ca %10
@@ -75,7 +75,7 @@ CCLXIXBassoLyrics = \lyricmode {
   tem -- pla ru -- i -- nis,
   pri -- scis e -- ri -- pi -- en -- tem
   tem -- pla ru -- i -- nis.
-  Can -- ta Ie -- ru -- sa -- lem %15
+  Can -- ta Je -- ru -- sa -- lem %15
   re -- gi -- a ci -- vi -- tas,
   et gra -- to Do -- mi -- num
   car -- mi -- ne prae -- di -- ca
@@ -84,7 +84,7 @@ CCLXIXBassoLyrics = \lyricmode {
   pri -- scis e -- ri -- pi -- en -- tem
   tem -- pla ru -- i -- nis.
 
-  Can -- ta Ie -- ru -- sa -- lem %36
+  Can -- ta Je -- ru -- sa -- lem %36
   re -- gi -- a ci -- vi -- tas
   et gra -- to Do -- mi -- num
   car -- mi -- ne prae -- di -- ca
@@ -103,7 +103,7 @@ CCLXIXBassoLyrics = \lyricmode {
   de -- ri -- bus ma -- gni -- fi -- cen -- ti -- us no -- va
   tem -- plum con -- de -- co -- ra -- tum ar --
   te re -- sur -- git. %55
-  Can -- ta Ie -- ru -- sa -- lem
+  Can -- ta Je -- ru -- sa -- lem
   re -- gi -- a ci -- vi -- tas,
   et gra -- to Do -- mi -- num
   car -- mi -- ne prae -- di -- ca
@@ -112,7 +112,7 @@ CCLXIXBassoLyrics = \lyricmode {
   pri -- scis e -- ri -- pi -- en -- tem
   tem -- pla ru -- i -- nis.
 
-  Can -- ta Ie -- ru -- sa -- lem %77
+  Can -- ta Je -- ru -- sa -- lem %77
   re -- gi -- a ci -- vi -- tas,
   et gra -- to Do -- mi -- num
   car -- mi -- ne prae -- di -- ca %80

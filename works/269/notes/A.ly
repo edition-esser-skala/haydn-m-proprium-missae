@@ -10,7 +10,7 @@ CCLXIXAlto = {
     gis4 h8 a d4~ d16[ cis] h a
     d4~ d16[ cis] h a a8. gis16 gis8 r
     a a16 a a8 a \appoggiatura a16 gis8 gis r4
-    g8 g4 g8 \appoggiatura g16 fis8 fis r4 %20
+    g8 g4 g8 \hA \appoggiatura g16 fis8 fis r4 %20
     d'16([ cis)] h ais h([ fis)] fis8 e4 a8([ h)]
     cis16([ a)] d h a8([ gis)] a4 r
     R1*2
@@ -21,7 +21,7 @@ CCLXIXAlto = {
     \appoggiatura cis16 h8 a16 gis \appoggiatura gis fis8 e16 dis \appoggiatura fis8 e8. fis16 gis4
     e dis g fis8 fis %30
     e h h h16 h g'8. g16 fis4
-    e dis8 r r dis e fis
+    e dis8 r r \hA dis e fis
     gis!16([ fis)] e fis gis([ cis)] h a gis([ fis)] e fis gis([ cis)] h([ a)]
     a8 gis r gis cis16([ a)] cis([ a)] a4~
     a16[ fis] a fis e8([ dis)] e4 r %35
@@ -30,7 +30,7 @@ CCLXIXAlto = {
     gis4 h8 a d4~ d16[ cis] h a
     d4~ d16[ cis] h a a8. gis16 gis8 r
     a a16 a a8 a \appoggiatura a16 gis8 gis r4 %40
-    g8 g4 g8 \appoggiatura g16 fis8 fis r4
+    g8 g4 g8 \hA \appoggiatura g16 fis8 fis r4
     d'16([ cis)] h ais h([ fis)] fis8 e4 a8([ h)]
     cis16([ a)] d h a8([ gis)] a4 r
     R1*12 %55
@@ -39,7 +39,7 @@ CCLXIXAlto = {
     gis4 h8 a d4~ d16[ cis] h a
     d4~ d16[ cis] h a a8. gis16 gis8 r
     a a16 a a8 a \appoggiatura a16 gis8 gis r4 %60
-    g8 g4 g8 \appoggiatura g16 fis8 fis r4
+    g8 g4 g8 \hA \appoggiatura g16 fis8 fis r4
     d'16([ cis)] h ais h([ a)] gis([ fis)] e4 a8([ h)]
     cis16([ a)] d h a8([ gis)] a4 r
     R1
@@ -71,7 +71,7 @@ CCLXIXAlto = {
 }
 
 CCLXIXAltoLyrics = \lyricmode {
-  Can -- ta __ Ie -- ru -- sa -- lem %15
+  Can -- ta __ Je -- ru -- sa -- lem %15
   re -- gi -- a ci -- vi -- tas,
   et gra -- to Do -- mi -- num
   car -- mi -- ne prae -- di -- ca
@@ -91,7 +91,7 @@ CCLXIXAltoLyrics = \lyricmode {
   ve -- te -- ri ste -- ma -- ta vi -- ti -- um mors a --
   stu -- ta ge -- men -- tes mes --
   su -- it u -- vas. %35
-  Can -- ta __ Ie -- ru -- sa -- lem
+  Can -- ta __ Je -- ru -- sa -- lem
   re -- gi -- a ci -- vi -- tas
   et gra -- to Do -- mi -- num
   car -- mi -- ne prae -- di -- ca
@@ -100,7 +100,7 @@ CCLXIXAltoLyrics = \lyricmode {
   pri -- scis e -- ri -- pi -- en -- tem __
   tem -- pla ru -- i -- nis.
 
-  Can -- ta __ Ie -- ru -- sa -- lem %56
+  Can -- ta __ Je -- ru -- sa -- lem %56
   re -- gi -- a ci -- vi -- tas,
   et gra -- to Do -- mi -- num
   car -- mi -- ne prae -- di -- ca
@@ -121,7 +121,7 @@ CCLXIXAltoLyrics = \lyricmode {
   ni -- en -- tes oc -- cu -- pat hor --
   ror, oc -- cu -- pat, oc -- %75
   cu -- pat hor -- ror.
-  Can -- ta __ Ie -- ru -- sa -- lem
+  Can -- ta __ Je -- ru -- sa -- lem
   re -- gi -- a ci -- vi -- tas,
   et gra -- to Do -- mi -- num
   car -- mi -- ne prae -- di -- ca %80

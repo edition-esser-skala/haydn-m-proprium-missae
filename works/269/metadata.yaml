@@ -1,25 +1,29 @@
-title: Canta Ierusalem
+title: Canta Jerusalem
 id: MH 269
 genre: offertorium
 festival: Dedicatio Ecclesiæ
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor (A), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms. Mus. 2531
+    url: https://copia.oszk.hu/kotta/offertorium-pro-dedicatione-ecclesiae/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 227
     rism: 600038177
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/82.html
     license: public domain
-    principal: true
 toe: |
-  42 & S & grace note missing in \B1 \\
-  55 & T & 2nd \sixteenthNote\ in \B1: \sharp c′16 \\
-  62 & S & grace note missing in \B1 \\
+  42 & S & grace note added by editor \\
+  62 & S & grace note added by editor \\
 parts:
   cor12: Corno I, II in A
 lyrics:
-  Canta Ierusalem regia civitas,\\
+  Canta Jerusalem regia civitas,\\
   et grato Dominum carmine praedica\\
   priscis eripientem templa ruinis.\\[1ex]
   Supplevit Dominus germinibus novis,\\

@@ -51,7 +51,7 @@ CCLXIXOrgano = {
     a16 a cis, cis d d e e a8 a,16-! a-! h-! h-! cis-! cis-! %45
     fis8\p fis fis fis fis r fis r
     fis fis fis fis fis r fis r
-    h, h' gis fis eis gis cis, eis
+    h, h' gis fis eis gis cis, \hA eis
     fis cis( d) his \tuplet 3/2 8 { cis16 cis'\f cis cis[ eis, gis] } cis8 r
     a,\p a ais ais h h cis\cresc cis %50
     d d h\f h a a r h\p
@@ -119,7 +119,7 @@ CCLXIXBassFigures = \figuremode {
   <7 _+>2 <\t \t>16 <8>4..
   <7!>2 <\t>16 <8>4.. %20
   <1>8 q q q q <2> <6> q
-  r q <6 4> <[7] 5>4. <6>8 <6>
+  r q <6 4> <[7] 5>4. <6>8 <5>
   r4 <6>8 <5> r2
   r8 <6> <6 5>4. <1>8 q4
   r2 <6 4>4 <5 [3]> %25

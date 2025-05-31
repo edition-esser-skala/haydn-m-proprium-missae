@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "269" "Canta Ierusalem"
+    \section "269" "Canta Jerusalem"
     \addTocEntry
     \score {
       <<
