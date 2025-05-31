@@ -58,8 +58,8 @@ CCCLVIIAlto = {
     c( g') f
     d c c %55
     f8.([ e16)] f4 r
-    f2 b4^\critnote
-    e,2 f4
+    f2 g4
+    e2 f4
     g4. g8 g4
     g f r %60
     a fis8([ g)] a([ g)]
@@ -104,7 +104,7 @@ CCCLVIIAlto = {
     a f r %100
     r a a8 a
     a4 f r
-    g2^\critnote e4
+    g2 e4
     f( g) f
     e4. e8 d4 %105
     d cis r

@@ -25,7 +25,7 @@ CCCLVIITenore = {
     a4. a8 a4
     a a r %20
     R2.
-    e'4( f) c
+    e'4( f) c!
     c8. f,16 f4 r
     f f g
     a f r %25
@@ -34,8 +34,8 @@ CCCLVIITenore = {
     b2 b4
     b a r
     c2 c4 %30
-    c2 c4
-    c( b) d
+    c c c~
+    c b d
     c2 r4
     R2.
     c2 a8([ c)] %35
@@ -46,8 +46,8 @@ CCCLVIITenore = {
     d4. d8 c4 %40
     c c r
     c2 c4
-    c2 c4
-    c( b) d
+    c c c~
+    c b d
     c2 r4 %45
     R2.
     c2 a8([ c)]
@@ -158,8 +158,8 @@ CCCLVIITenoreLyrics = \lyricmode {
   au -- rem
   tu -- am,
   qui -- a %30
-  con -- cu --
-  pi -- vit
+  con -- cu -- pi --
+  _ vit
   Rex
 
   spe -- ci -- %35
@@ -170,8 +170,8 @@ CCCLVIITenoreLyrics = \lyricmode {
   au -- di et %40
   vi -- de,
   qui -- a
-  con -- cu --
-  pi -- vit
+  con -- cu -- pi --
+  _ vit
   Rex %45
 
   spe -- ci --

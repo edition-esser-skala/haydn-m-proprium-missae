@@ -62,13 +62,13 @@ CCCLVIIBasso = {
     c( b) a
     g4. g'8 e4
     f f r %60
-    fis( a8[ g)] fis e
+    fis( a8[ g)] \hA fis e
     d4( a'8[ g)] fis([ e)]
     d8. d16 fis4 d
     g g r
     g( b8[ a)] g f! %65
     e4( g8[ f)] e([ d)]
-    cis4( e8[ d)] cis([ h)]
+    cis4( e8[ d)] \hA cis([ h)]
     a4( a'8[ b!)] a([ g)]
     f8. f16 e4 d
     a' a r %70

@@ -36,12 +36,12 @@
     \section "357" "Audi filia"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "F" ""
-            % \transpose c f
+            % \transpose c f,
             \partCombine #'(0 . 10) \CCCLVIICornoI \CCCLVIICornoII
           >>
         >>

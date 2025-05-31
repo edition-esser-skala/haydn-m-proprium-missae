@@ -4,18 +4,18 @@ CCCLVIIViolinoI = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/4 \tempoCCCLVII
-    a'2\f b4
+    a'2\fE b4
     a4. a8 cis4
     d a b
     b a r
     f'2 cis4 %5
-    cis d b~
+    cis( d) b~
     b a g
-    f8. g16 a4 r
+    f8.\trill g16 a4 r
     f'2 cis4
     cis( d) b~ %10
     b a g
-    f8. e16 d4 r
+    f8.\trill e16 d4 r
     a'2.
     a
     a4( g') f %15
@@ -34,24 +34,24 @@ CCCLVIIViolinoI = {
     d4( f) d
     d c r
     b( a) g %30
-    \once \slurDashed c( b) a
+    c( b) a
     d2 g4
     f( e8) c e g
     f4.( e8) f d
     c c4 c a8 %35
-    \once \slurDashed d( b) a4 g
-    f a8( f') f( a,)
+    d( b) a4 g
+    f a8 f' f( a,)
     g4 g'8 g b, b
-    b4 a8( f') f( a,)
+    b4 a8 f' f( a,)
     g4 g'8 g b, b %40
-    b4 \slurDashed a8( f') a( c,) \slurSolid
-    b4( a) g
-    c( b) a
-    d4. e16( f g a b g)
-    \once \slurDashed f4( e8) c e g %45
+    b4 a8 f' a( c,)
+    b4 a g
+    c b a
+    d4. e16 f g a b g
+    f4( e8) c e g %45
     f4. e8 f d
     c c4 c a8
-    d b a4 g
+    d( b) a4 g
     f c'8.\trill h32 c d8 c
     h g' b,8.\trill a32 b c8 b %50
     a a'~ a16 g f e f c b a
@@ -68,10 +68,10 @@ CCCLVIIViolinoI = {
     c4 fis,16 g a g a b c b
     c8. a16 d4 c
     c b g16 a b a
-    b4 d,16 fis g fis g a b a %65
+    b4 d,16 fis g \hA fis g a b a %65
     b4 e,16 f g f g a b g
-    a4 a16 h cis h cis d e d
-    cis4 cis16 d e d cis e a cis,
+    a4 a16 h cis \hA h \hA cis d e d
+    cis4 cis16 d e d \hA cis e a \hA cis,
     d8. d16 e4 f
     e a,8 e f g %70
     a2 b4
@@ -81,14 +81,14 @@ CCCLVIIViolinoI = {
     f'2 cis4 %75
     cis( d) b~
     b a8 g f e
-    f8.\trill g16 a4 d16 cis e d
+    f8.\trill g16 a4 d16( cis) e( d)
     f2 cis4
-    cis d b~ %80
+    cis( d) b~ %80
     b a8 e f g
     f8.\trill e16 d8 f16 e f8 g
     a2.
     a
-    a4( g') f %85
+    a4( g') f~ %85
     f e d
     \appoggiatura d8 cis4 cis2
     d4 a a
@@ -96,15 +96,15 @@ CCCLVIIViolinoI = {
     f e r %90
     e'4.( g8) e d
     \appoggiatura d cis4 cis2
-    e4. g8 e d
+    e4.( g8) e d
     \appoggiatura d cis4 cis8 b' g e
-    cis cis \slurDashed b'( g) b( cis,) %95
+    cis cis b'( g) b( cis,) %95
     d( a) g'( e) f( a)
-    b,( b') f,( d') e,( cis') \slurSolid
-    d, a' f'8.\trill e32 f a8 d,
-    cis a g'8.\trill f32 g a8 e
+    b,( b') f,( d') e,( cis')
+    d,-! a'-! f'8.\trill e32 f a8-! d,-!
+    cis-! a-! g'8.\trill f32 g a8 e
     f a, f'8.\trill e32 f a8 d, %100
-    cis a g'8.\trillE f32 g a8 e
+    cis a g'8.\trill f32 g a8 e
     f a, f'8.\trill e32 f a8 a,
     b g g'8.\trill f32 g b8 cis,
     d a e' a, f' a,
@@ -116,15 +116,15 @@ CCCLVIIViolinoI = {
     \appoggiatura d cis4 cis8 b' g e %110
     cis cis b'( g) b( cis,)
     d( a) g'( e) f( a)
-    b,( b') \slurDashed f,( d') e,( cis') \slurSolid
+    b,( b') f,( d') e,( cis')
     d4 d8( cis) d( b)
     a a4 a f8 %115
     b( g) f4 e
     f8( a) d( cis) d( b)
     a a4 a f8
     b( g) f4 e
-    d8 a' f8.\trill e32 f g8 e %120
-    f a' f8.\trill e32 f g8 e
+    d8 a' f8.\trill e32 f g8-! e-! %120
+    f a' f8.\trill e32 f g8-! e-!
     d4 d, r\fermata \bar "|." %122 finis
   }
 }
