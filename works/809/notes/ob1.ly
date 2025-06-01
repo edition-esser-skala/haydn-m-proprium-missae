@@ -75,126 +75,125 @@ DCCCIXDixitOboeI = {
   }
 }
 
-ConfiteborOboeI = {
+DCCCIXVirgamOboeI = {
   \relative c' {
     \clef treble
-    \key d \major \time 3/4 \tempoConfitebor
+    \key d \major \time 3/4 \tempoDCCCIXVirgam
+      \set Score.currentBarNumber = #69
     d''4\fE r d
-    a2 cis,4
-    d a' cis,
+    a2 cis,4 %70
+    d \pao a' cis,
     d d' a
-    g2 g,4 %5
+    g2 g,4
     fis r d'
-    cis8 \appoggiatura a'16 g8 fis4( e8) e-!
-    d \appoggiatura h'16 a8 g4( fis8) fis-!
+    cis8 \appoggiatura a'16 g8 fis4( e8) e %75
+    \pa d \appoggiatura h'16 a8 \pd g4( fis8) fis
     h2 \appoggiatura a16 g8 fis16 e
-    d4 fis a %10
-    g g r8 e
+    d4( cis) cis'
+    d r d,
+    cis4. d8 e fis %80
+    g2 cis,4
+    r a' a
+    a2 e4
+    d8 fis a4 r
+    h2.~ %85
+    h8 g fis( g) r e
+    d4 fis a
+    g-! g-! r8 e
     a fis e e e e
-    d a d4 r
-    R2.*8 %21
+    \pa d a d4 \pd r %90
+    R2.*8 %98
     r4 r8 fis\fE d a'
-    g4 g4. g,8
-    fis4 fis'4. cis8
-    d4 r r %25
+    g4 g4. g,8 %100
+    fis4 fis'4.\p cis8
+    d4 r r
     r r cis'\f
     d r r
-    R2.*2
-    r4 r cis8.\fE cis16 %30
-    d4 d8 a a fis
-    d4 r r
-    R2.*7 %39
-    r4 cis\fE e %40
+    R2.*2 %106
+    r4 r cis8.\fE cis16
+    d4 \pa d8 a a fis
+    d4 \pd r r
+    R2.*7 %116
+    r4 cis\fE e
     d2 h4
     cis cis e
-    f2 d4
+    f2 d4 %120
     cis e a
-    d,8^\critnote fis16 d cis8 cis h h %45
-    a4 r a
-    gis8 \appoggiatura e'16 d8 cis4( h8) h-\parenthesize-!
-    a \appoggiatura fis'16 e8 d4( cis8) cis-\parenthesize-!
+    d,8 fis16 d cis8 cis h h
+    \pao a4 r a
+    gis8 \appoggiatura e'16 d8 cis4( h8) h
+    \pa a \appoggiatura fis'16 e8 \pd d4( cis8) cis %125
     d4 fis2
-    e4 dis d %50
+    e4 dis d
     r8 cis h h h h
-    a4 r r
-    R2.*5 %57
-    r4 e'\fE e
+    \pao a4 r r
+    R2.*5 %134
+    r4 e'\fE e %135
     gis gis2
-    a4 a2 %60
+    a4 a2
     fis4 e d
     d( cis) r
-    a'2.~\p
+    a'2.~\p %140
     a~
-    a2 g!4 %65
+    a2 g!4
     g fis a\f
     cis, cis2
-    d4 d2
+    d4 d2 %145
     e4 g g,
-    g fis d' %70
+    g fis d'
     d cis e
     e d d
-    e e8 e eis eis
+    e e8 e eis eis %150
     fis4 cis fis
-    r ais, fis' %75
+    r ais, fis'
     r h, fis'
     r ais, fis'
-    r d8 d fis fis
+    r d8 d fis fis %155
     fis d d2
-    cis4 fis r %80
-    R2.*8 %88
+    cis4 fis r
+    R2.*8 %165
     h2.\p
-    c %90
+    c
     h4 a g
-    g4. fis8 fis4
-    c' h a
-    g r r
-    R2. %95
+    \pa g4. fis8 fis4 \pd
+    c' h a %170
+    \pao g r r
+    R2.
     r4 h, h'
     a2.~
-    a4 d8( cis h a)
-    a( g) h( a) g( fis)
-    r4 r cis'\f %100
+    a4 d8( cis!) h a %175
+    a( g) h( a) g fis
+    r4 r cis'\f
     d r d,
     cis4. d8 e fis
-    g4 g(\p cis,)
+    g4 g(\p cis,) %180
     r a' a
-    a2 e4 %105
+    a2 e4
     d8 fis a4 r
     R2.
-    e
+    e %185
     \appoggiatura d8 cis4 cis2
-    a'4 r r %110
-    R2.*7 %117
-    r4 fis\f fis
+    a'4 r r
+    R2.*7 %194
+    r4 fis\f fis %195
     fis2.
-    e2 e4 %120
+    e2 e4
     fis r a
     g2 fis4
-    e2 e4
+    e2 e4 %200
     fis fis a8 fis
-    e4 e2\trill %125
-    d4 r d
-    cis8 \appoggiatura a'16 g8 fis4( e8) e-\parenthesize-!
-    d \appoggiatura h'16 a8 \once \slurDashed g4( fis8) fis-\parenthesize-!
-    h2 \appoggiatura a16 g8 fis16 e
-    d4 fis a %130
-    g g r8 e
-    a fis e e e e
-    d a d4 r
-    R2.*8 %141
-    r4 r8 fis\f d a'
-    g4 g4. g,8
-    fis4 fis' fis
-    fis2. %145
-    e2 e4
-    fis r a
-    g2 fis4
-    e2 e4
-    fis fis a8 fis %150
     e4 e2\trill
-    d4 r d'\p
-    a2 cis,4\trill
-    d r r\fermata \bar "|." %154 finis
+    \pao d4 r d
+    cis8 \appoggiatura a'16 g8 fis4( e8) e
+    \pa d \appoggiatura h'16 a8 \pd g4( fis8) fis %205
+    h2 \appoggiatura a16 g8 fis16 e
+    d4( cis) r
+    R2.
+    r4 r fis\p %210
+    a2 g16( fis e fis)
+    e4 r r
+    R2.*2
+    R2.\fermata \bar "||" %214 finis
   }
 }
 

@@ -75,164 +75,157 @@ DCCCIXDixitFagottoI = {
   }
 }
 
-ConfiteborFagotto = {
+DCCCIXVirgamFagottoI = {
   \relative c {
     \clef bass
-    \key d \major \time 3/4 \tempoConfitebor
+    \key d \major \time 3/4 \tempoDCCCIXVirgam
+      \set Score.currentBarNumber = #69
     d4\fE r r
-    d8 d d d e e
+    d8 d d d e e %70
     fis fis fis fis e e
     fis fis fis fis d d
-    g4 a cis, %5
+    g4 a cis,
     d r8 fis d fis
-    a a, r a a' g
+    a a, r a a' g %75
     fis d r d h' a
     g e r dis e g
-    a a a a a, a %10
-    h4 cis r8 cis
+    a a a, a' g, g'
+    fis fis fis fis fis fis
+    e fis g fis e d %80
+    cis e a, cis e g
+    fis d r d fis d
+    cis a' r a, a' g
+    fis d r d fis d
+    g[ g] g r g r %85
+    g4 r8 g g g
+    a a a a a, a
+    h4-! cis-! r8 cis
     d h' g e a a,
-    d a d4 r
-    d\pE r r
-    d8 d d d d d %15
+    d a d4 r %90
+    d\p r r
+    d8 d d d d d
     d4 r r
     d8 d d d d d
-    d4 r8 d fis a
+    d4 r8 d fis a %95
     fis fis fis fis fis fis
-    e e e e d d %20
+    e e e e d d
     cis4 r8 a cis a
     d d d d fis\f fis
-    g4 a cis,
-    d r8 d a' g
-    fis4 fis2\pE %25
+    g4 a cis, %100
+    d r8 d\p a' g
+    fis4 fis2
     e4 r a8.\f a16
-    a4 d, cis\pE
-    d d e
+    a4 d, cis\p
+    d d e %105
     fis fis2
-    e4 r a8.\fE a16 %30
+    e4 r a8.\f a16
     a4 d, a'8 fis
     d4 r d\p
-    d'8 d d d d d
+    d'8 d d d d d %110
     cis cis cis cis cis cis
-    gis gis gis gis gis gis %35
+    gis gis gis gis gis gis
     g g g g g g
     fis fis fis4 r8 fis
-    cis cis cis4 r8 cis
+    cis cis cis4 r8 cis %115
     d4 e e
-    a,4 <cis' e>2\fz %40
-    e,4 e e
-    a <cis e>2\fz
-    gis4 gis8 gis gis gis
+    a, e''2\f
+    \pa e,4 e e
+    a \pd e'2
+    gis,4 gis8 gis gis gis %120
     a4 r8 a cis, a'
-    d, d^\critnote e e e e %45
+    d, a' e e e e
     a,4 r8 cis a cis
     e e, r e e' d
-    cis a r a fis' e
+    cis a r a fis' e %125
     d h r d h d
-    e e fis fis gis gis %50
+    e e fis fis gis gis
     a fis d h e e,
     a4 r a\p
-    h r h
+    h r h %130
     cis r cis'
-    h r e, %55
+    h r e,
     a r cis,
     d e gis
-    a r a,\f
+    a r a,\f %135
     h r8 h h h
-    cis4 r8 cis cis cis %60
+    cis4 r8 cis cis cis
     d d e e e e
     a, a' a,4 a'\p
-    g! r g
+    g! r g %140
     fis r fis
-    cis r a %65
+    cis r a
     d r d\f
     e r8 e e e
-    fis4 r8 fis fis fis
+    fis4 r8 fis fis fis %145
     cis cis cis cis cis cis
-    d d d d h h %70
+    d d d d h h
     fis' fis fis fis ais, ais
     h h h h h' h
-    g g g g g g
+    g g g g g g %150
     fis4 r8 cis' ais fis
-    e16 d cis d e8 cis' ais e %75
+    e16 d cis d e8 cis' ais e
     d16 e fis e d8 h' fis d
     cis16 d e d cis8 cis e cis
-    h16 cis d cis h8 fis' ais, fis'
+    h16 cis d cis h8 fis' ais, fis' %155
     h, d16 cis h8 d'16 cis h8 h,
-    fis'4 fis, r %80
+    fis'4 fis, r
     h'2.\p
     ais
-    h4 cis d
+    h4 cis d %160
     cis cis, r
-    cis' d e %85
+    cis' d e
     d d, e
     fis8 fis fis fis fis fis
-    g4 g, r
-    g'2.
-    fis %90
+    g4 g, r %165
+    g2.
+    fis
     g4 a h
-    a a, r
-    a' h c
+    a a r
+    a h c %170
     h h c
-    d2 d,4 %95
-    g, g' e
+    d2.
+    g,4 g' e
     cis!2.
-    d4 r d
+    d4 r d %175
     g, r g
-    a a8 a' g,\f g' %100
+    a a8 a' g,\f g'
     fis fis fis fis fis fis
     e fis g fis e d
-    cis4 r8 cis\p e g
+    cis4 r8 cis\p e g %180
     fis d r d fis d
-    cis a' r a, a' g %105
+    cis a' r a, a' g
     fis d r d fis d
-    g g g r g r
-    g2.
+    g[ g] g r g r
+    g2. %185
     g4 g2
-    fis8 d fis d fis d %110
+    fis8 d fis d fis d
     e4 e d
     cis8 a cis a cis a
-    d4 h g
+    d4 h g %190
     a8 a a a a a
-    d d fis d fis d %115
+    d d fis d fis d
     a cis a cis d fis
     a a a, a a a
-    d d16\f cis d8 fis d fis
+    d d16\f cis d8 fis d fis %195
     h, h'16 ais h8 d h d
-    g, g16 fis g8 e a a, %120
-    d fis16 e fis8 d fis d
-    cis a cis a d fis
-    g g16 fis g8 e a a,
-    d' a d a fis d
-    a' a a, a a a %125
-    d4 r8 fis d fis
-    a a, r a a' g
-    fis d r d h' a
-    g e r dis e g
-    a a a a a, a %130
-    h4 cis r8 cis
-    d h' g e a a,
-    d a d4 r
-    d\p r r
-    d2 d4 %135
-    d r r
-    d2 d4
-    d r8 d fis a
-    fis fis fis fis fis fis
-    e e e e d d %140
-    cis4 r8 a cis a
-    d d d d fis\fE fis
-    g g a a cis, cis
-    d d16 cis d8 fis d fis
-    h, h'16 ais h8 d h d %145
     g, g16 fis g8 e a a,
     d fis16 e fis8 d fis d
     cis a cis a d fis
-    g g16 fis g8 e a a,
-    d' a d a fis d %150
+    g g16 fis g8 e a a, %200
+    d' a d a fis d
     a' a a, a a a
-    d4 r r
-    d\p r a
-    d r r\fermata \bar "|." %154 finis
+    d4 r8 fis d fis
+    a a, r a a' g
+    fis d r d h' a %205
+    g e r dis e g
+    a a a a\p a a
+    a a a a a a
+    a a a a a a
+    a4 a, r %210
+    r8 a'\f e( f) cis( d)
+    b-! b-! b4.(\trill a16 \hA b)
+    a4 a a
+    a2.\fermata \bar "||" %214 finis
   }
 }
 

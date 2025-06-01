@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 tempoDCCCIXDixit = \tempoMarkup "Allegro molto"
-tempoConfitebor = \tempoMarkup "Allegro comodo"
+tempoDCCCIXVirgam = \tempoMarkup "Allegro comodo"
 tempoBeatus = \tempoMarkup "Allegretto"
 tempoLaudate = \tempoMarkup "Allegro"
 tempoMagnificat = \tempoMarkup "Adagio"

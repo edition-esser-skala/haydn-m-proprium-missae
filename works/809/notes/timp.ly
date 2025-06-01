@@ -67,6 +67,111 @@ DCCCIXDixitTimpani = {
   }
 }
 
+DCCCIXVirgamTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoDCCCIXVirgam
+      \set Score.currentBarNumber = #69
+    c4\fE r r
+    c c g %70
+    c r g
+    c r r
+    R2.
+    r4 r c
+    g r g %75
+    c r r
+    R2.
+    r4 r8 g g g
+    c4 r r
+    R2. %80
+    r4 g g
+    c r r
+    r g g
+    c r r
+    R2.*2 %86
+    g4 g8 g g g
+    c4 g r
+    r r g
+    c8 g c4 r %90
+    R2.*9 %99
+    r4 g\fE g %100
+    c r r
+    R2.
+    r4 r g\fE
+    c r r
+    R2.*2 %106
+    r4 r g8.\fE g16
+    c4 c c
+    c r r
+    R2.*7 %116
+    r4 g\fE g
+    g r r
+    r g g
+    g8 g g g g g %120
+    g4 r r
+    R2.
+    g4 g r
+    R2.
+    g4 r r %125
+    c r r
+    R2.*2
+    g4 r r
+    R2.*5 %134
+    r4 g\fE r %135
+    r c r
+    r g r
+    R2.
+    r4 g g\p
+    g r g %140
+    c r c
+    g r r
+    r c\f r
+    r g r
+    r c r %145
+    r g g
+    c r r
+    R2.*17 %164
+    r4 c\p c %165
+    c r r
+    c r r
+    c r r
+    r c c
+    c r r %170
+    R2.*3
+    g4 r g
+    c r r %175
+    R2.
+    r4 r g\f
+    c r r
+    g r r
+    R2. %180
+    r4 c\p c
+    g r g
+    c r r
+    R2.*11 %194
+    r4 c\f c %195
+    c r r
+    r r g
+    c r c
+    g g c
+    r r g %200
+    c r c
+    g g8 g g g
+    c4 r c
+    g r g
+    c r r %205
+    R2.
+    g4 r r
+    g\p r r
+    g r r
+    r g g %210
+    g r r
+    R2.
+    r4 g\f g
+    g2 r4\fermata \bar "||" %214 finis
+  }
+}
+
 MagnificatTimpani = {
   \relative c {
     \clef bass

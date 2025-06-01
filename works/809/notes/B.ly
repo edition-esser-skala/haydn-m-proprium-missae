@@ -132,147 +132,128 @@ DCCCIXDixitBassoLyrics = \lyricmode {
   rum. %67 finis
 }
 
-ConfiteborBasso = {
+DCCCIXVirgamBasso = {
   \relative c {
     \clef bass
-    \key d \major \time 3/4 \autoBeamOff \tempoConfitebor
-    R2.*25 %25
-    r4 \mvTr e8\fE^\tutti e a a16 a
-    a8. d,16 d4 r
-    R2.*2
-    r4 e8 e a a %30
+    \key d \major \time 3/4 \autoBeamOff \tempoDCCCIXVirgam
+      \set Score.currentBarNumber = #69
+    R2.*34 %102
+    r4 r \mvTr a'8.\fE^\tutti a16
     a4 d, r
-    R2.*9 %40
-    e4 e e
-    a4. a8 a a
-    gis4 gis8 gis gis gis
+    R2.*2 %106
+    r4 r a'8. a16
+    a4 d, r
+    R2.*9 %117
+    e2 e4
+    a a r8 a
+    gis8. gis16 gis8 gis gis gis %120
     a2 cis,4
-    d8 d16 d e2 %45
+    d e2
     a,4 r r
-    R2.*12 %58
-    h8. h16 h4 h8 h16 h
-    cis4 cis cis8 cis16 cis %60
-    d4( e) e
+    R2.*12 %135
+    h4 h r
+    cis cis r
+    d4 e e
     a,8. a16 a4 r
-    R2.*4 %66
-    e'2 e4
-    fis fis fis
-    cis4. cis8 cis4
-    d8. d16 d4 h %70
-    fis'4. fis8 ais, ais
-    h2 h'4
-    g4. g8 g4
-    fis fis fis
-    e4. e8 e e %75
+    R2.*4 %143
+    e'4 e r
+    fis fis r %145
+    cis cis cis
+    d8. d16 d4 h
+    fis' fis8 fis ais, ais
+    h4 h h'8 h
+    g8. g16 g4 g %150
+    fis2.
+    e
     d2 d4
     cis2 cis4
-    h2 ais4
+    h2 ais4 %155
     h2.
-    fis'4 r r %80
-    R2.*8 %88
+    fis'4 r r
+    R2.*8 %165
     g2.\p
-    fis4. fis8 fis4 %90
-    g,( a) h
+    fis4. fis8 fis4
+    g, a h
     a4. a8 a4
-    a( h) c
-    h2 c4
-    d2 d4 %95
+    a h c %170
+    h4. h8 c4
+    d4. d8 d4
     g2 r4
     R2.
-    d2 d4
-    g,2 g4
-    a2 r4 %100
-    R2.*17 %117
-    r4 d2\f
+    d4. d8 d4 %175
+    g,4. g8 g4
+    a2 r4
+    R2.*17 %194
+    r4 d2\f %195
     h4. h'8 h4
-    g2 a4 %120
-    d, fis fis8([ d)]
+    g4. g8 a4
+    d, fis fis8 d
     cis4. cis8 d4
-    g4. g8 a4
-    d d,8 d fis d16 d
-    a'2 a,4 %125
-    d r r
-    R2.*17 %143
-    r4 d d
-    h h' h8 h %145
-    g4. g8 a4
-    d, fis4. d8
-    cis4 cis d8 d
-    g4. g8 a4
-    d4. d,8 fis d %150
-    a'2( a,4)
-    d r r
-    R2.
-    R\fermata \bar "|." %154 finis
+    g4. g8 a4 %200
+    d d, fis8 d
+    a'2 a,8 a
+    d4 r r
+    R2.*10 %213
+    R2.\fermata \bar "||" %214 finis
   }
 }
 
-ConfiteborBassoLyrics = \lyricmode {
-  Ma -- gna o -- pe -- ra %26
-  Do -- mi -- ni
+DCCCIXVirgamBassoLyrics = \lyricmode {
+  Do -- mi -- %103
+  na -- re,
 
-  vo -- lun -- ta -- tes %30
-  e -- ius.
+  do -- mi -- %107
+  na -- re,
 
-  Vir -- tu -- tem
-  o -- pe -- rum su --
-  o -- rum an -- nun -- ti --
-  a -- bit
-  po -- pu -- lo su --
-  o.
+  do -- mi -- %118
+  na -- re in
+  me -- di -- o in -- i -- mi -- %120
+  co -- rum
+  tu -- o --
+  rum.
 
-  O -- pe -- ra ma -- nu -- um %59
-  e -- ius ve -- ri -- tas %60
-  et __ iu --
-  di -- ci -- um.
+  Te -- cum, %136
+  te -- cum,
+  te -- cum prin --
+  ci -- pi -- um,
 
-  Con -- fir -- %67
-  ma -- ta in
-  sae -- cu -- lum
-  sae -- cu -- li. Re -- %70
-  dem -- pti -- o -- nem
-  mi -- sit
-  po -- pu -- lo
-  su -- o, man --
-  da -- vit in ae -- %75
-  ter -- num
-  te -- sta --
-  men -- tum
-  su --
-  um. %80
+  te -- cum, %144
+  te -- cum, %145
+  te -- cum prin --
+  ci -- pi -- um in
+  di -- e vir -- tu -- tis
+  tu -- ae, in splen --
+  do -- ri -- bus san -- %150
+  cto --
+  rum,
+  in splen --
+  do -- ri --
+  bus san -- %155
+  cto --
+  rum:
 
-  I -- %89
-  ni -- ti -- um %90
-  sa -- pi --
-  en -- ti -- ae
-  ti -- mor,
-  ti -- mor
-  Do -- mi -- %95
-  ni,
+  ex %166
+  u -- te -- ro
+  an -- te lu --
+  ci -- fe -- rum,
+  an -- te lu -- %170
+  ci -- fe -- rum
+  ge -- nu -- i
+  te,
 
-  ti -- mor
-  Do -- mi --
-  ni. %100
+  ge -- nu -- i, %175
+  ge -- nu -- i
+  te,
 
-  Lau -- %118
-  da -- ti -- o
-  e -- ius %120
-  ma -- net in __
-  sae -- cu -- lum
-  sae -- cu -- li,
-  ma -- net in sae -- cu -- lum
-  sae -- cu -- %125
-  li.
-
-  Si -- cut %144
-  e -- rat in prin -- %145
-  ci -- pi -- o
-  et nunc et
-  sem -- per et in
-  sae -- cu -- la
-  sae -- cu -- lo -- rum, %150
-  a --
-  men. %152 finis
+  ex %195
+  u -- te -- ro
+  ge -- nu -- i
+  te, an -- te lu --
+  ci -- fe -- rum
+  ge -- nu -- i %200
+  te, ge -- nu -- i,
+  ge -- nu -- i
+  te. %203 finis
 }
 
 BeatusBasso = {

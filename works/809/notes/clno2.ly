@@ -75,119 +75,119 @@ DCCCIXDixitClarinoII = {
   }
 }
 
-ConfiteborCornoII = {
+DCCCIXVirgamClarinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/4 \tempoConfitebor
+    \key c \major \time 3/4 \tempoDCCCIXVirgam
+      \set Score.currentBarNumber = #69
     e4\fE r r
-    e g g
+    e g g %70
     c, r g'
     c, r r
-    R2. %5
+    R2.
     r4 r8 c e c
-    g2.~
+    g2.~ %75
     g4 r r
     R2.
-    e'4 c'8 c g g %10
+    r4 r8 g' g g
+    c,4 r r
+    R2. %80
+    r4 g' g
+    g r r
+    r g g
+    g r r
+    R2.*2 %86
+    e4 c'8 c g g
     c,4 g' r
     r r g
-    e e r
-    R2.*9 %22
-    r4 g\fE g
+    e e r %90
+    R2.*9 %99
+    r4 g\fE g %100
     g r r
-    R2. %25
+    R2.
     r4 r g\fE
     e r r
-    R2.*2
-    r4 r g8.\fE g16 %30
+    R2.*2 %106
+    r4 r g8.\fE g16
     e4 e e
     e r r
-    R2.*7 %39
-    r4 g\fE g %40
+    R2.*7 %116
+    r4 g\fE g
     c r r
     r g g
-    c,8 c c c c c
+    c,8 c c c c c %120
     g'4 r r
-    r d' d %45
+    r d' d
     d g, d'
-    c2.
-    g4 r r
+    d2.
+    g,4 r r %125
     e r r
-    R2. %50
-    r4 r d'
-    d r r
-    R2.*5 %57
-    r4 g,\fE r
-    r d' r
-    r g, r %60
     R2.
-    r4 g\p g
+    r4 r d'
+    g, r r
+    R2.*5 %134
+    r4 g\fE r %135
+    r d' r
+    r g, r
+    R2.
+    r4 g g\p
+    g r g %140
     g r g
-    g r g
-    g r r %65
+    g r r
     r g\f r
     r g r
-    r g r
+    r g r %145
     r g g
-    g8( d') c e, e e %70
+    g8( d') c e, e e
     e4 r e
     e r r
-    R2.
+    R2. %150
     r4 e e
-    e r r %75
+    e r r
     e r e
     e2.
-    e4 r e
+    e4 r e %155
     e e e
-    e8. e16 e4 r %80
-    R2.*7 %87
-    r4 c\p c
+    e8. e16 e4 r
+    R2.*7 %164
+    r4 c\p c %165
     c r r
-    c r r %90
+    c r r
     c r r
     r c c
-    c r r
-    R2.*3 %96
+    c r r %170
+    R2.*3
     g'2.
-    c,4 r r
+    c,4 r r %175
     R2.
-    r4 r g'\f %100
+    r4 r g'\f
     c, r r
     g' r r
-    R2.
+    R2. %180
     r4 e\p e
-    g r g %105
+    g r g
     c, r r
-    R2.*11 %117
-    r4 e\f e
+    R2.*11 %194
+    r4 e\f e %195
     e r r
-    r r g %120
+    r r g
     g r g
     g g8 d' c4
-    r r g
+    r r g %200
     g r c,8 e
-    g4 g8 g g g %125
-    e4 r c8 g
+    g4 g8 g g g
+    e4 r c8( g)
     g2.~
+    g4 r r %205
+    R2.
+    g4 r r
+    g\p r r
+    g r r
+    g2.~ %210
     g4 r r
     R2.
-    e'4 c'8 c g g %130
-    c,4 g' r
-    r r g
-    e e r
-    R2.*9 %142
     r4 g\f g
-    g e e
-    e r r %145
-    r r g
-    g r g
-    g g8 d' c4
-    r r g
-    g r c,8 e %150
-    g4 g8 g g g
-    e4 r r
-    e\p g g
-    c, r r\fermata \bar "|." %154 finis
+    g2 r4\fermata \bar "||" %214 finis
   }
 }
 

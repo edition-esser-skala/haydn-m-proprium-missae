@@ -32,7 +32,8 @@ sources:
     license: public domain
 toe: |
   vocal parts have been considerably modified
-  Dixit Dominus: comprises the complete text of this psalm; 103 vs 68 bars; 8 bars inserted after bar 43, 22 bars inserted after bar 57, last 5 bars replaced with 10 bars;
+  Dixit Dominus: \B1 comprises the complete text of this psalm and has 103 bars (\A1: 68 bars); 8 bars inserted after bar 43, 22 bars inserted after bar 57, last 5 bars replaced with 10 bars;
+  Virgam virtutis tuæ: \B1 comprises the text of Confitebor and has 154 bars (\A1: 146 bars); 9 bars deleted after bar 77, last 8 bars replaced with 25 bars;
 
   – & –   & –    & \A1 is a setting of the psalm \textit{Dixit Dominus}.
                    By contrast, \B1 and \B2 contain five vesper movements.
