@@ -1,66 +1,62 @@
 \version "2.24.0"
 
+\include "../../../definitions_main.ly"
 \include "../definitions.ly"
 #(define option-instrument-name-upper "clno")
 #(define option-instrument-name-lower "timp")
 \include "score_settings/three-staves.ly"
 
+\paper { indent = 1.5\cm }
+
 \book {
   \bookpart {
-    \section "1" "Dixit Dominus"
+    \section "809" "Dixit Dominus"
     \addTocEntry
-    \paper { indent = 2\cm }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedName "Clarino" "D" ""
+            \set GrandStaff.instrumentName = \transposedNameShort "clno" "D" ""
             \new Staff {
-              \set Staff.instrumentName = "I"
+              \set Staff.instrumentName = "1"
               \DCCCIXDixitClarinoI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
+              \set Staff.instrumentName = "2"
               \DCCCIXDixitClarinoII
             }
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \transposedTimp "D" "" "A" ""
+          \set Staff.instrumentName = \transposedTimpShort "D" "" "A" ""
           \DCCCIXDixitTimpani
         }
       >>
     }
-    \tacet "section" "Confitebor · Beatus vir"
   }
   \bookpart {
-    \section "4" "Laudate pueri"
+    \subsection "Virgam virtutis tuæ"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #16
-      system-system-spacing.minimum-distance = #16
-      systems-per-page = #6
-      page-count = #1
-    }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = "1"
-              \LaudateClarinoI
+              \DCCCIXVirgamClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \LaudateClarinoII
+              \DCCCIXVirgamClarinoII
             }
           >>
         >>
+        \new Staff { \DCCCIXVirgamTimpani }
       >>
     }
   }
   \bookpart {
-    \section "5" "Magnificat"
+    \subsection "Iuravit Dominus"
     \addTocEntry
     \score {
       <<
@@ -68,15 +64,58 @@
           \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = "1"
-              \MagnificatClarinoI
+              \DCCCIXIuravitClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \MagnificatClarinoII
+              \DCCCIXIuravitClarinoII
             }
           >>
         >>
-        \new Staff { \MagnificatTimpani }
+        \new Staff { \DCCCIXIuravitTimpani }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "De torrente"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DCCCIXTorrenteClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DCCCIXTorrenteClarinoII
+            }
+          >>
+        >>
+        \new Staff { \DCCCIXTorrenteTimpani }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Sicut erat"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DCCCIXSicutClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DCCCIXSicutClarinoII
+            }
+          >>
+        >>
+        \new Staff { \DCCCIXSicutTimpani }
       >>
     }
   }

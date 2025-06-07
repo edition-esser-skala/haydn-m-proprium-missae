@@ -1,61 +1,58 @@
 \version "2.24.0"
 
+\include "../../../definitions_main.ly"
 \include "../definitions.ly"
 #(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "1" "Dixit Dominus"
+    \section "809" "Dixit Dominus"
     \addTocEntry
-    \paper { indent = 2\cm }
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \DCCCIXDixitOrgano
-        }
+        \new Staff { \DCCCIXDixitOrgano }
         \new FiguredBass { \DCCCIXDixitBassFigures }
       >>
     }
   }
   \bookpart {
-    \section "2" "Confitebor"
+    \subsection "Virgam virtutis tuæ"
     \addTocEntry
     \score {
       <<
-        \new Staff { \ConfiteborOrgano }
-        \new FiguredBass { \ConfiteborBassFigures }
+        \new Staff { \DCCCIXVirgamOrgano }
+        \new FiguredBass { \DCCCIXVirgamBassFigures }
       >>
     }
   }
   \bookpart {
-    \section "3" "Beatus vir"
+    \subsection "Iuravit Dominus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \BeatusOrgano }
-        \new FiguredBass { \BeatusBassFigures }
+        \new Staff { \DCCCIXIuravitOrgano }
+        \new FiguredBass { \DCCCIXIuravitBassFigures }
       >>
     }
   }
   \bookpart {
-    \section "4" "Laudate pueri"
+    \subsection "De torrente"
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudateOrgano }
-        \new FiguredBass { \LaudateBassFigures }
+        \new Staff { \DCCCIXTorrenteOrgano }
+        \new FiguredBass { \DCCCIXTorrenteBassFigures }
       >>
     }
   }
   \bookpart {
-    \section "5" "Magnificat"
+    \subsection "Sicut erat"
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatOrgano }
-        \new FiguredBass { \MagnificatBassFigures }
+        \new Staff { \DCCCIXSicutOrgano }
+        \new FiguredBass { \DCCCIXSicutBassFigures }
       >>
     }
   }

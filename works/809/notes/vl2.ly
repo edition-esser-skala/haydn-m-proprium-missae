@@ -229,330 +229,261 @@ DCCCIXVirgamViolinoII = {
   }
 }
 
-BeatusViolinoII = {
+DCCCIXIuravitViolinoII = {
   \relative c' {
     \clef treble
-    \key g \major \time 6/8 \tempoBeatus
-    h16(\fE a h c d e) f( e f a g f)
-    e( fis g fis g a) h( d) g,( d) d( h)
-    h'( c h a h g) e( fis g a h c)
-    fis,( a c a fis a) g( h, d g, h d)
-    d'( c) r a( fis d) e'( d) r d( g) h-! %5
-    g( fis) r a( c) fis,-! a( g) r h( g d)
-    d'( c) r a( fis c) h( h') g( d) e( g)
-    d,( h' g h, a c) h8[ r16 d( fis a)]
-    g(\p d h c d e) f( e f d-\critnote g, d')
-    c( d e d e fis) g( h) d,( g,) h( g) %10
-    e'( a g fis g h,) c( d e fis g a)
-    d,( fis g h d, a') g( d) h'( g) g,( h)
-    h4( a8) d16( c a h c d)
-    \once \slurDashed c4( h8) h16( a h d g a)
-    g8( fis) a-! c( h a) %15
-    \once \slurDashed a4( g8) fis a\fz cis
-    d16(\p a fis' d a fis) a( fis d' a fis d)
-    \once \slurDashed cis4( e8) e([ d)] fis16(\fzE a)
-    d( a fis'\p d a fis) a( fis d' a fis d)
-    cis8( e4) fis8( a4) %20
-    h8 r r h a g
-    \once \slurDashed fis4( e8) d d16( fis) a( d)
-    cis(\fz a' g e a, e') fis(\p cis) d( a) a( fis)
-    cis'(\fz a' g e a, e') fis(\p cis) d( a) a( fis)
-    cis'(\fz a' g e a, e') fis(\p cis) d( a) a( fis) %25
-    cis8( d e) fis( g a)
-    cis,( d e) fis( g a)
-    h r r h a g
-    fis-! fis( e) d[ r16 \once \slurDashed a'(\f d fis)]
-    a( g) r g( e cis) h'( a) r \once \slurDashed d( h d) %30
-    a,( fis' d fis, e g) fis8 d16( a' g e)
-    d(\p e fis e d cis) d( e fis g a fis)
-    g( a h a h cis) d( fis) a,( d,) fis( d)
-    \once \slurDashed fis( a) r a-! fis( a) \once \slurDashed fis( a) r fis-! a( fis)
-    fis( e g fis e dis) \slurDashed e( g a g h g) %35
-    e( g a g e g) \slurSolid a( fis) r fis( a fis)
-    fis( g a g c h) a( g) r a( h h)
-    a8 cis16( h a cis) a( d, g fis e d)
-    e( g e cis e cis) a( e' g fis e d)
-    cis( d e fis e d) e( cis a' g e g) %40
-    g( fis e fis g e) fis( a d, g d a')
-    d,( c! h c d e) f( e f d g, d')
-    c( d e d e fis) g( h) d,( g,) h( g)
-    e'( a g fis g e) c( d e fis g a)
-    d,( fis g h d, a') g( d) h'( g) g,( d') %45
-    \once \slurDashed h4( a8) d16( c a h c d)
-    c4( h8) h16( a h d g a)
-    \once \slurDashed g8( fis) a-\parenthesize-! d,16( c' h g d a')
-    a4( g8) fis fis16(\fz a d fis)
-    g(\p d h' g d h) d( h g' d h g) %50
-    fis4( a8) a( g) h16([\fz d)]
-    g( d h' g d h) d(\p h g' d h g)
-    fis8( a4) h8( d4)
-    g,8 g g g4 r8
-    g( d) c-! h g'16( d) h'( g) %55
-    fis(\fz d' c a d, a') h(\p fis g d h' g)
-    fis(\fz d' c a d, a') h(\p d,) h8[ h']
-    h( gis) a-! c(\fzE a) a-!
-    g4(\pE c8) h4( a8)
-    a4( g8) fis r d'16(\fz a) %60
-    a( a' g fis e d) cis( e d a g e)
-    \once \slurDashed cis( e g fis a g) fis(\p e d e fis d)
-    g,8( d') g-! g( d) h'-!
-    h4( g8) fis d16(\fzE a' d a)
-    cis( e g fis e d) cis( e d a g e) %65
-    e( a, e' fis a fis) d(\p fis a d, fis a)
-    g8( d) h'-! h( d,) d'-!
-    e16( d fis e d c) h8-! h( d)
-    h( gis a) c(\fz a) a-!
-    g4\p r8 d g g %70
-    h,( d c) h16( d h d g h)
-    d8 d r \once \slurDashed fis,4( a8)
-    g16( d h d g h) d8 d r
-    h,-! h( c) h16-! h-! d(\f g,) h( d)
-    d'( c) r a-! fis( d) e'( d) r d( g h) %75
-    g( fis) r a( c) fis, a( g) r h( g d)
-    d'( c) r a-! fis( c) h( h' g d e g)
-    d,( h' g h, a c) h8. \once \slurDashed d16( fis a)
-    \once \slurDashed d,(\p c h c d e) f( e f d h d)
-    c( d e d e fis) g( h) d,( h) h( g) %80
-    e'( a g fis g h,) c( d e fis g a)
-    d,( fis g h d, a') g( d) h'( g) g,( d')
-    \once \slurDashed h4( a8) d16( c a h c d)
-    c4( h8) \once \slurDashed h16( a h d g a)
-    g8( fis) a-! c( h a) %85
-    a4( g8) fis a16(\fz fis) d'( a)
-    c!(\pE a a' fis c a) h( d, h' g d h)
-    a'( g fis g a h) a8([ g)] h16( d)
-    g( d h' g d h) d( h g' d h g)
-    fis8( a4) \once \slurDashed h8( d4) %90
-    g,8 g g g4 r8
-    g( h,) c-! h g'16( d) d'( h)
-    fis( d' c a fis a) c8( a) a-!
-    h-! h-! h-!\pp g4 r8\fermata \bar "|." %94 finis
-  }
-}
-
-LaudateViolinoII = {
-  \relative c' {
-    \clef treble
-    \key b \major \time 4/4 \tempoLaudate
-    d8-!\p es-! f-! d-! g-! f-! es-! g-!
-    d-! d-! es( c) b f'( es d)
-    c4 f r8 \once \slurDashed b,( c d)
-    c4 f r8 c'-! c( b)
-    a a c2 b4~ %5
+    \key b \major \time 4/4 \tempoDCCCIXIuravit
+      \set Score.currentBarNumber = #215
+    b8(\p d) b( d16.) d32\f f8-! d-! r b
+    c(\p a) c( a16.) a'32\f c8-! a-! r c
+    d32( f es d c[ b a c)] b( d c b a[ g fis a)] g([ h d c)] es( d f es) fis([ g a g)] \appoggiatura f es16 d32 c
+    \appoggiatura b a16 g32 f e'([ f) a f] d([ b d b)] d16. b,32 b4( a8) r
+    b(\p d) b( d16.) d32 f8-! d-! r b
+    es( c) es( c) f( c') a( c16.) c,32 %220
+    es8-! c-! r es es d b( f'16.) f32
+    d8-! f-! r16. b,32 f'16. d32 b'8 b, r16. b32 b16. b32 \noBreak
+    b16( f') f( b) b( d) d b, \appoggiatura c16 b8[ a] <a f' c'> r\fermata \bar "|"
+    \tempoDCCCIXTuEs \newSpacingSection
+      f'8 es d f g f es g \noBreak
+    d d es( c) b f' es d %225
+    c4 f r8 b, c d
+    c4 f r8 c' c( b)
+    a a c2 b4~
     b a2 g4~
-    g f f8 f e e
+    g f f8 f e e %230
     f a a16 g a f a8 a a16 g a f
     f8 f e g a4 a16 g a f
-    a4 a16 g a f f8 f e16 f g e %10
+    a4 a16 g a f f8 f e16 f g \hA e
     f8 f r a r c r f
-    r c, b a g4 c
+    r c, b a g4 c %235
     r8 c e f b g r g
     f16 g a b c2 b4~
-    b a2 g4~ %15
+    b a2 g4~
     g f8 f f f e e
-    f c r c' c f, r b
-    g e r f d' d' e, e
-    f16-!\f c-! a-! c-! f-! c-! a'-! f-! c' c, c c f c a' c,
-    c' c, c c f f, f f d' f f f c e e e %20
+    f c r c' c f, r b %240
+    g e r f d' d' c, e
+    f16 c-!\f a-! c-! f c a' f c' c, c c f c a' f
+    c' c, c c f f, f f \once \slurDashed d'( f) f f c e e e
     f8 a,4 f8 r a4 f8
-    r g'4 g,8 f16( a) a( c) c( b) b( a)
+    r g'4 g,8 f16( a) a( c) c( b) b( a) %245
     g8 b4 d8 r g,4 b8
-    r a'4 a,8 b16-! d-! b-! d-! g d b' g
-    d' d, d d g d b' g d' d, d d g d b' g %25
+    r a'4 a,8 g16 d'-! b-! d-! g d b' g
+    d' d, d d g d b' g d' d, d d g d b' g
     d' d, d d g d g b a a, a a d a f'! d
-    a' a, a a d a f' d a' a, a a d' d, d d
-    \kneeBeam d' d,, d d d' cis d d, e a cis a e' cis e a
+    a' a, a a d a f' d a' a, a a d' d, d d %250
+    \kneeBeam d' d,, d d d' cis d d, e a cis a e' \hA cis \hA e a
     f f, f f d' d' d d a a, a a cis e a, g
-    f8 d'4 f,8 e16 d e f e8 g' %30
-    g16 e cis e a, b g a f8 d r a'
-    h, d' e, e' e16 d e f e g,! a g
+    f8 d'4 f,8 e16 d \hA e f \hA e8 g'
+    g16 e cis \hA e a, b g a f8 d r a'
+    h, d' e, e' e16 d \hA e f \hA e a, g a %255
     f a g b! a8 f d16 d' e f g a b d,
     cis8 e a g f f16 e d c h a
-    gis8 e'4 h16 gis a8 a'4 e16 cis %35
+    gis8 e'4 h16 \hA gis a8 a'4 \hA e16 cis
     d8 d'4 a,8 g16 a b g g' a b g
-    a, e' e e a f g e f d a d f,8 d'
+    a, e' e e a f g \hA e f d a d f,8 d' %260
     f16 d g, d' g es f d es c g c es,8 c'
     es16 g c, g' f d es c d b f d f' d b f
-    g b es g g8 g a,16 f' c a a8 a %40
+    g b es g g8 g a,16 f' c a a8 a
     b16 f' b, f as f d b b' g' es b des b g es
-    c' g' c, g b g e c c' a' f c es c a f
+    c' g' c, g b g e c c' a'! f c es c a f %265
     d' a' d, a c a fis d d' b' g d g d b g
-    b' fis g a b g b cis, d d' cis d \once \slurDashed cis( d) a fis
-    d^\critnote d, d d a' d, d d g d d d b' d, d d %45
-    g cis, cis cis g' g, g g d' fis a d fis d a' fis
-    d' d, d d a' d, d d g d d d b' d, d d
+    b' fis g a b g b cis, d d' cis d \hA cis( d) a fis
+    d d, d d a' d, d d g d d d b' d, d d
+    g cis, cis cis g' g, g g d' fis a d fis d a' \hA fis
+    d' d, d d a' d, d d g d d d b' d, d d %270
     g g, g g g' g, g g a a' fis cis d a fis d
-    g' d b' fis g g, b g d' d' a fis a fis d a'
-    b fis g a b cis, b' cis, d8 d, d d %50
-    <d c'> d a d <g, d' b'> d' b d
-    <fis a> d <fis a> d <d b'> d <d b'> d
-    <d c'> d fis d <g, d' b'>4 <d' b' g'>
-    <d a' fis'> <d b' g'> <d a' fis'>8 d <g d' b'>4
-    <fis d' a'>8 d'16 cis d8 d, <c! es! a>4\fz <a f' c'>\fz %55
-    f'8-!\p es-! d-! f-! g-! f-! es-! g-!
-    d-! d-! es( c) b \once \slurDashed f'( es d)
-    c4 f r8 \once \slurDashed b,( c d)
-    c4 f r8 c'-! c( b)
-    a a c2 b4~ %60
-    b a2 g4~
-    g f f8 f e e
-    f a a16 g a f a8 a a16 g a f
-    f8 f e g a4 a16 g a f
-    a4 a16 g a f f8 f e16 f g e %65
-    f8 f r a r c r f
-    es!\f es c16 b c a f8 f c' es
-    f d f,16 es f d c8 a' c es
-    f16 d d d f, d' d d b8-! a-! g-! f-!
-    es-! d-! c-! b-! a16 es' es es f d' d d %70
-    g,8 g16 es f d es c d8 d'16( b) b( f) f( d)
-    es es' es es c es es es f, d' d d d8 d16( b)
-    c es es es es c a a f b' b( f) f( d) d( b)
-    <f c'>8 f <f d'> f <f es'> f <b, f' d'> <b f'>
-    g'16 c c c a c c c <d f, b,>4 q %75
-    <b f b,> <b' d, f, b,> b,, r\fermata \bar "|." %76 finis
+    g' d b' fis g g, b g d' d' a fis a \hA fis d a'
+    b fis g a b cis, b' \hA cis, << {
+      d8 d, d d
+      d2:8 d:
+      d: d: %275
+      d:
+    } \\ {
+      s8 d d d %273
+      d2: d:
+      d: d: %275
+      d:
+    } >> <b' d, g,>4 <g' b, d,>
+    <fis a, d,> <g b, d,> <fis a, d,>8 d <b' d, g,>4
+    <a d, fis,>8 d,16 cis d8 d, d4 r\fermata \bar "||" %278 finis
   }
 }
 
-MagnificatViolinoII = {
+DCCCIXTorrenteViolinoII = {
   \relative c' {
     \clef treble
-    \key d \major \time 4/4 \tempoMagnificat
-    d8\f d16. d32 d16. fis32 fis16. a32 g8 h,16.-\critnote e32 e16. g32 g16. h32
-    a8 e16. a32 a16. cis32 cis16. e32 e16. g32 g16. cis,32 cis16. e32 e16. e32
-    a,16 d, d d d d d d \parOn a'8-\parenthesize-! \parOff fis-\parenthesize-! r d
-    g( e) g( e) a( e') cis e16. e,32
-    g8-! e-! r g g( fis) d a'16. a32 %5
-    \parOn fis8-\parenthesize-! \parOff a-\parenthesize-! r16. d,32 a'16. fis32 \parOn d'8-\parenthesize-! \parOff d,-\parenthesize-! r16. d32 d16. d32
-    d16( a') a( d) d( fis) \once \slurDashed fis( d,) d( fis a d) fis,( d)-\critnote a'( fis) \noBreak
-    fis8( e) r d'-!\p d( cis) r4
-    \tempoMagnificatB <d fis, a,>\f r <d d,> fis, \noBreak
-    r8 h, d fis h4 d, %10
-    r8 d g h d,16 fis g fis g a h cis
-    d e d e fis g fis g a8 \once \slurDashed fis,(\p d fis)
+    \key g \major \time 6/8 \tempoDCCCIXTorrente
+      \set Score.currentBarNumber = #279
+    h16(\fE a h c d e) f( e \hA f a g \hA f)
+    e( fis g fis g a) h( d) g,( d) d( h) %280
+    h'( c h a h g) e( fis g a h c)
+    fis,( a c a fis a) g( h,) d( g,) h( d)
+    d'( c) r a( fis d) e'( d) r d g( h)
+    g( fis) r a c( fis,) a( g) r h g( d)
+    d'( c) r a fis( c) h( h') g( d) e( g) %285
+    d,( h' g h,) a( c) h8[ r16 d(\p fis a)]
+    g( d h c d e) f( e \hA f d g, d')
+    c( d e d e fis) g( h) d,( g,) h( g)
+    e'( a g fis g h,) c( d e fis g a)
+    d,( fis g h d, a') g( d) h'( g) g,( h) %290
+    h4( a8) d16( c a h c d)
+    c4( h8) h16( a h d g a)
+    g8( fis) a c( h) a
+    a4( g8) fis a\fz cis
+    d16(\p a fis' d a fis) a( fis d' a fis d) %295
+    cis4 e8 e[ d] fis16(\fz a)
+    d( a fis' d a fis) a(\p fis d' a fis d)
+    cis8( e4) fis8( a4)
+    h8 r r h a g
+    fis4( e8) d d16( fis) \once \slurDashed a( d) %300
+    cis(\fz a' g e) a,(\p e') fis( cis) d( a) fis'( d)
+    cis(\fz a' g e) a,(\p e') fis( cis) d( a) a( fis)
+    cis8( d e) fis( g a)
+    h r r h a g
+    fis fis( e) d[ r16 a'\f d( fis)] %305
+    a( g) r g e( cis) h'( a) r d h d
+    a,( fis' d fis,) e( g) fis8 d16(\p a') g( e)
+    d( e fis e d cis) d( e fis g a fis)
+    g( a h a h cis) d( fis) a,( d,) fis( d)
+    cis( d e fis e d) e( cis a' g e g) %310
+    g( fis e fis g e) fis( a) d,( g) d( a')
+    d,( c! h c d e) f( e \hA f d g, d')
+    c( d e d e fis) g( h) d,( g,) h( g)
+    e'( a g fis g e) c( d e fis g a)
+    d,( fis g h d, a') g( d) h'( g) g,( d') %315
+    h4( a8) d16( c a h c d)
+    c4( h8) h16( a h d g a)
+    g8( fis) a d,16( c') h( g) d( a')
+    a4( g8) fis fis16(\fz a) d( fis)
+    g(\p d h' g d h) d( h g' d h g) %320
+    fis4 a8 a( g) h16([\fz d)]
+    g( d h' g d h) d(\p h g' d h g)
+    fis8( a4) h8( d4)
+    g,8 g g g r r
+    g( d) c h g'16( d) h'( g) %325
+    fis(\fz d' c a) d,(\p a') h( fis) g( d) h'( g)
+    fis(\fz d' c a) d,(\p a') h( d,) h8[ h']
+    h( gis) a c\f a\p a
+    g4( c8) h4 a8
+    a4( g8) fis r d'16(\fz a) %330
+    a( a' g fis e d) cis( e d a g e)
+    cis( e g fis a g) fis(\p e d e fis d)
+    g,8( d' g) g( d h')
+    h4( g8) fis d16(\fz a') d( a)
+    cis( e g fis e d) cis( e d a g e) %335
+    e( a, e' fis a fis) d(\p fis a d, fis a)
+    g8( d h') h( d, d')
+    e16( d fis e d c) h8 h( d)
+    h( gis) a c\f a\p a
+    g r r d g g %340
+    h,( d) c h16 d h( d) g h
+    d8 d r fis,4( a8)
+    g16 d h( d) g h d8 d r
+    h, h( c) h16 h\f d( g,) h( d)
+    d'( c) r a fis( d) e'( d) r d g( h) %345
+    g( fis) r a c( fis,) a( g) r h g( d)
+    d'( c) r a fis( c) h( h') g( d) e( g) \noBreak
+    d,( h' g h,) a( c) h8 r r \bar "|"
+    \key d \major h\p d d h d d \noBreak
+    d( g h) cis!16(\fz h ais h cis h) %350
+    fis8\p ais ais fis h h
+    cis( fis, cis') h16(\fz ais h fis h, fis')
+    h8\p e, e h' a g
+    fis( e) e e16( cis a cis e a)
+    a8 fis a g e e %355
+    e4( d8) cis cis( e)
+    d d'( cis) h( a) gis
+    \appoggiatura gis a4 e8 a(\< gis g)\! \bar "|" %358 finis
+  }
+}
+
+DCCCIXSicutViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoDCCCIXSicut
+      \set Score.currentBarNumber = #359
+    fis8\f d4 d d d8
+    d' fis,4 fis fis fis8 %360
+    d' g,4 g g g8
+    e cis'4 cis cis cis8
+    d4 r d fis,
+    r8 h, d fis h4 d,
+    r8 d g h d,16 fis g fis g a h cis %365
+    d e d e fis g fis g a8 fis, d fis
     g( e) g( e) fis fis fis'( d)
     cis cis a( e') d( a) fis( a)
-    fis-! fis-! g( fis) d'( cis h a) %15
-    \once \slurDashed a4( g) fis8 fis'\f a fis
+    fis fis g( fis) d'( cis) h a
+    a4( g) fis8 fis' a fis %370
     d16 e fis e d cis h a gis a h cis d e fis gis
     a h cis h a e cis e <a cis, e,>4 r
-    cis,,8( a) e'( cis) d( a) fis'( a)
-    a,( cis) a( cis) a( d) a( d) %20
-    e( cis) e'( cis) fis,( d) fis'( d)
-    e-! cis-! e-! cis-! e,-! cis-! e-! cis-!
+    cis,,8( a e' cis) d( a fis' d)
+    a( cis a cis) a( d a d)
+    e( cis) e'( cis) fis,( d) fis'( d) %375
+    e-! cis-! e-! cis-! e, cis e cis
     e fis16 g a h cis d e8 e, a, e'
-    d d4 \once \tieDashed d8~ d16 fis g a h a g a
-    fis8 fis'4 fis fis16 e d cis d fis, %25
-    h8 h g' h fis, a' e, cis'
-    d16 e d cis d e fis^\critnote g a8 a a a
-    cis,16 h a h cis d e fis g8 g g g
-    fis16 e d fis a h a g fis g fis e d e d cis
-    h8 h'4 g16 e d8 fis, e cis' %30
-    d16 d, e fis g a h cis d e fis g a h cis d
-    h8 h,4 h8 fis a, cis e
-    fis d\p fis( a,) cis16( d cis d) e( d e cis)
-    a8-! fis'-! r d' a-! a'-! r d,-!
-    g(^\critnote d a fis) fis-! e-! d-! fis-! %35
-    e( cis) e( cis) e( cis) e-! e-!
-    d( fis) d'-! cis-! fis,( e d cis)
-    e( gis) gis( h) e( cis) e( cis)
-    fis( d h fis) cis e4 d8
-    e( cis) e( cis) e( cis) cis( a) %40
-    a( cis) a( cis) h( a) \once \slurDashed gis?( d')
-    cis4 cis8-! e-! h'( d) d( h)
-    a( cis) a( cis) a( e') \once \slurDashed cis( e,)
-    a( gis) \once \slurDashed h( d) h,( e) \once \slurDashed gis( h)
-    e, cis'4 cis8 a'16 gis fis e d cis h a %45
-    h,8 gis'4 h gis h8
-    e,( cis') cis( a) a( e) cis-! cis-!
-    \parOn cis-\parenthesize-! \parOff cis'-\parenthesize-! r a-! cis-! a-! r \parOn e'-\parenthesize-!
-    a,-! \parOff d-\parenthesize-! r fis, fis fis4 d8
-    e-! g-! r \parOn g-\parenthesize-! g-! e-! r \parOff e-\parenthesize-! %50
-    e( cis) d-! fis-! fis( e) fis-! d-!
-    d-! h-! r \parOn g'-\parenthesize-! h-! \parOff g-\parenthesize-! r d~
-    d d4 d d'8 a fis
-    e'( g,) g-! g-! a( g) e-! cis'-!
-    a( fis) g( h) fis( a) g( e) %55
-    \once \slurDashed fis( d) d( fis) fis( a) a( d)
-    fis,( d fis d) e( d e cis)
-    a16 g'( fis e) fis8 fis d' d cis cis
-    d d,4 d8 d16 e fis g a h cis d
-    e( fis e d) cis8 cis, g'16( fis e fis) g8 e %60
-    e16( d fis e) d8 fis4 fis8( a) a-!
-    c g c a d, d d d
-    e e4 e8 d16 e fis e d c h a
-    g8 d'4 d8 h' g'4 g,8
-    a a a a a a a a %65
-    fis16( e g fis) e8 h' g h g fis
-    a e4 e8 g e4 e8
-    e'16 d e cis a g a fis fis8 d'4 fis8
-    a16 g fis e fis e d cis d cis h a g fis e d
-    gis8 gis e e d d d d %70
-    e( cis) cis( e) e( a) a( cis)
-    cis cis,-! a( cis) h( a) h-! d-!
-    cis a''\sf a, a a4 r
+    d d4 d8~ d16 fis g a h a g a
+    fis8 fis'4 fis d8 fis d
+    h e,4 e e'16 dis e fis gis a %380
+    h8 h4 h e,,8 gis h
+    cis e16 d cis8 e a, cis, cis' h
+    a cis16 h a8 cis fis, a a' gis
+    fis a16 gis fis8 a d, fis, fis' e
+    d fis16 e d8 fis h, h h' d, %385
+    cis e e e e,16 fis gis a h cis d h
+    cis8 cis e d cis cis, e a
+    e a' e cis a e cis e'
+    r a fis d a fis d fis'
+    r a c a fis a c, a' %390
+    a,16 h cis h a8 cis, e gis h \hA gis
+    a a e' a fis a, e' a,
+    d a cis a h a' h, gis'
+    a, a' a, a a4 r
+    a8 a' a, a a4 r %395
     a8 a' a, a a4 r
-    a8 a' a, a a4 r %75
-    r8 g' \appoggiatura a16 g8 fis16 g e8 e \appoggiatura fis16 e8 d16 e
+    r8 g'! \appoggiatura a16 g8 fis16 g e8 e \appoggiatura fis16 e8 d16 e
     cis8 cis, e g cis e, g cis
     e a,16 h cis d e fis e8 g, e' e,
-    d fis' \appoggiatura g16 fis8 e16 fis a8 d, \appoggiatura e16 d8 cis16 d
-    cis8 a d a e'16 d e fis e8 g, %80
+    d fis' \appoggiatura g16 fis8 e16 fis a8 d, \appoggiatura e16 d8 cis16 d %400
+    cis8 a d a e'16 d e fis e8 e,
     d16 d' fis e d fis a g fis4 r
-    r8 d'-!\p a-! fis-! d-! a-! fis-! d-!
+    r8 d'-!\p a-! fis-! d a fis d
     r d'' h d d, h' h, d
-    r d' a fis d a fis d
-    r d''\f h fis d h gis e %85
+    r d' a fis d a fis d %405
+    r d''\f h fis d h gis e
     a' e cis a gis16 a h cis d e fis gis
-    a8 cis a e cis a a' g
-    fis a16 g fis8 a d, fis, fis' e
-    d fis16 e d8 fis h, d,-\critnote d' cis
-    h d16 cis h8 d g, h g fis %90
+    a8 e cis a e cis a cis'
+    d a'16 g fis8 a d, fis, fis' e
+    d fis16 e d8 fis h, d,-\critnote d' cis %410
+    h d16 cis h8 d g, h g fis
     e16 fis e d cis d e d cis8 a' e' d
     cis16 d cis h a h cis d e8 e g e
     fis16 g a g fis g e fis d e fis e d e cis d
-    h8 h'4 g16 e fis8 d a' cis,
-    d fis, a(\p fis) a( fis) fis( d) %95
-    fis( d fis d) \once \slurDashed e( d cis e)
-    <a, fis' d'>4\f r d' fis,
-    r8 h, d fis h4 d,
-    r8 d g h d,16 fis g fis g a h cis
-    d e d e fis g fis g a8 fis,\pE d fis %100
-    g( e) g( e) fis fis fis'( d)
-    cis cis a( e') d( a) fis( a)
-    fis fis g( fis) d'( cis h a)
-    a4( g) fis8 fis'\fE a fis
-    d16 e fis e d cis h a gis a h cis d e fis gis %105
-    a h cis h a8 e <a cis, e,>4 r
-    cis,,8( a) e'( cis) d( a) fis'( d)
-    a( cis) a( cis) a( d) a( d)
-    e( cis) e'( cis) fis,( d) fis'( d)
-    e-! cis-! e-! cis-! e,-! cis-! e-! cis-! %110
-    e fis16 g a h cis d e8 e, a, e'
-    d d4 d8~ d16 fis g a h a g a
-    d8 g^\critnote d fis e h' cis,16 e a g
+    h8 h'4 g16 e fis8 d a' cis, %415
+    d d d' d, d' e, d' fis,
+    d' g, d' fis, e h' cis,16 e a g
     fis8 fis d' d, d' e, d' fis,
-    d' g, h d, cis16 d cis h a g fis e %115
-    d8 fis fis fis fis4 r
+    d' g, h d, cis16 d cis h a g fis e
+    d8 fis fis fis fis4 r %420
     r8 d''\p a fis d a fis d
     r d'' h d d, h' h, d
     r h'\f d h e, h' h, d
-    r cis e16 d cis h a8 e' e, g %120
-    fis a' a a a,,4 <a e' cis'>
+    r cis e16 d cis h a8 e' e, g
+    fis a' a a a,,4 <a e' cis'> %425
     d'16 d' cis h a g fis e d cis h a g fis e d
     cis8 cis cis cis cis cis cis cis
     cis cis cis cis cis cis g' g
-    fis d'' h fis d h fis d %125
-    r fis d h r e h' d
+    fis d'' h fis d h fis d
+    r fis d h r e h' d %430
     r a \appoggiatura g16 fis8 e16 d e8 d' e, cis'
     fis,4 r <d fis' d'> r
     <d fis' a> r <d a' fis'> r
-    fis8 fis a g fis fis fis' e %130
-    d fis4 d8 e h' a, cis
+    <fis a>8 fis a g fis fis fis' e
+    fis d'4 fis,8 e h' a, cis %435
     d a' a4\trill r8 cis, e g
     fis a a4\trill r8 e, a cis
-    d4 d,8 d d fis fis a
-    fis d d fis fis fis fis fis %135
-    <fis a,>4 r <d a' fis'> <d fis' a>
-    <d fis' d'> r r2\fermata \bar "|." %137 finis
+    d4 d8 d d a a fis
+    a fis fis d fis d d a
+    d4 r <d a' fis'> <d fis' a> %440
+    <d fis' d'> r r2\fermata \bar "|." %441 finis
   }
 }

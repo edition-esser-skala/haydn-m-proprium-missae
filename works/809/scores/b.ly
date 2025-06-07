@@ -1,56 +1,53 @@
 \version "2.24.0"
 
+\include "../../../definitions_main.ly"
 \include "../definitions.ly"
 #(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "1" "Dixit Dominus"
+    \section "809" "Dixit Dominus"
     \addTocEntry
-    \paper { indent = 2\cm }
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \DCCCIXDixitOrgano
-        }
+        \new Staff { \DCCCIXDixitOrgano }
       >>
     }
   }
   \bookpart {
-    \section "2" "Confitebor"
+    \subsection "Virgam virtutis tuæ"
     \addTocEntry
     \score {
       <<
-        \new Staff { \ConfiteborOrgano }
+        \new Staff { \DCCCIXVirgamOrgano }
       >>
     }
   }
   \bookpart {
-    \section "3" "Beatus vir"
+    \subsection "Iuravit Dominus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \BeatusOrgano }
+        \new Staff { \DCCCIXIuravitOrgano }
       >>
     }
   }
   \bookpart {
-    \section "4" "Laudate pueri"
+    \subsection "De torrente"
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudateOrgano }
+        \new Staff { \DCCCIXTorrenteOrgano }
       >>
     }
   }
   \bookpart {
-    \section "5" "Magnificat"
+    \subsection "Sicut erat"
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatOrgano }
+        \new Staff { \DCCCIXSicutOrgano }
       >>
     }
   }

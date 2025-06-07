@@ -197,291 +197,219 @@ DCCCIXVirgamOboeII = {
   }
 }
 
-BeatusOboeII = {
+DCCCIXIuravitOboeII = {
   \relative c' {
     \clef treble
-    \key g \major \time 6/8 \tempoBeatus
+    \key b \major \time 4/4 \tempoDCCCIXIuravit
+      \set Score.currentBarNumber = #215
+    r2 d'\f
+    c4 r c es8 c
+    b f4 fis8 g g4 c8
+    c4 b16( d) b( d) b4( a8) r
+    r2 d\p
+    es4 r r8 c c c %220
+    es4. c8 c b r4
+    d2 d \noBreak
+    b8 b r b \appoggiatura c16 b8 a r4\fermata \bar "|"
+    \tempoDCCCIXTuEs \newSpacingSection R1*10 %233
+    a4\p a2 a4
+    a r r2 %235
+    R1*6 %241
+    r8 c\f c4 r8 e f c
+    r e f f f f e4\trill
+    f a,2 f4
+    g r8 g f4 r8 d %245
+    d b' b a g4 g
+    g r8 a g d g b
+    d2 d4 d
+    d r8 b a4 a8 d
+    e4 r r8 a, a a %250
+    a4 g a8 a cis a
+    d d d4 cis8 e,4 e8
+    d4 r r2
+    R1*2 %255
+    d'2 d
+    cis d4 r
+    gis,2 a4 e
+    r d' d g
+    r8 a, f' e d4 d~ %260
+    d8 d es d c4 c~
+    c8 c d c b4 r
+    r2 a
+    b4 f es b'~
+    b g f c'~ %265
+    c a g b
+    g2 fis8 fis4 fis8
+    a2 g
+    e d
+    d'8 d d d b'8. b16 b8 b %270
+    cis,4 cis8 cis d4 fis,8 a
+    g2 fis4 fis'8 fis
+    e2 d4 fis
+    r a, r g
+    r fis' r g %275
+    r c, b8 b b4
+    a b a g
+    fis r r2\fermata \bar "||" %278 finis
+  }
+}
+
+DCCCIXTorrenteOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \tempoDCCCIXTorrente
+      \set Score.currentBarNumber = #279
     g'4.\fE g
-    c h8 d r
+    c h8 d r %280
     g,4. e'8 d c
     r fis, a g d g
-    d4. r8 h' g %5
+    d4. r8 h' g
     r c c r h g
-    fis a4 g8 g g
-    g4 fis8 g4 r8
+    fis a4 g8 g g %285
+    g4 fis8 g r r
     h4.\p h
-    c h8 r r %10
-    R2.*5 %15
-    r4 r8 r a\fzE cis
-    \slurDashed d(\pE fis) r a,( d)^\critnote r \slurSolid
+    c h8 r r
+    R2.*5 %293
+    r4 r8 r a cis
+    d( fis) r a,( d) r %295
     r4 r8 r4 a8\fz
     d( fis) r a,(\p d) r
-    R2.*2 %21
-    r4 r8 r a( d)
-    e4(\fz cis8) r \once \slurDashed a(\p d)
-    e4(\fz cis8) r \once \slurDashed a(\p d)
-    e4(\fz cis8) r a(\p d) %25
-    R2.*3
-    r4 r8 r a\f d
-    e4( cis8) r d d %30
-    d4 cis8 d4 r8
-    fis(\p d) r a( c!) r
-    r4 r8 fis( a,) fis-\parenthesize-!
-    r fis'( dis) r fis( dis)
-    r e( h) r h( g) %35
-    a'4 r8 fis4 r8
-    a,( g) g-! r4 r8
-    cis?4 r8 a4 r8
-    e'4 r8 d4 r8
-    R2. %40
-    r4 r8 fis, g a
+    R2.*2
+    r4 r8 r a d %300
+    e4(\fz cis8) r a\p d
+    e4(\fz cis8) r4 r8
+    R2.*2
+    r4 r8 r a\f d %305
+    e4 cis8 r d d
+    d4 cis8 d r r
+    R2.*3 %310
+    r4 r8 fis,\p g a
     g4( h8) h4( d8)
-    e4( c8) h4 r8
-    R2.*5 %48
-    r4 r8 r fis\fzE a'
-    g(\pE h) r d,( g) r %50
+    e4( c8) h r r
+    R2.*5 %318
+    r4 r8 r fis a'
+    g( h) r d,( g) r %320
     r4 r8 r r g\fz
-    g( h) r \once \slurDashed d,(\p g) r
+    g( h) r d,(\p g) r
     R2.*2
-    r4 r8 r d g %55
+    r4 r8 r d g %325
     a4(\fz fis8) r d\p g
-    a4(\fz fis8) r4 r8
+    a4(\fzE fis8) r4 r8
     R2.*2
-    r4 r8 r r a,\fzE %60
-    cis cis cis cis( d cis)
-    \once \slurDashed cis4( d8) d4 r8
+    r4 r8 r r a,\fz %330
+    cis cis cis cis d e
+    e4( d8) d r r
     R2.
-    r4 r8 r4 a8\fzE
-    cis cis cis cis( d) e-! %65
-    \once \slurDashed e4( d8) d4 r8
-    R2.*4 %70
+    r4 r8 r4 a8
+    cis cis cis cis d e %335
+    e4( d8) d r r
+    R2.*4 %340
     r4 r8 r h\p h
     h4 r8 a4 fis8
     g d' d d4 r8
     g,4 fis8 g d\f g
-    d4. r8 h' g %75
+    d4. r8 h' g %345
     r c c r h g
-    fis a4 g8 g g
-    g4 fis8 g4 r8
-    h4.\p h
-    c h8 r r %80
-    R2.*5 %85
-    r4 r8 r a\fzE d^\critnote
-    a'\pE fis r g d r
-    fis a, r r h d
-    g h r d, g r
-    R2.*2 %91
-    r4 r8 r d g
-    a4( fis8) r c c
-    h d h\pp g4 r8\fermata \bar "|." %94 finis
+    fis a4 g8 g g \noBreak
+    g4 fis8 g r r \bar "|"
+    \key d \major R2. \noBreak
+    r4 r8 h4. %350
+    ais8 r r r4 r8
+    r4 r8 h4.
+    h8 r r r4 r8
+    r4 r8 cis4.\p
+    d8 r r r4 r8 %355
+    R2.*3 \bar "|" %358 finis
   }
 }
 
-LaudateOboeII = {
+DCCCIXSicutOboeII = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \tempoLaudate
-    R1*10 %10
-    a'4\p a2 a4
-    a r r2
-    R1*6 %18
-    r8 c\f c4 r8 e f c
-    r e f f f f e4\trill %20
-    f a,2 f4
-    g r8 g f4 r8 d
-    d b' b a g4 g
-    g r8 a g d g b
-    d2 d,4 d %25
-    d r8 b' a4 a8 d
-    e?4 r r8 a, a a
-    a4 g a8 a cis a
-    d d d4 cis8 e,4 e8
-    d4 r r2 %30
-    R1*2
-    d'2 d
-    cis d4 r
-    gis,2 a4 e %35
-    r d' d g
-    r8 a, f' e d4 d~
-    d8 d es d c4 c~
-    c8 c d c b4 r
-    r2 a %40
-    b4 f es b'~
-    b g f c'~
-    c a g b
-    g2 fis?8 fis4 fis8
-    a2 g %45
-    e d
-    d'8 d d d b'8. b16 b8 b
-    cis,4 cis8 cis d4 fis,8 a
-    g2 fis4 fis'8 fis
-    e2 d4 fis %50
-    r a, r g
-    r fis' r g
-    r c, b8 b b4\trillE
-    a b a g
-    fis r a8\fz a es'!\fz es %55
-    d4 r r2
-    r r8 f,\p a b
-    c2( b8) f' es d
-    es4 c b r
-    r2 d %60
-    c r4 b(
-    a) a r g
-    a r r2
-    R1*2 %65
-    a4 c f,2
-    a4 r c2\sf
-    f4 d8( f) r4 \once \slurDashed f8( es)
-    d4 r r r8 b-\parenthesize-!
-    a-! b-! a-\parenthesize-! r r c( d) b-\parenthesize-! %70
-    r es d c r d d r
-    r es es r r d( b) r
-    r es( c) r r d f d
-    r c r b r es r d
-    r4 es d b %75
-    f d' d, r\fermata \bar "|." %76 finis
-  }
-}
-
-MagnificatOboeII = {
-  \relative c' {
-    \clef treble
-    \key d \major \time 4/4 \tempoMagnificat
-    d'2\f e4 e
-    a, e' cis e8 e
-    fis fis d4 r d
-    cis g8 e a4 r
-    r8 g a cis cis4 d %5
-    r8 fis4 d8 r fis4 d8
-    r d4 a8 r fis' d r \noBreak
-    r4 cis8-!\pE gis-! h( a) r4
-    \tempoMagnificatB d\f r d2 \noBreak
-    fis4 r d2 %10
-    d4 r d,2
+    \key d \major \time 4/4 \tempoDCCCIXSicut
+      \set Score.currentBarNumber = #359
+    fis1\f
+    d' %360
+    h2 g'
+    r4 cis, cis cis
+    d r d2
+    fis4 r d2
+    d4 r d,2 %365
     d4 d' a r
-    r2 r4 d\p
+    r2 r4 d
     cis( e) d r
-    r2 r4 d8 a' %15
-    a4( g) fis r
-    d2\fE d
+    r2 r4 d8 a'
+    a4( g) fis r %370
+    fis2 d
     cis4 cis cis r
     a1
-    a4 r r2 %20
-    cis d
+    a4 r r2
+    cis d %375
     e1~
     e2 e,
     d r
-    d d' %25
-    h4 h a r
-    a1~
-    a
-    r8 d d d d4 a
-    r h8 g fis4 e %30
-    d r fis'2
-    e8 r e h fis4 g
-    fis r r2
-    R1
-    r4 fis'\p d r %35
-    r e cis e
-    d r r2
-    r4 e, e cis'
-    r d cis d
-    r a'-\dolce e cis %40
-    a4. cis8 \appoggiatura cis16 h8(^\critnote a h gis)
+    d d'
+    h4 h2 h4 %380
+    h2 r
+    a1
     a4 r r2
-    R1*2
-    r8 a' e cis e,4 r %45
-    r gis h d
-    r cis\sf cis cis
-    cis r e,\p a
-    a a r2
-    R1 %50
-    r4 d fis8 e fis d
-    d4 r g, d'
-    r2 a4 fis'
-    r cis e e,
-    d r r2 %55
-    r4 fis-\dolce a d
-    fis4. d8 \appoggiatura fis16 e8 d e cis
-    d4 r r2
-    R1
-    r4 cis e g, %60
-    r d' fis a,
-    r a' d, r
-    r g r fis
-    r d h r
-    r h h r %65
-    r h h r
-    r cis e r
-    r fis a, r
-    R1*2 %70
-    r4 a'-\dolce e cis
-    a4. cis8 \appoggiatura cis16 h8( a) h( gis)
-    a4 r g2\sf
-    fis fis4 fis
-    g2 cis4 d %75
+    d1
+    d4 r d h %385
+    a a gis h
+    a8 cis e d cis4 r
+    e1
+    fis
+    a2 fis %390
+    e4 a, h gis
+    a a h cis
+    d cis h h
+    a4 r g!2
+    fis fis4 fis %395
+    g2 cis4 d
     e2 cis
     g e
     e'4 g,2 e4
-    d a'2 a4
-    cis d e4. e,8 %80
+    d a'2 a4 %400
+    cis d e4. e,8
     d4 fis fis r
-    d'1~\p
-    d~
-    \once \slurDashed d~
-    d4 fis,\f gis2 %85
+    d'1\p
+    d
+    d~ %405
+    d4 fis,\f gis2
     a4 cis h2
     cis r
     d1
-    d4 r r2
-    h h %90
+    d4 r r2 %410
+    h h
     a8 a cis h a4 r
     r8 cis e d cis4 e
     d2 d
-    h4 e d cis
-    d fis,\p a d %95
-    fis4. d8 cis( d e cis)
-    d4\f r d2
-    d4 r d2
-    d4 r d,2
-    d4 d' a r %100
-    r2 r4 d\pE
-    cis( e) d r
-    r2 r4 d8 a'
-    a4( g) fis r
-    fis2\fE d %105
-    cis4 cis cis r
-    a1~
-    a4 r r2
-    cis d
-    e1~ %110
-    e2 e,
-    d r
-    r4 d'2 cis4
+    h4 e d cis %415
     d d r d
-    r d cis e %115
-    d fis r2
-    d\p d
-    d d
-    fis\f d
-    cis e, %120
-    d4 a' d e8 cis
+    r d2 cis4
+    d d r d
+    r d cis e
+    d fis r2 %420
+    d1\p
+    d
+    fis2\f d
+    cis e,
+    d4 a' d e8 cis %425
     d4 r a r
     cis2 cis4 cis
     cis cis8. cis16 cis4 r
-    d2 d4 d %125
-    d2 d
+    d2 d4 d
+    d2 d %430
     cis4 d2 cis4
     d8 fis, a cis d4 r
     r8 fis, a cis d4 r
-    r8 fis, a cis d fis d g %130
-    fis4 d d cis
+    r8 fis, a cis d fis d g
+    fis4 d d cis %435
     d d e2
     d4 a cis2
-    d4 d8 d d a' a fis
-    a fis fis d fis d d a %135
-    a4 r fis' fis
-    d r r2\fermata \bar "|." %137 finis
+    d4 d'8 d d a a fis
+    a fis fis d fis d d a
+    d4 r fis fis %440
+    fis r r2\fermata \bar "|." %441 finis
   }
 }

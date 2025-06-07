@@ -31,60 +31,35 @@ sources:
     rism: 659000641
     license: public domain
 toe: |
-  vocal parts have been considerably modified
-  Dixit Dominus: \B1 comprises the complete text of this psalm and has 103 bars (\A1: 68 bars); 8 bars inserted after bar 43, 22 bars inserted after bar 57, last 5 bars replaced with 10 bars;
-  Virgam virtutis tuæ: \B1 comprises the text of Confitebor and has 154 bars (\A1: 146 bars); 9 bars deleted after bar 77, last 8 bars replaced with 25 bars;
-
-  – & –   & –    & \A1 is a setting of the psalm \textit{Dixit Dominus}.
-                   By contrast, \B1 and \B2 contain five vesper movements.
-                   Most likely, the original psalm setting was arranged to a
-                   vesper by Johann Wittmann of the Lambach abbey.
-                   This is corroborated by the title page of \B2
-                   (“[…] Ex Michaelis Haydn unico Psalmo: | Dixit Dominus
-                   traductae, et transformatae | per D. Joannem Wittmann,
-                   Musicum Lamba- | censem”). \D1 contains an additional
-                   setting of \textit{Laudate Dominum} by Luigi Gatti. \\
-
-  21 & B & 4th \quarterNote\ in \A1: b4 \\
-
-  2 & 42  & vl 2   & 2nd \quarterNote\ in \B1: \sharp c″16–e″16–a″16–e″16 \\
-    & 44  & S      & 2nd \quarterNote\ in \B1: d′4 \\
-    & 45  & ob 1   & 1st \eighthNote\ in \B1: e″8 \\
-    & 45  & vla    & 2nd \eighthNote\ in \B1: a′8 \\
-    & 45  & fag, org & 2nd \eighthNote\ in \B1: a8 \\
-    & 58  & vl 2   & grace note missing in \B1 \\
-    & 71  & vl 2   & last \eighthNote\ in \B1: e″8 \\
-    & 90  & A      & 3rd \quarterNote\ in \B1: c′8–\quaverRest \\
-  \midrule
-  3 & 9   & vl 2   & 10th \sixteenthNote\ in \B1: g16 \\
-    & 17  & ob 2   & 5th \eighthNote\ in \B1: \sharp f″8 \\
-    & 68  & B      & 5th \eighthNote\ in \B1: A8 \\
-    & 86  & ob 1   & last \eighthNote\ in \B1: g″8 \\
-    & 86  & ob 2   & last \eighthNote\ in \B1: \sharp c″8 \\
-    & 86  & vla    & last \eighthNote\ in \B1: e′8 \\
-  \midrule
-  4 & 1–10 & fag   & bars in \B1: 10 × \wholeNoteRest \\
-    & 45  & vl 2   & 1st \sixteenthNote\ in \B1: a′16 \\
-    & 49  & vl 1   & last \sixteenthNote\ in \B1: \sharp f″16 \\
-  \midrule
-  5 & 1f  & timp   & rhythm of 2nd \eighthNote\ in \B1: 2 × \sixteenthNote \\
-    & 1   & vl 2   & 6th \eighthNote\ in \B1: \sharp c′16.–e′32 \\
-    & 7   & vl 2   & 14th \sixteenthNote\ in \B1: e′16 \\
-    & 8   & T, B   & rhythm of bar in \B1: \quarterNoteDotted–%
-                     \eighthNote–\quarterNote–\crotchetRest \\
-    & 27  & vl 2   & 4th/5th \eighthNote\ in \B1: d″16–e″16–\sharp f″8 \\
-    & 35  & vl 1   & 1st \quarterNote\ in \B1: a″8–\sharp f″8 \\
-    & 35  & vl 2   & 1st \quarterNote\ in \B1: \sharp f″8–d″8 \\
-    & 37  & clno   & rhythm of bar in \B1:
-                     \quarterNote–\quarterNote–\halfNoteRest \\
-    & 41  & ob 2   & grace note missing in \B1 \\
-    & 47  & A      & 1st \quarterNote\ in \B1: a′4 \\
-    & 55  & vla    & 4th \eighthNote\ in \B1: d′8 \\
-    & 75  & fag    & 4th \quarterNote\ in \B1: e4 \\
-    & 89  & vl     & 6th \eighthNote\ in \B1: \sharp f′8 \\
-    & 90  & A      & 7th \eighthNote\ in \B1: a′8 \\
-    & 113 & vl 2   & 2nd \eighthNote\ in \B1: \sharp f″8 \\
-    & 117 & clno 1 & bar in \B1: \crotchetRest-c″4–%
-                     \crotchetRest–\crotchetRest \\
+  –  & –   & \A1 is a setting of the psalm \textit{Dixit Dominus}.
+             By contrast, \B1 and \D1 contain five vesper movements.
+             Most likely, the original psalm setting was arranged to a vesper
+             by Johann Wittmann of the Lambach abbey. This is corroborated
+             by the title page of \D1 (“[…] Ex Michaelis Haydn unico Psalmo: |
+             Dixit Dominus traductae, et transformatae | per D. Joannem
+             Wittmann, Musicum Lamba- | censem”). \D2 contains an additional
+             setting of \textit{Laudate Dominum} by Luigi Gatti.
+             Overall differences between \A1 and the remaining sources
+             are described below. Generally, vocal parts have been
+             considerably modified to accomodate the different lyrics. \\
+  1–68 & – & \B1 comprises the complete text of \textit{Dixit Dominus}
+             as 1st movement and has 103 bars (\A1: 68 bars):
+             8 and 22~bars have been inserted after bar~43 and~57, respectively;
+             bars 64–68 have been replaced with 10 bars. \\
+  21  & B  & 4th \quarterNote\ in \A1: b4 \\
+  69–214 &–& \B1 comprises the text of \textit{Confitebor} as 2nd movement
+             and has 154 bars (\A1: 146 bars): 9~bars have been deleted after
+             bar 77, and bars 207–214 have been replaced with 25 bars. \\
+  215–278&–& \B1 comprises the text of \textit{Laudate pueri} as 4th movement
+             and has 76 bars (\A1: 64 bars): Bars 215–223 have been deleted,
+             and 21 bars have been appended. \\
+  279–358&–& \B1 comprises the text of \textit{Beatus vir} as 3rd movement
+             and has 94 bars (\A1: 80 bars); 1, 1, and 6 bars have been
+             inserted after bar 302, 303, and 309, respectively;
+             bars 349–358 have been replaced with 16 bars. \\
+  359–441&–& \B1 comprises the text of \textit{Magnificat} as 5th movement
+             and has 137 bars (\A1: 83 bars): Bars 359–362, 380–393, and 416f
+             have been replaced with 8, 47, and 19 bars, respectively. \\
+  410 & vl & 6th \eighthNote\ in \A1: \sharp f′8 \\
 parts:
   ottoni: Clarino I, II in D\\Timpani in D–A

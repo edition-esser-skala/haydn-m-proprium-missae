@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vla")
+#(define option-instrument-name "fag 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DCCCIXDixitViola }
+        \new Staff { \DCCCIXDixitFagottoI }
       >>
     }
   }
@@ -20,7 +20,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DCCCIXVirgamViola }
+        \new Staff { \DCCCIXVirgamFagottoI }
       >>
     }
   }
@@ -29,7 +29,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DCCCIXIuravitViola }
+        \new Staff { \DCCCIXIuravitFagottoI }
       >>
     }
   }
@@ -38,7 +38,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DCCCIXTorrenteViola }
+        \new Staff { \DCCCIXTorrenteFagottoI }
       >>
     }
   }
@@ -47,7 +47,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DCCCIXSicutViola }
+        \new Staff { \DCCCIXSicutFagottoI }
       >>
     }
   }

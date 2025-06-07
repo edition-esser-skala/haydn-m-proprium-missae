@@ -1,56 +1,55 @@
 \version "2.24.0"
 
+\include "../../../definitions_main.ly"
 \include "../definitions.ly"
 #(define option-instrument-name "vl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "1" "Dixit Dominus"
+    \section "809" "Dixit Dominus"
     \addTocEntry
-    \paper { indent = 2\cm }
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \DCCCIXDixitViolinoI
-        }
+        \new Staff { \DCCCIXDixitViolinoI }
       >>
     }
   }
   \bookpart {
-    \section "2" "Confitebor"
+    \subsection "Virgam virtutis tuæ"
     \addTocEntry
     \score {
       <<
-        \new Staff { \ConfiteborViolinoI }
+        \new Staff { \DCCCIXVirgamViolinoI }
       >>
     }
   }
   \bookpart {
-    \section "3" "Beatus vir"
+    \subsection "Iuravit Dominus"
     \addTocEntry
+    \paper { system-count = #25 }
     \score {
       <<
-        \new Staff { \BeatusViolinoI }
+        \new Staff { \DCCCIXIuravitViolinoI }
       >>
     }
   }
   \bookpart {
-    \section "4" "Laudate pueri"
+    \subsection "De torrente"
     \addTocEntry
+    \paper { system-count = #25 }
     \score {
       <<
-        \new Staff { \LaudateViolinoI }
+        \new Staff { \DCCCIXTorrenteViolinoI }
       >>
     }
   }
   \bookpart {
-    \section "5" "Magnificat"
+    \subsection "Sicut erat"
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatViolinoI }
+        \new Staff { \DCCCIXSicutViolinoI }
       >>
     }
   }

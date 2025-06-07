@@ -256,594 +256,429 @@ DCCCIXVirgamTenoreLyrics = \lyricmode {
   te. %203 finis
 }
 
-BeatusTenore = {
+DCCCIXIuravitTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \major \time 6/8 \autoBeamOff \tempoBeatus
-    R2.*8 %8
-    \mvTr h4.(\pE^\solo d)
-    c4 c8 h r g %10
-    g g g e'([ d)] c
-    h4 a8 g4 r8
-    r d' d c8.([ h16)] a8 r
-    c h d4 h8
-    r c a fis([ g)] d' %15
-    d4( e8) a,4 r8
-    d d fis fis d a16 a
-    a4 a8 a a r
-    r d d fis8.([ d16)] a8
-    a([ e')] a, a4 d8 %20
-    r h4 h8([ dis)] e
-    fis4( e8) d4 r8
-    r g g16 g fis d d8 r
-    r cis g' fis16 d d8 r
-    cis cis  g' fis d r %25
-    cis([ d)] a a16 d d4
-    cis8([ d)] a a16([ d)] d4
-    r8 h4 h8 dis e
-    fis4 e8 d r r
-    R2.*2 %31
-    a4. a4 c!8
-    h4( d8) d d4
-    dis4 dis8 dis fis dis
-    h4 h8 h4 h8 %35
-    e e a, a4 a8
-    d4 d8 h4 e8
-    e8. e16 cis8 d([ fis)] d
-    e([ cis)] cis d d4
-    cis16([ d e d)] cis([ h)] a8([ cis)] e %40
-    e4 cis8 d4 r8
-    h4 h8 d8. d16 d d
-    c!4. h8 r d
-    g,4 g8 e'([ d)] c
-    h4( a8) g4 r8 %45
-    r d'([ c8.)] h16 a8 r
+    \key b \major \time 4/4 \autoBeamOff \tempoDCCCIXIuravit
+      \set Score.currentBarNumber = #215
+    R1*8 \noBreak %222
+    R1\fermata \bar "||"
+    \tempoDCCCIXTuEs \newSpacingSection R1 \noBreak
+    r2 r8 \mvTr b\pE^\solo c d %225
+    es8. c16 c8 c b([ f')] es d
+    es([ c)] c c b c c([ b)]
+    a4 r r2
+    R1*2 %230
+    r8 c c c f8. a,16 a4
+    r r8 g f4 a8 f'
+    f4 a, r2
+    r r4 c~
+    c8 f e d c b a([ g)] %235
+    f4 r r2
+    R1*3
+    r2 d'4 d8 d %240
+    c e f2( e4)
+    f r r2
+    R1
+    \mvTr c8.\fE^\tutti c16 c8 c d4 d8 f
+    d d c4 c r %245
+    b8. b16 b8 d b4 b8 b
+    es! es d4 d8 b d b
+    r fis' g d a fis' g d
+    r fis g d r cis d d
+    r a a a a cis d f %250
+    f4( d) e r
+    d2 cis4 r
+    R1
+    a4 a f' f8 f
+    gis, gis gis8. gis16 a8 e' e g, %255
+    f g a4 r8 d g4~
+    g f8 e d4 h8 h
+    e4.( d8 c[ h)] c cis
+    d([ e)] f \hA e d4 d
+    r r8 a a([ d)] a4 %260
+    r8 g g4 g8 c es!4~
+    es d8 c b4 d8 f
+    es([ b)] b es es4 es8 es
+    f b, r f es g b8. b16
+    c4 r8 g f a c8. c16 %265
+    d4 r8 a g([ b)] d d
+    g, b r cis d d, r4
+    a'2 g
+    b a4 d,8 d
+    fis a a a g g g8. g16 %270
+    g8 g g4 fis r8 a
+    e2 fis4 r8 a
+    e'2 a,4 d,~
+    d8 d d d d8. d16 d8 d
+    d4 d8 d d4 d %275
+    d8. d16 d8 d d'2
+    d4 r r2
+    R1\fermata \bar "||" %278 finis
+  }
+}
+
+DCCCIXIuravitTenoreLyrics = \lyricmode {
+  Iu -- ra -- vit %225
+  Do -- mi -- nus, iu -- ra -- vit et
+  non poe -- ni -- te -- bit e --
+  um,
+
+  iu -- ra -- vit Do -- mi -- nus, %231
+  iu -- ra -- vit, iu --
+  ra -- vit,
+
+  et __ %234
+  non poe -- ni -- te -- bit e -- %235
+  um,
+
+  non poe -- ni -- %240
+  te -- bit e --
+  um.
+
+  Do -- mi -- nus a dex -- tris, a
+  dex -- tris tu -- is, %245
+  Do -- mi -- nus a dex -- tris, a
+  dex -- tris tu -- is, con -- fre -- git
+  in di -- e i -- rae su -- ae,
+  con -- fre -- git, con -- fre -- git
+  in di -- e i -- rae su -- ae %250
+  re -- ges,
+  re -- ges.
+
+  Iu -- di -- ca -- bit in
+  na -- ti -- o -- ni -- bus, in na -- ti -- %255
+  o -- ni -- bus, im -- ple --
+  bit ru -- i -- nas, im --
+  ple -- bit, im --
+  ple -- bit ru -- i -- nas,
+  im -- ple -- bit %260
+  ru -- i -- nas, im -- ple --
+  bit ru -- i -- nas, im --
+  ple -- bit ru -- i -- nas, ru --
+  i -- nas, in na -- ti -- o -- ni --
+  bus, in na -- ti -- o -- ni -- %265
+  bus im -- ple -- bit ru --
+  i -- nas, ru -- i -- nas,
+  con -- quas --
+  sa -- bit, con -- quas --
+  sa -- bit, con -- quas -- sa -- bit ca -- pi -- %270
+  ta mul -- to -- rum, mul --
+  to -- rum, mul --
+  to -- rum, con --
+  quas -- sa -- bit ca -- pi -- ta in
+  ter -- ra mul -- to -- rum, %275
+  ca -- pi -- ta mul -- to --
+  rum. %277 finis
+}
+
+DCCCIXTorrenteTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 6/8 \autoBeamOff \tempoDCCCIXTorrente
+      \set Score.currentBarNumber = #279
+    R2.*8 %286
+    \mvTr h4.\pE^\solo d
+    c h8 r g
+    g4.( e'8[ d)] c
+    h4( a8) g r r %290
+    r r d' c8. h16 a8
     r c h d4 h8
-    r c16 c a a fis fis g8 d'
-    d16 d d8([ e)] a, r r
-    h h h d h d %50
-    d4 d8 d4 r8
+    r c a fis([ g)] d'
+    d4( e8) a, r r
+    d4 fis8 fis d a %295
+    a4 a8 a a r
+    r r d fis8. d16 a8
+    a([ e')] a, a4 d8
+    r h h h([ dis)] e
+    fis4( e8) d r r %300
+    r r g fis16 d d8 r
+    r cis g' fis d r
+    cis([ d)] a a16([ d]) d4
+    r8 h h h([ dis]) e
+    fis4( e8) d r r %305
+    R2.*2
+    a4. a4( c!8)
+    h4( d8) d r d
+    cis16([ d)] e([ d)] \hA cis([ h)] a8([ \hA cis)] e %310
+    e4( cis8) d r r
+    h4. d
+    c! h8 r d
+    g,4.( e'8[ d)] c
+    h4( a8) g r r %315
+    r r d' c8. h16 a8
+    r c h d4 h8
+    r c a fis([ g)] d'
+    d4( e8) a, r r
+    h4 h8 d h d %320
+    d4 d8 d d r
     r r h d8. h16 d8
     d([ a)] d d([ h)] d
-    c c g' e d c
-    h4 \appoggiatura d16 c8 h4 r8 %55
-    r fis' fis g16 d d8 r
-    r c([ fis)] g16 g d8 h
+    c4 g'8 e([ d]) c
+    h4( c8) h r r %325
+    r r fis' g16 d d8 r
+    r c fis g d h
     h8. a16 a8 r d d
-    d4 c8 h([ d)] d
-    d4 d8 d4 r8 %60
-    cis4. cis8 d a
-    a4. d,4 r8
+    d4( c8 h[ d)] d
+    d4. d8 r r %330
+    cis4.~ cis8[ d] a
+    a4. d,8 r r
     R2.*2
-    cis'4. cis8([ d)] a %65
-    a4. d,4 r8
-    r r h'4 g8 h
-    e4( c8) h r h~
-    h8.[ a16] a8 r d d
-    d4 c8 h([ d)] e %70
-    d4 c8 h h h
-    h d d d4.
-    d8 h h h d d
-    h4( c8) h4 r8
-    R2.*4 %78
-    h8. h16 h8 d d d
-    c4 c8 h r g~ %80
-    g4 g8 e' d c
-    h4( a8) g r r
-    r h d c8.([ h16)] a8 r
-    c h d8. d16 h8
-    r c([ a)] fis([ g)] d' %85
-    d4( e8) a,4 r8
-    c!4 fis8 g h, d
-    c([ a)] a d d r
-    r h h d8. h16 d8
-    d([ a)] d d([ h)] d %90
-    c4 g'8 e([ d)] c
-    h4( \grace d16 c8) h8 d d
-    c2.
-    h4 r8 r4 r8\fermata \bar "|." %94 finis
+    cis'4.~ cis8[ d] a %335
+    a4. d,8 r r
+    r r h' h([ g)] h
+    e4( c!8) h r h
+    h8. a16 a8 r d d
+    d4( c8 h[ d]) e %340
+    d4( c8) h h h
+    h([ d]) d d4.
+    d8 h h h([ d]) d
+    h4( c8) h r r
+    R2.*4 %348
+    \key d \major \mvTr h4.~\p^\tutti h8 h h \noBreak
+    h4. h8 r r %350
+    ais4.( h8) d d
+    cis4 cis8 h r r
+    e4 e8 h4.
+    a!4 a8 a4.
+    a4 a8 a a a %355
+    a4. a8 r r
+    R2.*2 \bar "|" %358 finis
   }
 }
 
-BeatusTenoreLyrics = \lyricmode {
-  Be -- %9
-  a -- tus vir qui %10
-  ti -- met, qui ti -- met
-  Do -- mi -- num:
-  In man -- da -- tis,
-  in man -- da -- tis
-  e -- ius vo -- let %15
-  ni -- mis.
-  Po -- tens in ter -- ra e -- rit
-  se -- men e -- ius:
-  Ge -- ne -- ra -- ti --
-  o __ re -- cto -- rum %20
-  be -- ne -- di --
-  ce -- tur.
-  Glo -- ri -- a, glo -- ri -- a
-  et di -- vi -- ti -- ae
-  in do -- mo e -- ius, %25
-  et __ iu -- sti -- ti -- a
-  e -- ius ma -- net
-  in sae -- cu -- lum
-  sae -- cu -- li.
+DCCCIXTorrenteTenoreLyrics = \lyricmode {
+  De tor -- %287
+  ren -- te in
+  vi -- a
+  bi -- bet, %290
+  pro -- pter -- e -- a
+  ex -- al -- ta -- bit,
+  ex -- al -- ta -- bit
+  ca -- put,
+  de tor -- ren -- te in %295
+  vi -- a bi -- bet,
+  pro -- pter -- e -- a
+  ex -- al -- ta -- bit,
+  ex -- al -- ta -- bit
+  ca -- put, %300
+  pro -- pter -- e -- a
+  ex -- al -- ta -- bit,
+  ex -- al -- ta -- bit,
+  ex -- al -- ta -- bit
+  ca -- put. %305
 
-  Iu -- cun -- dus %32
-  ho -- mo qui
-  mi -- se -- re -- tur et
-  com -- mo -- dat, dis -- %35
-  po -- net ser -- mo -- nes
-  su -- os in iu --
-  di -- ci -- o, qui -- a
-  in __ ae -- ter -- num
-  non, __ non com -- mo -- %40
-  ve -- bi -- tur.
-  In me -- mo -- ri -- a ae --
-  ter -- na, ae --
-  ter -- na e -- rit
-  iu -- stus, %45
-  ma -- la non,
-  non ti -- me -- bit,
-  ab au -- di -- ti -- o -- ne ma -- la
-  non ti -- me -- bit.
-  Dis -- per -- sit de -- dit pau -- %50
-  pe -- ri -- bus,
-  iu -- sti -- ti -- a
-  e -- ius ma -- net,
-  ma -- net in sae -- cu -- lum
-  sae -- cu -- li, %55
-  ex -- al -- ta -- bi -- tur
-  in __ glo -- ri -- a, in
-  glo -- ri -- a, ex -- al --
-  ta -- bi -- tur in
-  glo -- ri -- a. %60
-  Pec -- ca -- tor vi --
-  de -- bit
+  De tor -- %308
+  ren -- te in
+  vi -- a, in vi -- a %310
+  bi -- bet,
+  de tor --
+  ren -- te in
+  vi -- a
+  bi -- bet, pro -- %315
+  pter -- e -- a
+  ex -- al -- ta -- bit,
+  ex -- al -- ta -- bit
+  ca -- put,
+  de tor -- ren -- te in %320
+  vi -- a bi -- bet,
+  pro -- pter -- e -- a
+  ex -- al -- ta -- bit,
+  ex -- al -- ta -- bit
+  ca -- put, %325
+  pro -- pter -- e -- a
+  ex -- al -- ta -- bit, pro --
+  pter -- e -- a ex -- al --
+  ta -- bit
+  ca -- put, %330
+  de __ tor --
+  ren -- te,
 
-  et i -- ra -- %65
-  sce -- tur,
-  den -- ti -- bus
-  su -- is fre --
-  met et ta --
-  be -- scet, de -- si -- %70
-  de -- ri -- um pec -- ca --
-  to -- rum per -- i --
-  bit, pec -- ca -- to -- rum per --
-  i -- bit.
+  de __ tor -- %335
+  ren -- te
+  in vi -- a
+  bi -- bet,
 
-  Glo -- ri -- a Pa -- tri et %79
-  Fi -- li -- o et __ %80
-  Spi -- ri -- tu -- i
-  San -- cto,
-  si -- cut e -- rat
-  in prin -- ci -- pi -- o
-  et __ nunc et %85
-  sem -- per
-  et in sae -- cu -- la
-  sae -- cu -- lo -- rum,
-  et in sae -- cu -- la
-  sae -- cu -- lo -- rum, %90
-  a -- men, a -- men,
-  a -- men, a -- men,
-  a --
-  men. %94 finis
-}
+  pro --
+  pter -- e -- a ex -- al --
+  ta -- bit %340
+  ca -- put, ex -- al --
+  ta -- bit ca --
+  put, ex -- al -- ta -- bit
+  ca -- put.
 
-LaudateTenore = {
-  \relative c' {
-    \clef "treble_8"
-    \key b \major \time 4/4 \autoBeamOff \tempoLaudate
-    R1
-    r2 r8 \mvTr d\pE^\solo es f
-    es c16 c c8 c b f' es d
-    es16([ c)] c8 c4 b8 c c b
-    a4 r r2 %5
-    R1*2
-    r8 c c c16 c f8.([ a,16)] a4
-    r g8 g f f a f'
-    f4 a, r2 %10
-    r r4 c
-    c8([ f)] e d c b a g
-    f4 r r2
-    R1*3 %16
-    r2 d'4 d8 d
-    c e f4 f8 f e4
-    f r r2
-    R1 %20
-    \mvTr c4\fE^\tutti c8 c d4 d8 f
-    d d c4 c r
-    b8 b b d b8. b16 b4
-    es!8 es d d16 d d8 b d r
-    r fis g d a fis' g d %25
-    r fis g d r cis d d
-    r a4 a8 a cis d f
-    f4 d e r
-    d d cis r
-    R1 %30
-    a4 a f' f8 f
-    gis,4 gis8 gis a([ e')] e a,
-    f g a4 r8 d g g
-    g4 f8 e d8. d16 h8 h
-    e4. d8 c!([ h)] c([ cis)] %35
-    d([ e)] f4 d8. d16 d4
-    r r8 a a([ d)] a4
-    r8 g g4~ g8[ c] es! es
-    es es d c b4 d8 f
-    es([ b]) b es es4 es8 es %40
-    f b, r f es g b8. b16
-    c4 r8 g([ f)] a! c4
-    d r8 a g([ b)] d d
-    g, b r cis d16 d d,8 r4
-    a'2 g4 g %45
-    b2 a4 d,8 d
-    d fis a a g g g g
-    g g g4 fis r8 a
-    e2 fis4 r8 a
-    e'2 a,4 d, %50
-    d d d8. d16 d4
-    d8. d16 d8 d d4 d
-    d d d'4. d8
-    d4 r r2
-    R1*2 %56
-    r2 r8 \mvTr b([\pE^\solo c)] d
-    es8. c16 c8 c b([ f')] es d
-    es c c c b c16 c c8([ b)]
-    a4 r r2 %60
-    R1*2
-    r8 c c c f8.([ a,16)] a4
-    r r8 g( f4) a8 f'
-    f8. f16 a,4 r2 %65
-    r r4 \mvTr c8\fE^\tutti a
-    c f, f f c'4 es!8 es
-    f8.([ es16)] d8 f,( c'4) es
-    f8 d r c b a16 a g8 f
-    c'([ d c)] b c4 d %70
-    es8 c d([ c)] d f([ es)] d
-    c2 d8 f([ es)] d
-    c2 d4 d
-    c b c d
-    es8 c a4 b r %75
-    R1\fermata \bar "|." %76 finis
-  }
-}
-
-LaudateTenoreLyrics = \lyricmode {
-  Sit no -- men %2
-  Do -- mi -- ni be -- ne -- di -- ctum, ex hoc
-  nunc et us -- que in sae -- cu --
-  lum. %5
-
-  A so -- lis, a so -- lis %8
-  or -- tu us -- que ad oc --
-  ca -- sum %10
-  lau --
-  da -- bi -- le no -- men Do -- mi --
-  ni.
-
-  Sit no -- men %17
-  Do -- mi -- ni be -- ne -- di --
-  ctum.
-
-  Quis si -- cut Do -- mi -- nus %21
-  De -- us no -- ster,
-  qui in al -- tis ha -- bi -- tat,
-  et hu -- mi -- li -- a re -- spi -- cit
-  in coe -- lo et in ter -- ra, %25
-  in coe -- lo, in ter -- ra?
-  Su -- sci -- tans a ter -- ra
-  in -- o -- pem,
-  in -- o -- pem,
-  %30
-  et de ster -- co -- re
-  e -- ri -- gens, e -- ri -- gens
-  pau -- pe -- rem, lau -- da -- te
-  pu -- e -- ri Do -- mi -- num, lau --
-  da -- te no -- men, %35
-  no -- men Do -- mi -- ni,
-  lau -- da -- te,
-  ut col -- lo -- cet
-  e -- um cum prin -- ci -- pi -- bus
-  po -- pu -- li, po -- pu -- li %40
-  su -- i, sit no -- men Do -- mi --
-  ni be -- ne -- di --
-  ctum, ex hoc nunc et
-  us -- que in sae -- cu -- lum,
-  qui ha -- bi -- %45
-  ta -- re fa -- cit
-  ste -- ri -- lem in do -- mo, ma -- trem
-  fi -- li -- o -- rum lae --
-  tan -- tem, lae --
-  tan -- tem, lau -- %50
-  da -- te pu -- e -- ri
-  Do -- mi -- num, lau -- da -- te
-  no -- men Do -- mi --
-  ni.
-
-  Et __ Spi -- %57
-  ri -- tu -- i, Spi -- ri -- tu -- i
-  San -- cto, et Spi -- ri -- tu -- i San --
-  cto, %60
-
-  glo -- ri -- a Pa -- tri, %63
+  Glo -- ri -- a %349
+  Pa -- tri, %350
   glo -- ri -- a
-  Fi -- li -- o, %65
-  et Spi --
-  ri -- tu -- i, Spi -- ri -- tu -- i
-  San -- cto, a -- men,
-  a -- men, in sae -- cu -- la sae -- cu --
-  lo -- rum, a -- men, %70
-  a -- men, a -- men, a -- men,
-  a -- men, a -- men,
-  a -- men, a --
-  _ _ _ men,
-  a -- men, a -- men. %75 finis
+  Fi -- li -- o,
+  glo -- ri -- a,
+  glo -- ri -- a
+  et Spi -- ri -- tu -- i %355
+  San -- cto. %356 finis
 }
 
-MagnificatTenore = {
+
+DCCCIXSicutTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \major \time 4/4 \autoBeamOff \tempoMagnificat
-    R1
-    r2 r4 r8 \mvTr a\fE^\tutti
-    d8. d,16 d4 r8 d' d a
-    e'4 r e e8 e
-    cis4 cis a8. a16 a8 fis( %5
-    a[ d]) fis d d4 h
-    d a8 a d4 a \noBreak
-    a8.^\critnote a16 a4 r2
-    \tempoMagnificatB d2 d4 d \noBreak
-    d2 d %10
-    d4 d8 d d2
-    a r
-    a4\p h8 a a fis' d fis
+    \key d \major \time 4/4 \autoBeamOff \tempoDCCCIXSicut
+      \set Score.currentBarNumber = #359
+    R1*4 %362
+    \mvDl d2\f^\tuttiE d
+    d4 d d d
+    d2. d4 %365
+    a2 r4 fis
+    a4 h8([ a]) a([ fis']) d([ fis])
     e4( g) fis r
-    R1*2 %16
-    d2\f d4 d
-    cis cis r2
-    R1
-    cis2 d4 a %20
-    cis2 d4 a
-    cis2 e
-    a, a
-    a a
-    fis d'4 d %25
-    h h a2
-    a4 r r d
-    e cis r e(
-    d) d r d8 d
-    h4 e8([ g)] fis4( e) %30
-    d r r2
-    R1*5 %36
-    r2 r4 \mvTr a\pE^\solo
-    gis( e'2) cis4
-    d d cis( h)
-    cis r r2 %40
-    r e4 e
-    e cis8([ a)] gis4 a8 h
-    h4 a a4. cis8
-    cis h h4 e4. d8
-    \appoggiatura d16 cis8 h16([ a)] a4 r e' %45
-    h gis8 gis h2
-    cis4 r r2
-    r4 a2 h8 cis
-    d4. a8 a4 d
-    e2 g,!4 g %50
-    g fis r a
-    h h r h
-    a2 d4 d
-    a a a a
-    a h d( cis) %55
-    d r r2
-    r r4 a
-    fis'4. e8 d4 cis
-    d a r d
-    e2 g,4 g %60
-    g fis r a
-    g d' d d
-    e2( d4) c
-    h g d' h
-    a2 a4 fis %65
-    e e'2 e4
-    e a, e'( cis)
-    d r d2
-    a4. a8 a4 a
-    e' e8 e h2 %70
-    cis4 r r2
-    R1
-    r4 \mvTr e\f^\tutti e e
-    d d8 d fis4 fis8 fis
-    cis4 cis cis d! %75
-    e e8 e cis4 cis
-    e2 e4 e
-    e cis a a
-    a d2 d4
-    a a a a8 a %80
-    a4 a r2
-    a\p a4 a
-    h4. h8 h4 h
-    a a a2
-    h4 r gis\f e' %85
-    e r d2
-    cis cis4 e
-    r fis2 d4
-    r d2 h4
-    r h8([ a)] g4 h %90
-    e,8 a e' d cis4 a
-    r8 a([ g')] fis e4 cis
-    d2 d4 d
-    h h8 h a4 a
-    a r r2 %95
-    R1
-    d2 d4 d
-    d2 d4 d
-    d2. d4
-    a2 r4 a~\p %100
-    a h8([ a)] a([ fis')] d fis
-    e4( g) fis r
-    R1*2
-    d2\f d %105
+    R1*2 %370
+    d2 d
     cis4 cis r2
     R1
     cis2 d
-    cis4 cis d a
-    cis4. cis8 e4 e %110
-    a, a a2
-    a r
-    d4 d d cis
-    d a( h) d
-    d g e( cis) %115
-    d r r2
+    cis4 cis8 cis d4 a %375
+    cis cis e e
+    a,2 a
+    a1
+    fis4 fis'( d) h
+    e1 %380
+    h2 e4 h
+    r cis2 a4
+    r cis( fis) d
+    r fis2 d4
+    r d2 h4 %385
+    a e8([ e')] e2
+    e4 r r a,
+    cis,2. a'8 a
+    d,2. a'4
+    dis,2 c' %390
+    cis( h)
+    a4 r r2
+    R1
+    r4 e'2 e4
+    d d fis fis %395
+    cis8. cis16 cis4 cis d
+    e4. e8 cis4 cis
+    e2 e
+    e4 cis a2
+    a4 d2 d4 %400
+    a a8 a a4. a8
+    a4 a r2
+    a1\p
+    h4. h8 h2
+    a4 a a2 %405
+    fis4 r gis( e')
+    e r d2
+    cis4 cis2 e4
+    r fis2 d4
+    r d2 h4 %410
+    r h8([ a] g4 h)
+    e,8 a([ e' d] cis4) a
+    r8 a([ g' fis] e4) cis
+    d2 d
+    h4 h a2 %415
+    a4 r r2
+    d4 d d( cis)
+    d a h d~
+    d g e( cis)
+    d r r2 %420
     a1\p
     h4. h8 h2
     h4\f h h2
-    a a~ %120
-    a4 a a( cis)
+    a a~
+    a4 a a( cis) %425
     d r r2
     R1*2
-    r4 h2 h4 %125
-    h2 e,
+    r4 h2 h4
+    h2 e, %430
     a4 a a2
     a4 r r8 a([ fis' e]
     d4) a r8 a([ fis' e]
-    d4) a r8 fis([ fis' e] %130
-    d4) d d( cis)
+    d4) a r8 fis([ fis' e]
+    d4) d d( cis) %435
     d r cis2
     d4 r e2
     fis4 r r2
-    a,1 %135
-    a4 r r2
-    R1\fermata \bar "|." %137 finis
+    a,1
+    a4 r r2 %440
+    R1\fermata \bar "|." %441 finis
   }
 }
 
-MagnificatTenoreLyrics = \lyricmode {
-  Ma -- %2
-  gni -- fi -- cat, ma -- gni -- fi --
-  cat a -- ni -- ma
-  me -- a Do -- mi -- num, a -- %5
-  ni -- ma me -- a,
-  a -- ni -- ma me -- a
-  Do -- mi -- num,
-  et ex -- ul --
-  ta -- vit %10
-  spi -- ri -- tus me --
-  us
-  in De -- o sa -- lu -- ta -- ri
-  me -- o,
-
-  qui -- a re -- %17
-  spe -- xit,
-
-  hu -- mi -- li -- %20
-  ta -- tem an --
-  cil -- lae
-  su -- ae,
-  ec -- ce
-  e -- nim ex %25
-  hoc be -- a --
-  tam me
-  di -- cent o --
-  mnes ge -- ne --
-  ra -- ti -- o -- %30
-  nes.
-
-  Et %37
-  san -- ctum
-  no -- men e --
-  ius, %40
-  et mi --
-  se -- ri -- cor -- di -- a
-  e -- ius a pro --
-  ge -- ni -- e in pro --
-  ge -- ni -- es ti -- %45
-  men -- ti -- bus e --
-  um.
-  Fe -- cit po --
-  ten -- ti -- am in
-  bra -- chi -- o %50
-  su -- o, dis --
-  per -- sit \xE su --
-  per -- bos, \x su --
-  per -- bos men -- te
-  cor -- dis su -- %55
-  i.
-  De --
-  po -- su -- it po --
-  ten -- tes, po --
-  ten -- tes de %50
-  se -- de et
-  ex -- al -- ta -- vit
-  hu -- mi --
-  les. E -- su -- ri --
-  en -- tes im -- %65
-  ple -- vit, im --
-  ple -- vit
-  bo --
-  nis et
-  di -- vi -- tes di -- %70
-  mi -- sit in -- a --
-  nes.
-
-  Su -- sce -- pit
-  Is -- ra -- el pu -- e -- rum
-  su -- um, re -- cor -- %75
-  da -- tus mi -- se -- ri --
-  cor -- di -- ae
-  su -- ae, re -- cor --
-  da -- tus mi --
-  se -- ri -- cor -- di -- ae %80
-  su -- ae.
-  Si -- cut lo --
-  cu -- tus est ad
-  pa -- tres no --
-  stros, A -- bra -- %85
-  ham, et
-  se -- mi -- ni
-  e -- ius,
-  e -- ius
-  in __ sae -- cu -- %90
-  la, ad pa -- tres no -- stros,
-  A -- bra -- ham et
-  se -- mi -- ni
-  e -- ius in sae -- cu --
-  la. %95
-
-  Glo -- ri -- a
-  Pa -- tri et
-  Fi -- li --
-  o et __ %100
-  Spi -- ri -- tu -- i
-  San -- cto,
-
-  si -- cut %105
-  e -- rat,
-
-  si -- cut
+DCCCIXSicutTenoreLyrics = \lyricmode {
+  Si -- cut %363
   e -- rat in prin --
-  ci -- pi -- o et %110
+  ci -- pi -- %365
+  o et
+  nunc, et nunc et
+  sem -- per,
+
+  sem -- per, %371
+  sem -- per
+
+  et in
+  sae -- cu -- la sae -- cu -- %375
+  lo -- rum, sae -- cu --
+  lo -- rum,
+  a --
+  men, a -- men,
+  a -- %380
+  men, a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %385
+  a -- men, a --
+  men, in
+  sae -- cu -- la
+  sae -- cu --
+  lo -- rum, %390
+  a --
+  men.
+
+  Si -- cut
+  e -- rat in prin -- %395
+  ci -- pi -- o, in prin --
+  ci -- pi -- o et
+  nunc, et
   nunc et sem --
-  per
-  et in sae -- cu --
-  la sae -- cu --
-  lo -- rum, a -- %115
+  per et in %400
+  sae -- cu -- la sae -- cu --
+  lo -- rum,
+  in sae --
+  cu -- la sae --
+  cu -- lo -- %405
+  rum, a --
+  men, a --
+  men, a -- men,
+  a -- men,
+  a -- men, %410
+  a --
+  men, a -- men,
+  a -- men,
+  a -- men,
+  a -- men, a -- %415
   men,
+  a -- men, a --
+  men, a -- men, a --
+  men, a --
+  men, %420
   in
   sae -- cu -- la
   sae -- cu -- lo --
-  rum, a -- %120
-  men, a --
+  rum, a --
+  men, a -- %425
   men,
 
-  a -- men, %125
-  a -- men,
+  a -- men, %429
+  a -- men, %430
   a -- men, a --
-  men, a --
-  men, a --
-  men, a -- %130
-  men, a --
+  men, a -- men,
+  a -- men,
+  a -- men,
+  a -- %435
   men, a --
   men, a --
   men,
-  a -- %135
-  men. %136 finis
+  a --
+  men. %440 finis
 }

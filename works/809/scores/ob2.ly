@@ -1,56 +1,53 @@
 \version "2.24.0"
 
+\include "../../../definitions_main.ly"
 \include "../definitions.ly"
 #(define option-instrument-name "ob 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "1" "Dixit Dominus"
+    \section "809" "Dixit Dominus"
     \addTocEntry
-    \paper { indent = 2\cm }
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = "Oboe II"
-          \DCCCIXDixitOboeII
-        }
+        \new Staff { \DCCCIXDixitOboeII }
       >>
     }
   }
   \bookpart {
-    \section "2" "Confitebor"
+    \subsection "Virgam virtutis tuæ"
     \addTocEntry
     \score {
       <<
-        \new Staff { \ConfiteborOboeII }
+        \new Staff { \DCCCIXVirgamOboeII }
       >>
     }
   }
   \bookpart {
-    \section "3" "Beatus vir"
+    \subsection "Iuravit Dominus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \BeatusOboeII }
+        \new Staff { \DCCCIXIuravitOboeII }
       >>
     }
   }
   \bookpart {
-    \section "4" "Laudate pueri"
+    \subsection "De torrente"
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudateOboeII }
+        \new Staff { \DCCCIXTorrenteOboeII }
       >>
     }
   }
   \bookpart {
-    \section "5" "Magnificat"
+    \subsection "Sicut erat"
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatOboeII }
+        \new Staff { \DCCCIXSicutOboeII }
       >>
     }
   }

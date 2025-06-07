@@ -2,11 +2,10 @@
 
 tempoDCCCIXDixit = \tempoMarkup "Allegro molto"
 tempoDCCCIXVirgam = \tempoMarkup "Allegro comodo"
-tempoBeatus = \tempoMarkup "Allegretto"
-tempoLaudate = \tempoMarkup "Allegro"
-tempoMagnificat = \tempoMarkup "Adagio"
-  tempoMagnificatB = \tempoMarkup "Allegro molto"
-
+tempoDCCCIXIuravit = \tempoMarkup "Largo"
+  tempoDCCCIXTuEs = \tempoMarkup "Allegro"
+tempoDCCCIXTorrente = \tempoMarkup "Allegretto"
+tempoDCCCIXSicut = \tempoMarkup "Allegro molto"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
