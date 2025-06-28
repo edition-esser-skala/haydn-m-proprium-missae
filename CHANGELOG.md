@@ -1,5 +1,16 @@
 # Changelog
 
+## 2025.06.0 – 2025-06-28
+
+### Added
+
+- works: MH 809 (formerly in separate repository)
+
+### Changed
+
+- MH 360: revised after autograph score in H-Bn
+
+
 ## 2025.05.0 – 2025-05-31
 
 ### Added
