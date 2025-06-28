@@ -35,7 +35,7 @@ CCCLXTenore = {
     h2 r
     R1 %30
     h~
-    h2 h4 h
+    h2 \hA h4 h
     h2 h
     h d4 d
     c c r2 %35
@@ -93,8 +93,8 @@ CCCLXTenoreLyrics = \lyricmode {
   iux -- ta
   cru -- cem
   Do -- mi -- ni %15
-  Ie -- su, Do -- mi -- ni
-  Ie -- su,
+  JE -- su, Do -- mi -- ni
+  JE -- su,
   fi -- li -- i tu -- i
   Re -- dem -- pto --
   ris. %20
@@ -112,7 +112,7 @@ CCCLXTenoreLyrics = \lyricmode {
   iux -- ta
   cru -- cem
   Do -- mi -- ni
-  Ie -- su, %35
+  JE -- su, %35
   fi -- li -- i
   tu -- i __
   Re -- dem --

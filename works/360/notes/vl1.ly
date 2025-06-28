@@ -7,9 +7,9 @@ CCCLXViolinoI = {
     g'4(\p es') es( g)
     c,(\fz h) h2\p
     r r4 <h as'>\f
-    q2 r4 h\p
+    q2 r4 \hA h\p
     h2 c %5
-    r8 b des(\f b) r b\p des(\f b)
+    r8 b des(\f b) r b\p \hA des(\f b)
     r b\p as g as2
     R1
     r4 g'(\f d) es\p
@@ -29,8 +29,8 @@ CCCLXViolinoI = {
     des2 des4 des
     des4. c8 c2
     r8 c es!( c) r c es( c) %25
-    r c es( c) r a c( a)
-    r h \once \slurDashed as'!( h,) c4 d
+    r c es( c) r a c( \hA a)
+    r h as'!( \hA h,) c4 d
     es f f( es)
     d g, d es
     f( d) f2~ %30
@@ -40,7 +40,7 @@ CCCLXViolinoI = {
     f( d) f2
     es4( g) es h %35
     c2 c
-    des4( f) des c
+    des4( f) \hA des c
     h f' es8( g,) f( as)
     g,2 r
     g'4( es') es(\p g) %40
@@ -53,10 +53,10 @@ CCCLXViolinoI = {
     b,( b') g( b) g( c,) des( b)
     f( des') b( g) as( c,) f( as)
     g4 f'2 es4
-    es d r2 %50
+    es d! r2 %50
     c4(\p es) c( es)
     es( des) des des
-    des( f) des( f)
+    des( f) \hA des( f)
     f( es) es( e)
     f\cresc f fis fis %55
     g(\f h,) c( f)\p
@@ -66,7 +66,7 @@ CCCLXViolinoI = {
     f4 es r2 %60
     c4(\p es) c( es)
     es( des) des des
-    des( f) des( f)
+    des( f) \hA des( f)
     f( es) es( e)
     f\cresc f fis fis %65
     g(\f h,) c( f)\p

@@ -36,12 +36,12 @@
     \section "360" "Dolorosa et lacrymabilis es"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "E" "flat"
-            % \transpose c es
+            % \transpose c es,
             \partCombine #'(0 . 10) \CCCLXCornoI \CCCLXCornoII
           >>
         >>

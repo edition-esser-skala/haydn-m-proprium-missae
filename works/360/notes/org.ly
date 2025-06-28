@@ -5,14 +5,14 @@ CCCLXOrgano = {
     \clef bass
     \twotwotime \key c \minor \time 2/2 \tempoCCCLX
     \mvTr c2\p-\solo c
-    d\fz \mvTr d\p-\tuttiE
+    d\fz d\p
     r r4 d\f
     d2 r4 d\p %5
     es2 es
-    e4 r e r
+    e4 r \hA e r
     f r f d!
     h2 h4 c
-    g' g, \clef "treble_8" r fis''-\soloE g g, \clef bass r2 %10
+    g' g, \clef "treble_8" r fis'' g g, \clef bass r2 %10
     r4 \mvTr c,\f-\tutti c' b!
     as a b2
     r4 b, b' as
@@ -27,8 +27,8 @@ CCCLXOrgano = {
     g g
     r4 \mvTr g\f-\tutti g g
     as2 as
-    a4 r a g %25
-    fis r fis r
+    a4 r \hA a g %25
+    fis r \hA fis r
     f2 es4 d
     c h c2
     g r
@@ -79,9 +79,9 @@ CCCLXOrgano = {
 
 CCCLXBassFigures = \figuremode {
   r1
-  <7>4 <6!> <6! 5>2
-  r2. <\t \t>4
-  q2. q4
+  <7>4 <6!> <\t>2
+  r2. <6! 5>4
+  <\t \t>2. q4
   q2 <6> %5
   <7- [5-]>1
   <6- 4>4 <[5] 3>2 <5>4
@@ -148,5 +148,5 @@ CCCLXBassFigures = \figuremode {
   r <_!>
   <_ 6 4>1
   <7! \t \t> %70
-  <[8] _!> %71 finis
+  <_!> %71 finis
 }

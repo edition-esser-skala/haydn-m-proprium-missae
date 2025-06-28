@@ -91,8 +91,8 @@ CCCLXBassoLyrics = \lyricmode {
   iux -- ta
   cru -- cem __
   Do -- mi -- ni %15
-  Ie -- su, Do -- mi -- ni
-  Ie -- su,
+  JE -- su, Do -- mi -- ni
+  JE -- su,
   fi -- li -- i tu -- i
   Re -- dem -- pto --
   ris. %20
@@ -110,7 +110,7 @@ CCCLXBassoLyrics = \lyricmode {
   _ iux -- ta
   cru -- cem
   Do -- mi -- ni
-  Ie -- su, %35
+  JE -- su, %35
   fi -- li -- i
   tu -- i
   Re -- dem --

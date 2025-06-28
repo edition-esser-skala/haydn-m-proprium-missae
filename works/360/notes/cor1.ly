@@ -45,7 +45,7 @@ CCCLXCornoI = {
     f( e) e2
     R1*4 %48
     e2 e
-    r4 \pa \once \slurDashed e8(\p e,) e2 \pd %50
+    r4 \pa e8(\p e,) e2 \pd %50
     R1*5 %55
     \pa e'4\f e2 \pd f4\p
     \pao e2 e

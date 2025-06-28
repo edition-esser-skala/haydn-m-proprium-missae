@@ -5,17 +5,26 @@ festival: Septem Dolorum B. V. Mariæ
 scoring: S, A, T, B (coro), 2 cor (\flat E), 3 trb, 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms. Mus. II. 13
+    date: 1784-03-24
+    rism: 530001703
+    url: https://copia.oszk.hu/kotta/graduale-in-festo-septem-dolorum-b-m-v/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 183
     rism: 600038136
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/188.html
     license: public domain
-    principal: true
 toe:
-  – & trb & \B1 lacks separate parts for trb. Instead,
-            A and T contain notes in bars 9f that are labelled
-            as “Tromboni”. \\
+  –    & cor  & According to \A1, cor have been added in 1797. \\
+  –    & trb  & \A1 and \B1 lack separate staves/parts for trb.
+                Instead, staves/parts for A and T contain notes
+                in bars 9f that are labelled as “Tromboni”. \\
+  15ff & coro & double caps spelling of “JEsu” according to \A1 \\
 parts:
   cor12: Corno I, II in \flat E
 lyrics:

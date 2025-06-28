@@ -9,7 +9,7 @@ CCCLXViolinoII = {
     r r4 f\f
     f2 r4 as\p
     as2 g %5
-    r8 g \slurDashed b!(\f g) r g\p b(\f g) \slurSolid
+    r8 g b!(\f g) r g\p b(\f g)
     r c,\p f e f2
     R1
     r4 h2\f c4\p
@@ -44,19 +44,19 @@ CCCLXViolinoII = {
     g as g8( es) f( as)
     g,2 r
     es'4( g) g(\p es) %40
-    f2\f r
+    f2\f f
     r4 f8( as) as( h,) h( f')
     f2. as4
     as( g) g2
-    b!8( des) b( des) b( g) b( g) %45
+    b!8( des) b( \hA des) b( g) b( g) %45
     f( des) c( as') f( as) c( as)
-    b( des) b( des) c( g) b( g)
+    b( des) b( \hA des) c( g) b( g)
     f( b) f( e) f( as,) as( f')
     f4 d!2 c4
     c h r2 %50
-    es4(\p ges) es( ges)
+    es4(\p ges) es( \hA ges)
     ges( f) f f
-    f( des) f( des)
+    f( des) f( \hA des)
     des( c) c c
     c'\cresc c c c %55
     \mvDl es,(\f d!) es( \mvDl d)\p
@@ -64,9 +64,9 @@ CCCLXViolinoII = {
     c4 g''8(\f es) h( c) \once \slurDashed g( es)
     f4 es8( es') h( c) es( c)
     g4 g r2 %60
-    ges\p es4( ges)
+    ges\p es4( \hA ges)
     ges( f) f f
-    f( des) f( des)
+    f( des) f( \hA des)
     des( c) c c
     c'\cresc c c c %65
     \mvDl es,(\f d!) es( \mvDl d)\p

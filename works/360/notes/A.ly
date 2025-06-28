@@ -93,8 +93,8 @@ CCCLXAltoLyrics = \lyricmode {
   cru --
   cem
   Do -- mi -- ni %15
-  Ie -- su, Do -- mi -- ni
-  Ie -- su, fi -- li -- i
+  JE -- su, Do -- mi -- ni
+  JE -- su, fi -- li -- i
   tu -- i __
   Re -- dem -- pto --
   ris. %20
@@ -111,7 +111,7 @@ CCCLXAltoLyrics = \lyricmode {
   iux -- ta
   cru -- cem
   Do -- mi -- ni
-  Ie -- su,
+  JE -- su,
   fi -- li -- i %35
   tu -- i,
   fi -- li -- i

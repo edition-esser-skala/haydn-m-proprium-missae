@@ -40,7 +40,7 @@ CCCLXSoprano = {
     f2 f
     es4( g) es h %35
     c2 c
-    des4( f) des c
+    des4( f) \hA des c
     h f' es d
     c2( h)
     c r %40
@@ -93,8 +93,8 @@ CCCLXSopranoLyrics = \lyricmode {
   cru --
   cem
   Do -- mi -- ni %15
-  Ie -- su, Do -- mi -- ni
-  Ie -- su, fi -- li -- i
+  JE -- su, Do -- mi -- ni
+  JE -- su, fi -- li -- i
   tu -- i __
   Re -- dem -- pto --
   ris. %20
@@ -111,7 +111,7 @@ CCCLXSopranoLyrics = \lyricmode {
   iux -- ta
   cru -- cem
   Do -- mi -- ni
-  Ie -- su,
+  JE -- su,
   fi -- li -- i %35
   tu -- i,
   fi -- li -- i
