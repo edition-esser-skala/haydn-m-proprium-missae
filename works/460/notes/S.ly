@@ -106,7 +106,7 @@ CDLXSopranoLyricsB = \lyricmode {
   com -- par sit lau -- da -- ti --
   o, com -- par sit lau -- da -- ti_- %30
 
-  \skip 4  -_o! A -- men,
+  \skips 1  -_o! A -- men,
   a -- men, a -- men,
   a -- men, a --
   men, a -- men, %35

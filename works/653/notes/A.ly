@@ -263,7 +263,7 @@ DCVIIIAltoLyricsA = \lyricmode {
 }
 
 DCVIIIAltoLyricsB = \lyricmode {
-  \repeat unfold 158 { \skip 1 }
+  \skips 158
   Al -- le -- %96
   lu -- ia,
   al -- le --

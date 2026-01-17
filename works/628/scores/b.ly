@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "628·1" "Introitus"
+    \section "1" "Introitus"
     \addTocEntry
     \score {
       <<
@@ -16,7 +16,7 @@
     }
   }
   \bookpart {
-    \section "628·2" "Graduale"
+    \section "2" "Graduale"
     \addTocEntry
     \score {
       <<
@@ -25,7 +25,7 @@
     }
   }
   \bookpart {
-    \section "628·3" "Offertorium"
+    \section "3" "Offertorium"
     \addTocEntry
     \score {
       <<
@@ -34,7 +34,7 @@
     }
   }
   \bookpart {
-    \section "628·4" "Communio"
+    \section "4" "Communio"
     \addTocEntry
     \score {
       <<

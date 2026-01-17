@@ -12,7 +12,7 @@ markNAUS = {
 }
 
 
-tempoDCXXVIIIa = \tempoMarkup "[Tempo deest]"
+tempoDCXXVIIIa = \tempoMarkup "[no tempo]"
 tempoDCXXVIIIb = \tempoMarkup "Adagio non molto"
 tempoDCXXVIIIc = \tempoMarkup "Allegretto"
 tempoDCXXVIIId = \tempoMarkup "Adagietto"

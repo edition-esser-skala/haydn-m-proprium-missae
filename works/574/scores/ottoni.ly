@@ -12,7 +12,7 @@
 
 \book {
   \bookpart {
-    \subsection "Erſte Veſper · Erſter Pſalm"
+    \section "1" "Erſte Veſper · Erſter Pſalm"
     \addTocEntry
     \score {
       <<
@@ -33,7 +33,7 @@
     }
   }
   \bookpart {
-    \subsection "Erſte Veſper · Zweyter Pſalm"
+    \section "2" "Erſte Veſper · Zweyter Pſalm"
     \addTocEntry
     \score {
       <<
@@ -54,7 +54,7 @@
     }
   }
   \bookpart {
-    \subsection "Erſte Veſper · Dritter Pſalm"
+    \section "3" "Erſte Veſper · Dritter Pſalm"
     \addTocEntry
     \score {
       <<
@@ -75,7 +75,7 @@
     }
   }
   \bookpart {
-    \subsection "Zweyter Veſper · Erſter Pſalm"
+    \section "4" "Zweyter Veſper · Erſter Pſalm"
     \addTocEntry
     \score {
       <<
@@ -96,7 +96,7 @@
     }
   }
   \bookpart {
-    \subsection "Zweyter Veſper · Zweyter Pſalm"
+    \section "5" "Zweyter Veſper · Zweyter Pſalm"
     \addTocEntry
     \score {
       <<
@@ -117,7 +117,7 @@
     }
   }
   \bookpart {
-    \subsection "Zweyter Veſper · Dritter Pſalm"
+    \section "6" "Zweyter Veſper · Dritter Pſalm"
     \addTocEntry
     \score {
       <<
@@ -138,7 +138,7 @@
     }
   }
   \bookpart {
-    \subsection "Dritte Veſper · Erſter Pſalm"
+    \section "7" "Dritte Veſper · Erſter Pſalm"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
@@ -160,7 +160,7 @@
     }
   }
   \bookpart {
-    \subsection "Dritte Veſper · Zweyter Pſalm"
+    \section "8" "Dritte Veſper · Zweyter Pſalm"
     \addTocEntry
     \score {
       <<
@@ -181,7 +181,7 @@
     }
   }
   \bookpart {
-    \subsection "Dritte Veſper · Dritter Pſalm"
+    \section "9" "Dritte Veſper · Dritter Pſalm"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
@@ -203,7 +203,7 @@
     }
   }
   \bookpart {
-    \subsection "Vierte Veſper · Erſter Pſalm"
+    \section "10" "Vierte Veſper · Erſter Pſalm"
     \addTocEntry
     \score {
       <<
@@ -224,7 +224,7 @@
     }
   }
   \bookpart {
-    \subsection "Vierte Veſper · Zweyter Pſalm"
+    \section "11" "Vierte Veſper · Zweyter Pſalm"
     \addTocEntry
     \score {
       <<
@@ -245,7 +245,7 @@
     }
   }
   \bookpart {
-    \subsection "Vierte Veſper · Dritter Pſalm"
+    \section "12" "Vierte Veſper · Dritter Pſalm"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {

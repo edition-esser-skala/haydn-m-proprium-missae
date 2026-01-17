@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoDXLVIIa = \tempoMarkup "Aria · Allegretto"
-tempoDXLVIIb = \tempoMarkup "Chorus · Vivace"
+tempoDXLVIIa = \tempoTitleMarkup "Aria" "Allegretto"
+tempoDXLVIIb = \tempoTitleMarkup "Chorus" "Vivace"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

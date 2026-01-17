@@ -9,7 +9,7 @@ markGloria = {
   \mark \markup \remark "Gloria Patri et Filio et Spiritui Sancto:"
 }
 
-tempoXCIX = \tempoMarkup "[Tempo deest]"
+tempoXCIX = \tempoMarkup "[no tempo]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

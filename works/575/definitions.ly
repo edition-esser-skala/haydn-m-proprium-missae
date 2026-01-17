@@ -3,8 +3,8 @@
 tempoDLXXVa = \tempoMarkup "Erſter Ton"
 tempoDLXXVb = \tempoMarkup "Dritter Ton"
 tempoDLXXVc = \tempoMarkup "Fünfter Ton"
-tempoDLXXVd = \tempoMarkup "Sechſter Ton · Allegretto"
-tempoDLXXVe = \tempoMarkup "Fremder Ton · Maestoso"
+tempoDLXXVd = \tempoTitleMarkup "Sechſter Ton" "Allegretto"
+tempoDLXXVe = \tempoTitleMarkup "Fremder Ton" "Maestoso"
 
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"

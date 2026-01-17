@@ -167,7 +167,7 @@ CCLIIIAltoLyrics = \lyricmode {
 }
 
 CCLIIIAltoLyricsAmen = \lyricmode {
-  \repeat unfold 247 { \skip 8 }
+  \skips 247
   A -- men, %77
   a -- men, a --
   men, al -- le -- lu -- ia, a --

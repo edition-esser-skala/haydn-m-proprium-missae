@@ -271,7 +271,7 @@ DCVIIISopranoLyricsA = \lyricmode {
 }
 
 DCVIIISopranoLyricsB = \lyricmode {
-  \repeat unfold 160 { \skip 1 }
+  \skips 160
   Al -- le -- %95
   lu -- ia,
   al -- le --

@@ -67,7 +67,7 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >python $(EES_TOOLS_PATH)/read_metadata.py edition \\
 >  -i works/{work}/metadata.yaml \\
 >  -t {score} \\
->  -k acknowledgements commentary festival genre lyrics tocstyle toe \\
+>  -k abbrwidth acknowledgements enlargefirstpage commentary festival genre lyrics tocstyle toe \\
 >  -s ../tmp/{work} \\
 >  -q https://edition.esser-skala.at/assets/pdf/haydn-m-proprium-missae/{work} \\
 >  -c tag

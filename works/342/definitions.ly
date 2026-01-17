@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoCCCXLII = \tempoMarkup "[Tempo deest]"
+tempoCCCXLII = \tempoMarkup "[no tempo]"
 tempoCCCXLIIb = \tempoMarkup "Vivace"
 tempoCCCXLIIc = \tempoMarkup "Allegro"
 

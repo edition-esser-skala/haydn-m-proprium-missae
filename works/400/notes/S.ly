@@ -470,7 +470,7 @@ CDSopranoLyrics = \lyricmode {
 }
 
 CDSopranoLyricsAmen = \lyricmode {
-  \repeat unfold 376 { \skip 4 }
+  \skips 376
   A -- %219
   men, %220
   a -- _ _

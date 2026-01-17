@@ -3,7 +3,7 @@
 tempoCXL = \tempoMarkup "Allegro moderato"
 tempoCXLb = \tempoMarkup "Adagio"
 tempoCXLc = \tempoMarkup "Tempo primo"
-tempoCXLd = \tempoMarkup "[Tempo deest]"
+tempoCXLd = \tempoMarkup "[no tempo]"
 tempoCXLe = \tempoMarkup "Largo"
 tempoCXLf = \tempoMarkup "Andante"
 tempoCXLg = \tempoMarkup "Tempo ordinario"

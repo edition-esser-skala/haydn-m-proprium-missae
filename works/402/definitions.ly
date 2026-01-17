@@ -1,7 +1,5 @@
 \version "2.24.0"
 
-trillWithNatural = \tweak self-alignment-X #CENTER ^\markup { \raise #1 \natural \musicglyph #'"scripts.trill" }
-
 tempoCDII = \tempoMarkup "Andante"
 
 \include "notes/cor1.ly"

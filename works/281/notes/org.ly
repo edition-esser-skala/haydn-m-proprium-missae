@@ -41,7 +41,7 @@ CCLXXXIOrgano = {
     c c' a g fis e d fis g8 h, c d %35
     g,4 r8 g\p g' g g g
     g g, r g' d' d, r d
-    d d d d g,4 r8 \mvTr h\f-\tuttiE ^\tweak TextScript.X-offset #0 ^\critnote
+    d d d d g,4 r8 \mvTr h\f-\tuttiE ^\mvTz ^\critnote
     c h r h c h r h
     c c d d g, r \mvTr g'\pE-\soloE r %40
     c, r d r g, g'\f gis e

@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \subsection "Nocturni 1:mi Responsorium 1:mum"
+    \section "1" "Nocturni 1:mi Responsorium 1:mum"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
@@ -18,7 +18,7 @@
     }
   }
   \bookpart {
-    \subsection "Nocturni 1:mi Responsorium 2:dum"
+    \section "2" "Nocturni 1:mi Responsorium 2:dum"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
@@ -29,7 +29,7 @@
     }
   }
   \bookpart {
-    \subsection "Nocturni 1:mi Responsorium 3:tium"
+    \section "3" "Nocturni 1:mi Responsorium 3:tium"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
@@ -40,7 +40,7 @@
     }
   }
   \bookpart {
-    \subsection "Nocturni 2:di Responsorium 1:mum"
+    \section "4" "Nocturni 2:di Responsorium 1:mum"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
@@ -51,7 +51,7 @@
     }
   }
   \bookpart {
-    \subsection "Nocturni 2:di Responsorium 2:dum"
+    \section "5" "Nocturni 2:di Responsorium 2:dum"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
@@ -62,7 +62,7 @@
     }
   }
   \bookpart {
-    \subsection "Nocturni 2:di Responsorium 3:tium"
+    \section "6" "Nocturni 2:di Responsorium 3:tium"
     \addTocEntry
     \paper { page-count = #1 }
     \score {
@@ -73,7 +73,7 @@
     }
   }
   \bookpart {
-    \subsection "Nocturni 3:tii Responsorium 1:mum"
+    \section "7" "Nocturni 3:tii Responsorium 1:mum"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
@@ -84,7 +84,7 @@
     }
   }
   \bookpart {
-    \subsection "Nocturni 3:tii Responsorium 2:dum"
+    \section "8" "Nocturni 3:tii Responsorium 2:dum"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
@@ -95,7 +95,7 @@
     }
   }
   \bookpart {
-    \subsection "Nocturni 3:tii Responsorium 3:tium"
+    \section "9" "Nocturni 3:tii Responsorium 3:tium"
     \addTocEntry
     \score {
       <<

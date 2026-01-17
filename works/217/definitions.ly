@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-tempoCCXVIIa = \tempoMarkup "Coro · Presto"
-tempoCCXVIIb = \tempoMarkup "Aria · Andante"
+tempoCCXVIIa = \tempoTitleMarkup "Coro" "Presto"
+tempoCCXVIIb = \tempoTitleMarkup "Aria" "Andante"
 tempoCCXVIIc = \tempoMarkup "Recitativo"
-tempoCCXVIId = \tempoMarkup "Coro · Allegro"
+tempoCCXVIId = \tempoTitleMarkup "Coro" "Allegro"
 
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"

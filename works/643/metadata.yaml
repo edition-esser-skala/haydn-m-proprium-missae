@@ -10,8 +10,9 @@ sources:
     shelfmark: Kasten IV, fasc. 123
     license: public domain
     principal: true
+tocstyle: default
 toe: |
-  3 & org & Notes in small print have been added by the editor. \\
+  3 & – & org & Notes in small print have been added by the editor. \\
 parts:
   org_solo: Organo solo
 lyrics:

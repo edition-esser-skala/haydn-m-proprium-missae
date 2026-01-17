@@ -308,7 +308,7 @@ CDXXVISopranoLyrics = \lyricmode {
 }
 
 CDXXVISopranoLyricsAmen = \lyricmode {
-  \repeat unfold 414 { \skip 1 }
+  \skips 414
   A -- men, %127
   a -- men,
   a -- men,

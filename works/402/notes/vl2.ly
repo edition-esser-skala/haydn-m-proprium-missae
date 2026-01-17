@@ -35,7 +35,7 @@ CDIIViolinoII = {
     fis4 fis fis fis8 fis
     fis2 fis8 fis'\trill fis,16 cis' e cis %30
     d8 fis\trill dis16 h fis' dis e8 h\trill h'16 e, g h,
-    h8 dis, fis dis e h'\trillWithNatural e16 h g' e
+    h8 dis, fis dis e h'\trillNatural e16 h g' e
     a,8 a dis, fis fis e h'16 e, h' g
     fis4( e8) e e4( d8) fis
     fis e g e d a' d16 a fis' d %35

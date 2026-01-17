@@ -13,7 +13,7 @@
 
 \book {
   \bookpart {
-    \section "201·1" "Crucem sanctam subiit"
+    \section "1" "Crucem sanctam subiit"
     \addTocEntry
     \paper { indent = 3\cm }
     \score {
@@ -57,7 +57,7 @@
     }
   }
   \bookpart {
-    \section "201·2" "Sacerdos et pontifex"
+    \section "2" "Sacerdos et pontifex"
     \addTocEntry
     \score {
       <<
@@ -100,7 +100,7 @@
     }
   }
   \bookpart {
-    \section "201·3" "Lux perpetua lucebit"
+    \section "3" "Lux perpetua lucebit"
     \addTocEntry
     \paper { systems-per-page = #2 }
     \score {

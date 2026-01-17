@@ -3,8 +3,6 @@
 tempoCDXXVI = \tempoMarkup "Moderato"
 tempoCDXXVIb = \tempoMarkup "Allegro"
 
-trillNatural = \tweak self-alignment-X #CENTER ^\markup { \raise #1 \fontsize #-2 \natural \musicglyph #'"scripts.trill" }
-
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
 \include "notes/cor1.ly"

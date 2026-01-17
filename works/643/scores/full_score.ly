@@ -12,7 +12,7 @@
 
 \book {
   \bookpart {
-    \section "643·1" "Wir bethen an dich, wahres Engelsbrod"
+    \section "1" "Wir bethen an dich, wahres Engelsbrod"
     \addTocEntry
     \paper { indent = 3.2\cm }
     \score { %\articulate
@@ -60,7 +60,7 @@
     }
   }
   \bookpart {
-    \section "643·2" "Wir bethen an dich, wahres Engelsbrod"
+    \section "2" "Wir bethen an dich, wahres Engelsbrod"
     \addTocEntry
     \score { %\articulate
       <<
@@ -107,7 +107,7 @@
     }
   }
   \bookpart {
-    \section "643·3" "Segne, Jeſu, deine Heerde"
+    \section "3" "Segne, Jeſu, deine Heerde"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #15

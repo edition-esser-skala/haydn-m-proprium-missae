@@ -29,9 +29,10 @@ sources:
     url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-i-339-7
     license: CC-BY-SA-4.0
     notes: only communio
+tocstyle: default
 toe: |
-  2/59 & S   & 1st \quarterNote\ in \B1: c″4 \\
-  4/35 & org & last \quarterNote\ in \B1: c4 \\
+  2 & 59 & S   & 1st \quarterNote\ in \B1: c″4 \\
+  4 & 35 & org & last \quarterNote\ in \B1: c4 \\
 lyrics:
   \textsb{Introitus}\\
   Nos autem gloriari oportet\\

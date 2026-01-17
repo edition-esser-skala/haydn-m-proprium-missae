@@ -1,8 +1,8 @@
 \version "2.24.0"
 
-tempoCCI = \tempoMarkup "[Tempo deest]"
-tempoCCIb = \tempoMarkup "[Tempo deest]"
-tempoCCIc = \tempoMarkup "[Tempo deest]"
+tempoCCI = \tempoMarkup "[no tempo]"
+tempoCCIb = \tempoMarkup "[no tempo]"
+tempoCCIc = \tempoMarkup "[no tempo]"
 
 \include "notes/S.ly"
 \include "notes/A.ly"

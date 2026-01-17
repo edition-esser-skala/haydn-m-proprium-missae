@@ -64,7 +64,7 @@ CCCLXXIIIOrgano = {
     fis'-! e-! r
     r gis, a
     d, e e %60
-    \markInsertion a, r8 a'16-\unisono h cis h a gis
+    \markCritnote a, r8 a'16-\unisono h cis h a gis
     fis4 a, fis
     h h cis
     d cis h

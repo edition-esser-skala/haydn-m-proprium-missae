@@ -33,10 +33,11 @@ sources:
     rism: 840016640
     url: https://gallica.bnf.fr/ark:/12148/cb409883531
     license: custom (free for non-commercial purposes)
+tocstyle: default
 toe: |
-  – & coro & Double caps spelling of “JEsus” (2·1, bar 29;
-             2·2, bars 5, 12, and 32; 3·2, bar 1) and “DEus”
-             (2·2, bar 15) according to \A1 \\
+  – & coro & Double caps spelling of “JEsus” (4, bar 29;
+             5, bars 5, 12, and 32; 8, bar 1) and “DEus”
+             (5, bar 15) according to \A1 \\
 lyrics:
   \textit{Nocturni 1:mi Responsorium 1:mum}\\
   Omnes amici mei dereliquerunt me,\\

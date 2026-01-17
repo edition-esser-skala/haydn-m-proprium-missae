@@ -7,7 +7,7 @@
   }
 }
 
-tempoCCCXCV = \tempoMarkup "[Tempo deest]"
+tempoCCCXCV = \tempoMarkup "[no tempo]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "643·1" "Wir bethen an dich, wahres Engelsbrod"
+    \section "1" "Wir bethen an dich, wahres Engelsbrod"
     \addTocEntry
     \paper { systems-per-page = #7 }
     \score {
@@ -17,7 +17,7 @@
     }
   }
   \bookpart {
-    \section "643·2" "Wir bethen an dich, wahres Engelsbrod"
+    \section "2" "Wir bethen an dich, wahres Engelsbrod"
     \addTocEntry
     \paper { systems-per-page = #5 }
     \score {
@@ -27,7 +27,7 @@
     }
   }
   \bookpart {
-    \section "643·3" "Segne, Jeſu, deine Heerde"
+    \section "3" "Segne, Jeſu, deine Heerde"
     \addTocEntry
     \paper { systems-per-page = #5 }
     \score {

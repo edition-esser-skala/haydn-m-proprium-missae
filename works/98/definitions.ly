@@ -5,7 +5,7 @@ markLavabisDaCapo = {
   \mark \markup \remark "Lavabis da capo"
 }
 
-tempoXCVIII = \tempoMarkup "[Tempo deest]"
+tempoXCVIII = \tempoMarkup "[no tempo]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

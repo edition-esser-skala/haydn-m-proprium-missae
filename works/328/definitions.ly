@@ -1,17 +1,6 @@
 \version "2.24.0"
 
-markTimeSig = #(define-music-function
-  (parser location meter)
-  (list?)
-  #{
-    \mark \markup {
-      \fontsize #-6
-      \override #'(padding . 0) \parenthesize
-      \compound-meter #meter
-    }
-  #})
-
-tempoCCCXXVIII = \tempoMarkup "[Tempo deest]"
+tempoCCCXXVIII = \tempoMarkup "[no tempo]"
 
 \include "notes/S.ly"
 \include "notes/A.ly"

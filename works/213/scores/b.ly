@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "213·1" "Exsultate Deo"
+    \section "1" "Exsultate Deo"
     \addTocEntry
     \score {
       <<
@@ -16,7 +16,7 @@
     }
   }
   \bookpart {
-    \section "213·2" "O sacrum convivium"
+    \section "2" "O sacrum convivium"
     \addTocEntry
     \score {
       <<
@@ -25,7 +25,7 @@
     }
   }
   \bookpart {
-    \section "213·3" "O sacramentum pietatis"
+    \section "3" "O sacramentum pietatis"
     \addTocEntry
     \score {
       <<
@@ -34,7 +34,7 @@
     }
   }
   \bookpart {
-    \section "213·4" "Confitemini Domino"
+    \section "4" "Confitemini Domino"
     \addTocEntry
     \score {
       <<

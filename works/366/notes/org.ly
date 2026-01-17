@@ -116,7 +116,7 @@ CCCLXVIOrgano = {
     c,[ r c'] %110
     b[ r b,]
     c d d
-    \mvTr g-!\p-\tutti ^\tweak TextScript.X-offset #0 ^\markup \remark "staccato" g-! g-!
+    \mvTr g-!\p-\tutti ^\mvTz ^\markup \remark "staccato" g-! g-!
     f!-! f-! f-!
     b,-!\f b-! b-! %115
     es-! es-! es-!

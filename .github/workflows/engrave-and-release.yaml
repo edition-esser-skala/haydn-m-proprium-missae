@@ -11,22 +11,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v6
 
       - name: Fix git safe.directory in container
         run: mkdir -p /home/runner/work/_temp/_github_home && printf "[safe]\n\tdirectory = /github/workspace" > /home/runner/work/_temp/_github_home/.gitconfig
 
       - name: Engrave
-        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2023.10.0
+        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2026.01.0
         with:
           args: make -B preface works
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@7.0.1
+        uses: burnett01/rsync-deployments@v8
         with:
-          switches: -avzr
+          switches: -avzrm
           path: final/
-          remote_path: html/edition/assets/pdf/haydn-m-proprium-missae/
+          remote_path: html/edition/assets/haydn-m-proprium-missae/
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}
@@ -34,22 +34,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v6
 
       - name: Fix git safe.directory in container
         run: mkdir -p /home/runner/work/_temp/_github_home && printf "[safe]\n\tdirectory = /github/workspace" > /home/runner/work/_temp/_github_home/.gitconfig
 
       - name: Engrave
-        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2023.10.0
+        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2026.01.0
         with:
           args: make -B works_1
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@7.0.1
+        uses: burnett01/rsync-deployments@v8
         with:
-          switches: -avzr
+          switches: -avzrm
           path: final/
-          remote_path: html/edition/assets/pdf/haydn-m-proprium-missae/
+          remote_path: html/edition/assets/haydn-m-proprium-missae/
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}
@@ -57,22 +57,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v6
 
       - name: Fix git safe.directory in container
         run: mkdir -p /home/runner/work/_temp/_github_home && printf "[safe]\n\tdirectory = /github/workspace" > /home/runner/work/_temp/_github_home/.gitconfig
 
       - name: Engrave
-        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2023.10.0
+        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2026.01.0
         with:
           args: make -B works_2
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@7.0.1
+        uses: burnett01/rsync-deployments@v8
         with:
-          switches: -avzr
+          switches: -avzrm
           path: final/
-          remote_path: html/edition/assets/pdf/haydn-m-proprium-missae/
+          remote_path: html/edition/assets/haydn-m-proprium-missae/
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}
@@ -80,22 +80,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v6
 
       - name: Fix git safe.directory in container
         run: mkdir -p /home/runner/work/_temp/_github_home && printf "[safe]\n\tdirectory = /github/workspace" > /home/runner/work/_temp/_github_home/.gitconfig
 
       - name: Engrave
-        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2023.10.0
+        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2026.01.0
         with:
           args: make -B works_3
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@7.0.1
+        uses: burnett01/rsync-deployments@v8
         with:
-          switches: -avzr
+          switches: -avzrm
           path: final/
-          remote_path: html/edition/assets/pdf/haydn-m-proprium-missae/
+          remote_path: html/edition/assets/haydn-m-proprium-missae/
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}
@@ -103,22 +103,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v6
 
       - name: Fix git safe.directory in container
         run: mkdir -p /home/runner/work/_temp/_github_home && printf "[safe]\n\tdirectory = /github/workspace" > /home/runner/work/_temp/_github_home/.gitconfig
 
       - name: Engrave
-        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2023.10.0
+        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2026.01.0
         with:
           args: make -B works_4
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@7.0.1
+        uses: burnett01/rsync-deployments@v8
         with:
-          switches: -avzr
+          switches: -avzrm
           path: final/
-          remote_path: html/edition/assets/pdf/haydn-m-proprium-missae/
+          remote_path: html/edition/assets/haydn-m-proprium-missae/
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}

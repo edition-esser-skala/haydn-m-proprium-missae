@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoDLXVII = \tempoMarkup "[Tempo deest]"
+tempoDLXVII = \tempoMarkup "[no tempo]"
 
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"

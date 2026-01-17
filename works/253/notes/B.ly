@@ -167,7 +167,7 @@ CCLIIIBassoLyrics = \lyricmode {
 }
 
 CCLIIIBassoLyricsAmen = \lyricmode {
-  \repeat unfold 260 { \skip 8 }
+  \skips 260
   A -- men, %77
   a -- men, a --
   men, al -- le -- lu -- ia, a --

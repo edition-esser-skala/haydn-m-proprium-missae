@@ -86,8 +86,8 @@ CCCLXAltoLyrics = \lyricmode {
   la -- cry --
   ma -- bi -- lis es,
   vir -- go Ma --
-  ri -- a, \skip 4
-  \skip 4 \skip 4 %10
+  ri -- a,
+  \skips 3 %10
   stans __
   iux -- ta
   cru --

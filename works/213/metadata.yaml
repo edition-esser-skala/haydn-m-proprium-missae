@@ -14,20 +14,21 @@ sources:
     url: https://gallica.bnf.fr/ark:/12148/btv1b10072981p
     license: custom (free for non-commercial purposes)
     principal: true
+tocstyle: default
 toe: |
-  1/5   & B   & 1st \halfNote\ in \B1: g8.–g16–g4 \\
-  1/9   & A   & 4th \eighthNote\ in \B1: e′4 \\
-  1/16  & T   & last \sixteenthNote\ in \B1: a16 \\
-  2/18  & S   & last \eighthNote\ in \B1: g″8 \\
-  2/27  & T   & 3rd \quarterNote\ in \B1: d′4 \\
-  2/35  & B   & 2nd/3rd \quarterNote\ in \B1: f4.–B8 \\
-  2/47  & T   & 2nd/3rd \quarterNote\ in \B1: c′8–d′8–c′4 \\
-  3/6   & org & 6th \eighthNote\ in \B1: \flat e16–d16 \\
-  3/7   & T   & 5th \eighthNote\ in \B1: a8 \\
-  3/13  & org & 2nd \quarterNote\ in \B1: F8–\quaverRest \\
-  4/17  & org & 1st \quarterNote\ in \B1: d″4 in treble clef \\
-  4/38  & T   & last \eighthNote\ in \B1: b8 \\
-  4/48f & org & notes in treble clef missing in \B1 \\
+  1 & 5   & B   & 1st \halfNote\ in \B1: g8.–g16–g4 \\
+    & 9   & A   & 4th \eighthNote\ in \B1: e′4 \\
+    & 16  & T   & last \sixteenthNote\ in \B1: a16 \\
+  2 & 18  & S   & last \eighthNote\ in \B1: g″8 \\
+    & 27  & T   & 3rd \quarterNote\ in \B1: d′4 \\
+    & 35  & B   & 2nd/3rd \quarterNote\ in \B1: f4.–B8 \\
+    & 47  & T   & 2nd/3rd \quarterNote\ in \B1: c′8–d′8–c′4 \\
+  3 & 6   & org & 6th \eighthNote\ in \B1: \flat e16–d16 \\
+    & 7   & T   & 5th \eighthNote\ in \B1: a8 \\
+    & 13  & org & 2nd \quarterNote\ in \B1: F8–\quaverRest \\
+  4 & 17  & org & 1st \quarterNote\ in \B1: d″4 in treble clef \\
+    & 38  & T   & last \eighthNote\ in \B1: b8 \\
+    & 48f & org & notes in treble clef missing in \B1 \\
 lyrics:
   \textsb{1}\\
   Exsultate Deo adiutori nostro,\\

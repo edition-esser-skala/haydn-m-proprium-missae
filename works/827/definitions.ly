@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoDCCCXXVII = \tempoMarkup "A 4 voci in canone · Adagio cantabile"
-tempoDCCCXXVIIb = \tempoMarkup "Chorus · Presto"
+tempoDCCCXXVII = \tempoTitleMarkup "A 4 voci in canone" "Adagio cantabile"
+tempoDCCCXXVIIb = \tempoTitleMarkup "Chorus" "Presto"
 
 \include "notes/fl_ob1.ly"
 \include "notes/fl_ob2.ly"

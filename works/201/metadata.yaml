@@ -13,6 +13,7 @@ sources:
     url: https://gallica.bnf.fr/ark:/12148/cb409883531
     license: custom (free for non-commercial purposes)
     principal: true
+tocstyle: default
 toe: |
   – & org & This part has been added by the editor. \\
 lyrics: |

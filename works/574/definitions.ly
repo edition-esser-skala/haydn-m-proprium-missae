@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoDLXXIVa = \tempoMarkup "Choral · Achter Ton"
+tempoDLXXIVa = \tempoTitleMarkup "Choral" "Achter Ton"
 tempoDLXXIVb = \tempoMarkup "Fünfter Ton"
 tempoDLXXIVc = \tempoMarkup "Erſter Ton"
 

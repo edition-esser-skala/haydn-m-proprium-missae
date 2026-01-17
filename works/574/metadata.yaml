@@ -12,6 +12,7 @@ sources:
     url: https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_32173
     license: CC BY-SA 4.0
     principal: true
+tocstyle: default
 parts:
   ottoni: Corno I, II in D/F/G\\Clarino I, II in C
 lyrics:

@@ -14,7 +14,7 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \medium \remark "ob 1"
+            \setSoloText "ob 1"
             \partCombine \CXLIIIOboeI \CXLIIIOboeII
           }
         >>

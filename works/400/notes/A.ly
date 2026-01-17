@@ -460,7 +460,7 @@ CDAltoLyrics = \lyricmode {
 }
 
 CDAltoLyricsAmen = \lyricmode {
-  \repeat unfold 370 { \skip 4 }
+  \skips 370
   A -- %219
   men, %220
   a -- _ _
