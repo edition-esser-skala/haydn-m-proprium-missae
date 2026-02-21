@@ -1,0 +1,69 @@
+title: De profundis tenebrarum
+id: MH 280
+genre: sequence
+festival: "ad festum S: P: Augustini"
+scoring: 2 S (solo), 2 cor (F), 2 vl, b, org
+ark: 68748/e1jmh280
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus II.39
+    date: 1778-08-26
+    rism: 530001711
+    url: https://copia.oszk.hu/kotta/sequentia-ad-festum-s-p-augustini/
+    license: public domain
+    principal: true
+parts:
+  cor12: Corno I, II in F
+  S_solo: Soprani
+lyrics:
+  De profundis tenebrarum\\
+  lumen mundi exit clarum\\
+  et scintillat hodie.\\
+  Olim quidem vas erroris\\
+  Augustinus vas honoris\\
+  datus est Ecclesiae.\\
+  Verbo DEi dum obedit,\\
+  credit errans, et accedit\\
+  ad baptismi gratiam.\\
+  Quam imprimis tuebatur\\
+  verbis scriptis execratur\\
+  erroris fallaciam.\\
+  Firmans fidem, formans mores\\
+  legis sacrae perversores\\
+  verbi necat gladio.\\
+  Obmutescit Fortunatus,\\
+  cedunt Manes et Donatus\\
+  tantae lucis radio.\\
+  Mundus marcens, et inanis,\\
+  et doctrinis tumens vanis\\
+  per pestem haereditam.\\
+  Multum coepit fructum ferre\\
+  dum in fines orbis terrae\\
+  fidem sparsit unicam.\\
+  Monachalis vitae formam\\
+  conquadravit juxta normam\\
+  coetus Apostolici.\\
+  Sui quippe nil habebant\\
+  tamquam suum, sed vivebant\\
+  in commune clerici.\\[1ex]
+  Sic multorum pro salute\\
+  diu vivens in virtute\\
+  tandem bonae senectute\\
+  dormivit cum Patribus.\\
+  In extremis nil legavit\\
+  qui nil suum aestimavit\\
+  imo totum reputavit\\
+  commune cum fratribus.\\
+  Salve gemma Confessorum,\\
+  lumen Christi, vox coelorum.\\[1ex]
+  Tuba vitae salve, salve,\\
+  lux Doctorum salve, salve,\\
+  Praesul beatissime!\\
+  Qui te Patrem venerantur\\
+  Te ductore consequantur\\
+  vitam in qua gloriantur\\
+  beatorum animae.\\
+  Amen alleluia.\\[1ex]
+  (Cantus Index ah55075)
