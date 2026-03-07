@@ -2,20 +2,29 @@ title: Læta quies magni Ducis
 id: MH 253
 genre: sequence
 festival: Benedicti Abbatis
-scoring: S, A, T, B (coro), 2 cl (\flat B), 2 cor (F), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 ob (\flat B), 2 cor (F), 2 vl, b, org
 ark: 68748/e1jmh253
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms. Mus. II. 38
+    date: 1777-03-11
+    rism: 530001720
+    url: https://copia.oszk.hu/kotta/sequentia-pro-festo-sti-p-benedicti/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 196
     rism: 600038148
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/979.html
     license: public domain
-    principal: true
+toe: |
+  – & cor & according to \A1 added in 1802 \\
 parts:
-  cl1: Clarinetto I in \flat B
-  cl2: Clarinetto II in \flat B
+  ob1: Oboe I in \flat B
+  ob2: Oboe II in \flat B
   cor12: Corno I, II in F
 lyrics: |
   Laeta quies magni Ducis,\\

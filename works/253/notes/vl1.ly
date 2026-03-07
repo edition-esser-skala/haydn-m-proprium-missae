@@ -15,42 +15,42 @@ CCLIIIViolinoI = {
     c g4 a16( g) g4. a8
     b!4. d8 c( b) a4 %10
     c4. d16( c) c4. d8
-    es4. g8 f( es) d4
+    es4. g8 f( \hA es) d4
     d4. e8 f c4 d8
-    f,4. g8 \appoggiatura g a4 c16 c( a f)
+    f,4. g8 \appoggiatura g a4 c16 c( a) f
     d'4. e8 f c4 d8 %15
     a4 g\trill f8 c'' f,4~
     \tuplet 3/2 8 { f16[ g-! a-!] b-! c-! d-! c[ b a] g a b] } a8 c f,4~
     \tuplet 3/2 8 { f16[ e f] g f e b'[ c, c] c d b a[-! c( a)] d-! d,-! b'-! } f8( e)\trill
-    \tuplet 3/2 8 { f16([ c') c-!] c-! a-! f-! } g'4\trill f8 \tuplet 3/2 8 { a,16 g a f[ e f] cis h cis }
+    \tuplet 3/2 8 { f16([ c') c-!] c-! a-! f-! } g'4\trill f8 \tuplet 3/2 8 { a,16 g a f[ e f] cis h \hA cis }
     \appoggiatura d a'4. d8 d4 cis %20
     cis4. e8 e4 d
     b4. a8 \appoggiatura a g4 g
     g8 a16 h cis d e f g4. \appoggiatura f16 e8
-    \appoggiatura d8 cis4. cis8 d( b) a( g)
-    g4 f\trill e8 \tuplet 3/2 8 { cis'16 h cis a[ gis a] cis h cis } %25
+    \appoggiatura d16 cis4. cis8 d( b) a( g)
+    g4 f\trill e8 \tuplet 3/2 8 { cis'16 h \hA cis a[ gis a] cis \hA h \hA cis } %25
     e4. g16( e) \appoggiatura d8 cis4 d
-    es4. g16( es) \appoggiatura d8 cis4 d
+    es4. g16( \hA es) \appoggiatura d8 cis4 d
     b4. a8 \appoggiatura a g4 g
     g8 a16 h cis d e f g4. \appoggiatura f16 e8
-    \appoggiatura d8 cis4. cis8 d4 d %30
+    \appoggiatura d16 cis4. cis8 d4 d %30
     d8( f4) e8 d[ r16 d] \tuplet 3/2 8 { d,[ cis d] d' cis d }
     es8. d16 cis8 r d8. a16 a8 b
     f4 e!\trill d8 f' f4~
-    \tuplet 3/2 8 { f16[ d es] f es d b'[ a g] f es d } \appoggiatura f es8 es es4~
-    \tuplet 3/2 8 { es16[ d c] b a g f[ g f] es f es d[ b'( a)] b-! f-! b-! } c4\trill %35
+    \tuplet 3/2 8 { f16[ d es] f \hA es d b'[ a g] f es d } \appoggiatura f \hA es8 es es4~
+    \tuplet 3/2 8 { es16[ d c] b a g f[ g f] es f \hA es d[ b'( a)] b-! f-! b-! } c4\trill %35
     \tuplet 3/2 8 { d16[-! f( es)] f-! b,-! b'-! } c,4\trill b8 \tuplet 3/2 8 { b16 a b d,[ c d] f es f }
     b,8 b'' b b b16( d,) d4 d8~
     d c d es \appoggiatura d c4 c
     c8 c' c c c16( es,) es4 es8~
-    es d es f \appoggiatura es d4 d %40
+    es d \hA es f \hA \appoggiatura es d4 d %40
     c4. b8 b( a) b c
     c4( \grace es16 d8) d c4 f,8\p f
-    es4 d\trill c8 f16.\f f32 \tuplet 3/2 8 { f16[ es d] es d c }
+    es4 d\trill c8 f16.\f f32 \tuplet 3/2 8 { f16[ es d] \hA es d c }
     b8 f''16. f32 \tuplet 3/2 8 { b16[ b b] b b b } b( d,) d4 d8~
     d c d es \appoggiatura d c4 c %45
     f,8 a'16. b32 \tuplet 3/2 8 { c16[ c c] c c c } c( es,) es4 es8~
-    es d es f \appoggiatura es d4 d
+    es d \hA es f \hA \appoggiatura es d4 d
     c4. b8 a g' f es
     d4 c\trill b8 \tuplet 3/2 8 { b'16 b, b' a[ b, a'] g b, g' }
     f4 f f4. g8 %50
@@ -69,13 +69,13 @@ CCLIIIViolinoI = {
     c g4 a16( g) g4. a8
     b!4. d8 c( b) a4
     c4. d16( c) c4. d8 %65
-    es4. g8 f( es) d4
+    es4. g8 f( \hA es) d4
     d4. e8 f c4 d8
     f,4. \appoggiatura a16 g8 f \tuplet 3/2 8 { f16 g f e[ f e] d e d
     c[\p e g] } g4 a16( g) \tuplet 3/2 8 { g e g } g4 a8
     \appoggiatura c16 b!8 b4 d8 \tuplet 3/2 8 { c16[( d c] b c b) } a4 %70
     \tuplet 3/2 8 { f16 a c } c4 d16( c) \tuplet 3/2 8 { c a c } c4 d8
-    \appoggiatura f16 es8 es4 g8 \tuplet 3/2 8 { f16[( g f] es f es) } d4
+    \appoggiatura f16 es8 es4 g8 \tuplet 3/2 8 { f16[( g f] \hA es f \hA es) } d4
     \appoggiatura cis16 d8 d4 e8 f16( c) c4 d16( f,)
     f4. g8\trill \appoggiatura g a4 \tuplet 3/2 8 { f'16[-!\f c-! b-!] a g f }
     \appoggiatura { b,[ f'] } d'8. c16 d8 e f16( e) f( e) f( c) d( b) %75

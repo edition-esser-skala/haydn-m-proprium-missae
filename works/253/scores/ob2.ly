@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "cl 1")
+#(define option-instrument-name "ob 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -13,8 +13,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = \transposedNameShort "cl 1" "B" "flat"
-          \CCLIIIClarinettoI
+          \set Staff.instrumentName = \transposedNameShort "ob 2" "B" "flat"
+          \CCLIIIOboeII
         }
       >>
     }

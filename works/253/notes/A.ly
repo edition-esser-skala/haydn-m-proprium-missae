@@ -167,13 +167,11 @@ CCLIIIAltoLyrics = \lyricmode {
 }
 
 CCLIIIAltoLyricsAmen = \lyricmode {
-  \skips 247
-  A -- men, %77
-  a -- men, a --
-  men, al -- le -- lu -- ia, a --
-  men, al -- le -- lu -- ia, al -- %80
+  \skips 253
+  al -- le -- lu -- ia,
+  \skips 2 al -- le -- lu -- ia, al -- %80
   le -- lu -- ia,
-  a -- men, a -- men,
+  \skips 4
   al -- le -- lu -- ia, al --
   le -- _ lu -- ia, al -- le -- lu --
   ia, al -- le -- lu -- ia, al -- le -- lu -- %85

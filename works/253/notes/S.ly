@@ -14,7 +14,7 @@ CCLIIISoprano = {
     g4. a16([ g)] g4. a8
     b!4. d8 c([ b)] a4 %10
     c4. d16([ c)] c4. d8
-    es4. g8 f([ es)] d4
+    es4. g8 f([ \hA es)] d4
     d4. e8 f( c4) d8
     f,4. g8 \appoggiatura g a4 r
     d4. e8 f( c4) d8 %15
@@ -24,13 +24,13 @@ CCLIIISoprano = {
     cis4. e8 e4 d
     b4. a8 \appoggiatura a g4 g
     g8([ a16 h] cis[ d)] e([ f)] g4. \appoggiatura f16 e8
-    \appoggiatura d8 cis4. cis8 d([ b)] a([ g)]
+    \appoggiatura d16 cis4. cis8 d([ b)] a([ g)]
     g4( f8.) f16 e4 r %25
     e'4. g16([ e)] \appoggiatura d8 cis4 d
-    es4. g16([ es)] \appoggiatura d8 cis4 d
+    es4. g16([ \hA es)] \appoggiatura d8 cis4 d
     b4. a8 \appoggiatura a g4 g
     g8([ a16 h] cis[ d)] e([ f)] g4. \appoggiatura f16 e8
-    \appoggiatura d8 cis4. cis8 d4 d %30
+    \appoggiatura d16 cis4. cis8 d4 d %30
     d8( f4) e8 d4 r
     es8. d16 cis8 r d8. a16 a8 b
     f4( e!8.) d16 d4 r
@@ -38,14 +38,14 @@ CCLIIISoprano = {
     b'4 f d'2~
     d8 c d es \appoggiatura d c4 c
     c f, es'2~
-    es8 d es f \appoggiatura es d4 d %40
+    es8 d es f \hA \appoggiatura es d4 d %40
     c4. b8 b([ a)] b([ c)]
     c4( \grace es16 d8) d c4 f,8\p f
     es4( d8.) d16 c4 r
     b'\f f d'2~
     d8 c d es \appoggiatura d c4 c %45
     c f, es'2~
-    es8 d es f \appoggiatura es d4 d
+    es8 d \hA es f \hA \appoggiatura es d4 d
     c4. b8 a([ g' f)] es
     d4( c8.) b16 b4 r
     f' f f4. g8 %50
@@ -61,13 +61,13 @@ CCLIIISoprano = {
     g4. a16([ g)] g4. a8
     b!4. d8 c([ b)] a4
     c4. d16([ c)] c4. d8 %65
-    es4. g8 f([ es)] d4
+    es4. g8 f([ \hA es)] d4
     d4. e8 f( c4) d8
     f,4. \appoggiatura a16 g8 f4 r
     g4.\p a16([ g)] g4. a8
     b!4. d8 c([ b)] a4 %70
     c4. d16([ c)] c4. d8
-    es4. g8 f([ es)] d4
+    es4. g8 f([ \hA es)] d4
     d4. e8 f( c4) d8
     f,4. g8 \appoggiatura g a4 r
     d8.\f c16 d8 e f16([ e)] f([ e)] f([ c)] d([ b)] %75
@@ -167,13 +167,11 @@ CCLIIISopranoLyrics = \lyricmode {
 }
 
 CCLIIISopranoLyricsAmen = \lyricmode {
-  \skips 247
-  A -- men, %77
-  a -- men, a --
-  men, al -- le -- lu -- ia, a --
-  men, al -- le -- lu -- ia, al -- %80
+  \skips 253
+  al -- le -- lu -- ia, %79
+  \skips 2  al -- le -- lu -- ia, al -- %80
   le -- lu -- ia,
-  a -- men, a -- men,
+  \skips 4
   al -- le -- lu -- ia, al --
   le -- _ lu -- ia, al -- le -- lu --
   ia, al -- le -- lu -- ia, al -- le -- lu -- %85

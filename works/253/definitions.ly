@@ -2,8 +2,8 @@
 
 tempoCCLIII = \tempoMarkup "Andante cantabile"
 
-\include "notes/cl1.ly"
-\include "notes/cl2.ly"
+\include "notes/ob1.ly"
+\include "notes/ob2.ly"
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"
 \include "notes/vl1.ly"

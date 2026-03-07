@@ -9,20 +9,20 @@
     \section "253" "Læta quies magni Ducis"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedName "Clarinetto" "B" "flat"
+            \set GrandStaff.instrumentName = \transposedName "Oboe" "B" "flat"
             \new Staff {
               \set Staff.instrumentName = "I"
-              % \transpose c b,
-              \CCLIIIClarinettoI
+              \transpose c b,
+              \CCLIIIOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              % \transpose c b,
-              \CCLIIIClarinettoII
+              \transpose c b,
+              \CCLIIIOboeII
             }
           >>
         >>

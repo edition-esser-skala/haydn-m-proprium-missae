@@ -23,7 +23,7 @@ CCLIIIBasso = {
     d'4. d8 e4 e %20
     e4. e8 f4 f
     r2 e4. d8
-    cis4. h8 a([ h16 cis] d[ e)] f([ g)]
+    cis4. h8 a([ \hA h16 \hA cis] d[ e)] f([ g)]
     a8 b! a g f([ d)] cis4
     d4. d8 a4 r %25
     g'4. g8 g4 f
@@ -46,9 +46,9 @@ CCLIIIBasso = {
     b8 f' b es, f4 f %45
     r2 f4 f
     f8 b c f, b4 b,
-    r es4. c8 d es
+    r es4. c8 d \hA es
     f4. fis8 g4 r
-    r8 d'([ c)] b a16([ g f es] d8) es %50
+    r8 d'([ c)] b a16([ g f es] d8) \hA es %50
     f([ es] f8.) f16 b,4 r
     R1*3
     f'4. f8 f4 f %55
@@ -71,16 +71,16 @@ CCLIIIBasso = {
     b,4. b8 a4. b8
     c4. c8 f4 r
     b8.\f a16 b8 b, a a16([ g)] a8 b %75
-    c16([ h c h] c8.) c16 f,4 r
+    c16([ h c \hA h] c8.) c16 f,4 r
     r r8 c' f4 r
     r r8 e f4 r8 a
-    b r e,!8. e16 a8 a, r fis'
+    b r e,8. e16 a8 a, r fis'
     g r c,8. c16 f8 f, r a %80
     b4 h c8 r r4
     \mvDl f2\p d
     b4. b8 c4 c8 \mvDl c(\f
     f) b, c4 f,8 f' c b
-    a b \once \tieDashed c~ c d b \once \tieDashed c~ c %85
+    a b c\( c\) d b c\( c\) %85
     f,4 r r2\fermata \bar "|." %86 finis
   }
 }
@@ -162,20 +162,18 @@ CCLIIIBassoLyrics = \lyricmode {
   a -- men,
   a -- men, a -- men, a --
   men, a -- men, a -- _ _
-  men, a -- _ men, a -- _ %85
+  men, a -- _ _ men, a -- _ _ %85
   men. %86 finis
 }
 
 CCLIIIBassoLyricsAmen = \lyricmode {
-  \skips 260
-  A -- men, %77
-  a -- men, a --
-  men, al -- le -- lu -- ia, a --
-  men, al -- le -- lu -- ia, al -- %80
+  \skips 266
+  al -- le -- lu -- ia, %79
+  \skips 2 al -- le -- lu -- ia, al -- %80
   le -- lu -- ia,
-  a -- men,
+  \skips 2
   \xE al -- le -- lu -- ia, \x al --
   le -- lu -- ia, al -- le -- lu --
-  ia, al -- le_-_lu -- ia, al -- le_-_lu -- %85
+  ia, al -- le -- lu -- ia, al -- le -- lu -- %85
   ia. %86 finis
 }

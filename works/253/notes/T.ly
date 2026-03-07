@@ -46,7 +46,7 @@ CCLIIITenore = {
     f'8 f f g f4 f %45
     r2 a,4 a
     f'8 f es c \appoggiatura c b4 b
-    g8( es'4) d8 c([ es d)] c
+    g8( es'4) d8 c([ \hA es d)] c
     b4( a8.) b16 b4 r
     r8 f'([ es)] d c16([ b a g] f8) b %50
     b4( a8.) b16 b4 r
@@ -80,7 +80,7 @@ CCLIIITenore = {
     \mvDl a4.\p c8 d4 d
     d, b'8[( g)] e([ c')] c \mvDl c~\f
     c d c4 c c
-    c8 \once \tieDashed f,~ f c'16[ b] a8 \once \tieDashed f'~ f c16[ b] %85
+    c8 f,\( f\) c'16[ b] a8 f'\( f\) c16[ b] %85
     a4 r r2\fermata \bar "|." %86 finis
   }
 }
@@ -162,20 +162,18 @@ CCLIIITenoreLyrics = \lyricmode {
   a -- men, a -- men,
   a -- men, a -- men, a --
   men, a -- men, a --
-  men, a -- _ men, a -- _ %85
+  men, a -- _ _ men, a -- _ _ %85
   men. %86 finis
 }
 
 CCLIIITenoreLyricsAmen = \lyricmode {
-  \skips 247
-  A -- men, %77
-  a -- men, a --
-  men, al -- le -- lu -- ia, a --
-  men, al -- le -- lu -- ia, al -- %80
+  \skips 253
+  al -- le -- lu -- ia, %79
+  \skips 2 al -- le -- lu -- ia, al -- %80
   le -- lu -- ia,
-  a -- men, a -- men,
+  \skips 4
   al -- le -- lu -- ia, al --
   le -- lu -- ia, a --
-  men, al_-_le -- lu -- ia, al_-_le -- lu -- %85
+  men, al -- le -- lu -- ia, al -- le -- lu -- %85
   ia. %86 finis
 }

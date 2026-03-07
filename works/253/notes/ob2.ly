@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-CCLIIIClarinettoII = {
+CCLIIIOboeII = {
   \relative c' {
     \clef treble
     \key g \major \time 4/4 \tempoCCLIII
@@ -19,7 +19,7 @@ CCLIIIClarinettoII = {
     g4. a8 g4. g8
     g4. a16 fis \appoggiatura fis8 g4 r8 h
     g4. a8 g4. g8 %15
-    g4 fis\trill g r8 d'
+    g4 fis\trillE g r8 d'
     e4 a8 fis g4 r8 d
     c4 r8 fis, g4 g8( fis)
     r d' e c h4 r
@@ -28,15 +28,15 @@ CCLIIIClarinettoII = {
     R1
     fis8 g16 a h cis dis e fis2~
     fis8 dis r dis e g r fis
-    fis4 e\trill dis8 dis dis4 %25
-    r r8 \once \slurDashed c16( a) fis8 h h g
-    c4. \once \slurDashed c16( a) fis8 h h g
+    fis4 e\trillE dis8 dis dis4 %25
+    r r8 c16 a fis8 h h g
+    c4. c16 a fis8 h h g
     R1
     fis8 fis'4 fis8 fis2~
     fis8 dis r dis e e r e %30
     e4 dis e r
     r dis e8 r e4
-    g, fis\trillE e r8 g
+    g, fis e r8 g
     c e4 e8 d! d r d
     d4. g,8 g4 r8 f %35
     e4 r8 h' c e g e
@@ -52,7 +52,7 @@ CCLIIIClarinettoII = {
     r2 d~
     d8 c c h \appoggiatura h c4 g
     r2 r8 h c d
-    c4 h\trillE c8 c4 c8
+    c4 h c8 c4 c8
     c4 r r8 h c c %50
     c4 g8 f e4 r8 d'
     c e d h a4 r8 e'
@@ -61,7 +61,7 @@ CCLIIIClarinettoII = {
     h,2 g %55
     r8 g4 e16 a g8( fis) g4
     r2 r4 r8 g
-    g4. g8 fis( a) g( h)
+    g4. g8 fis( a) g h
     cis4. d8 e4 r8 a,~
     a g fis e d4 r8 a' %60
     h g' e cis d4 r8 a
@@ -74,15 +74,15 @@ CCLIIIClarinettoII = {
     g4. fis8 g h a cis
     d4 r fis,4.\p g8
     a2 a4 g %70
-    h4. \once \slurDashed c16( h) h4. c8
+    h4. c16 h h4. c8
     d2 d4 c
     g4. a8 g4. g8
     g4. a16 fis \appoggiatura fis8 g4 r8 h\f
     c4 r8 a g4 r8 g %75
-    g4 fis\trill g r8 d'
+    g4 fis\trillE g r8 d'
     e4 a8 fis g4 r8 d
     c4. c8 h4 d
-    c e8 c c h h4
+    c e8. c16 c8 h h4
     a c8. a16 a8[ g] d' r %80
     e r h r a r r fis\p
     g2 h
