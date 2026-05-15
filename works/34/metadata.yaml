@@ -28,3 +28,4 @@ sources:
     license: public domain
 parts:
   clno12: Clarino I, II in C
+  pf: Piano reduction
