@@ -1,0 +1,46 @@
+title: Magnus Dominus
+id: MH 799
+genre: offertorium
+festival: De omni tempore
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, b, org
+ark: 68748/e1jmh799
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms. Mus. 2505
+    date: 1801-08-11
+    url: https://copia.oszk.hu/kotta/offertorium-de-omni-tempore/
+    license: public domain
+    principal: true
+toe: |
+  –   & – & To create this work, Haydn added an introduction (seven bars)
+            to \textit{Laudate populi} MH 792 and extended the final 10~bars
+            to 13~bars. Moreover, he added parts for two oboes, timpani,
+            viola, and basses. The section \textit{Laudate populi} is
+            largely identical to MH 792, with minor differences occurring
+            in clno 2 (bars 38, 73), vl 1 (219), vl 2 (205),
+            and org (27, 29, 136, 220, 222). \\
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
+lyrics:
+  Magnus Dominus et laudabilis nimis\\
+  in civitate Dei nostri, in monte sancto eius.\\
+  (\bibleverse{Ps}(48/47:2))\\[1ex]
+  Laudate populi universi Dominum:\\
+  Deo nostro sit iucunda decoraque laudatio.\\
+  Ipse sanat contritos corde:\\
+  et alligat contritiones eorum.\\
+  Laudate magnum Dominum nostrum:\\
+  nam magna virtus eius,\\
+  et sapientiae eius non est numerus.\\
+  Regnum tuum, regnum omnium saeculorum:\\
+  et dominatio tua in omni generatione et generationem.\\
+  Laudate Dominum iustum in omnibus viis suis:\\
+  et sanctum in omnibus operibus suis.\\
+  Ipse custodit veritatem in saeculum,\\
+  facit iudicium iniuriam patientibus:\\
+  dat escam esurientibus.\\
+  Laudate populi universi Dominum:\\
+  Deo nostro sit iucunda decoraque laudatio.\\
+  Fiat!
