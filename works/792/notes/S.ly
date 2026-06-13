@@ -40,7 +40,7 @@ DCCXCIISoprano = {
     e
     e2 r4 %50
     eis eis eis
-    \appoggiatura eis8 fis4 e8([ d)] cis([ h)]
+    \appoggiatura gis8 fis4 e8([ d)] cis([ h)]
     a2( h4)
     cis r a
     h8. d16 cis4 e %55
@@ -69,7 +69,7 @@ DCCXCIISoprano = {
     R2.*3 %82
     \key g \major R2.*41 %123
     \key d \major \grace s8 R2.*2 %125
-    r4 \mvTr d(\fE^\tutti fis)
+    r4 \mvTr d(\fE^\tuttiE fis)
     a2 a4
     a4. a8 a4
     a a r
@@ -166,7 +166,7 @@ DCCXCIISopranoLyrics = \lyricmode {
   ver -- %15
   si
   Do -- mi --
-  num,
+  num:
   De -- o
   no -- stro %20
   sit iu --
@@ -181,7 +181,7 @@ DCCXCIISopranoLyrics = \lyricmode {
   tri -- tos
   cor -- de, con -- %35
   tri -- tos
-  cor -- de
+  cor -- de:
 
   et
   al -- li -- gat %40
@@ -209,11 +209,11 @@ DCCXCIISopranoLyrics = \lyricmode {
   gnum
   Do -- mi -- num
   no --
-  strum,
+  strum:
   %70
   nam ma -- gna
   vir -- tus
-  e -- ius
+  e -- ius,
   et sa -- pi --
   en -- ti -- ae %75
   e -- ius
@@ -229,7 +229,7 @@ DCCXCIISopranoLyrics = \lyricmode {
   o -- mni -- bus
   vi -- is
   su --
-  is,
+  is:
   %135
   et
   san --
@@ -265,7 +265,7 @@ DCCXCIISopranoLyrics = \lyricmode {
   in --
   iu -- ri -- am pa -- ti --
   en -- ti -- %175
-  bus,
+  bus:
 
   dat %181
   e -- scam
@@ -287,7 +287,7 @@ DCCXCIISopranoLyrics = \lyricmode {
   ver --
   si
   Do -- mi -- %210
-  num,
+  num:
   De -- o
   no -- stro
   sit iu --
@@ -304,5 +304,5 @@ DCCXCIISopranoLyrics = \lyricmode {
   fi -- %225
   at,
   fi --
-  at. %228 finis
+  at! %228 finis
 }

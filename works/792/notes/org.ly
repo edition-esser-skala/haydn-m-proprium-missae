@@ -54,14 +54,14 @@ DCCXCIIOrgano = {
     r r a'
     e\fz a,\p r
     e'\fz a,\p r %50
-    cis8\fz cis cis cis cis cis
-    d4\p r d
+    cis8\fz cis cis cis cis\p cis
+    d4 r d
     e e e
     a, r a'
     e\fz a,\p r %55
-    e'\fz a\pE r
-    gis8\fzE gis gis gis gis gis
-    fis\pE fis e e dis dis
+    e'\fz a\p r
+    gis8\fz gis gis gis gis\p gis
+    fis fis e e dis dis
     e e e e e e
     a,\f a a a a a %60
     a a a a a a
@@ -84,9 +84,9 @@ DCCXCIIOrgano = {
     b a a
     d r r
     \mvTr d\p-\solo r r %80
-    d8 d\f d d d d
+    d8 d\f d d d d \noBreak
     d4 r r
-    \key g \major g8\p g, g' g g g
+    \key g \major g8\p g, g' g g g \noBreak
     g g, g' fis e d
     c h a gis a c %85
     d4 c h
@@ -97,8 +97,8 @@ DCCXCIIOrgano = {
     d2 d4
     g,8 g' h\f a g fis
     e4 r e\p
-    dis8 h dis fis h fis
-    dis4 r dis %95
+    dis8 h \hA dis fis h fis
+    dis4 r \hA dis %95
     e8 h e g h g
     e4 r e
     d!8 fis a d a fis
@@ -119,7 +119,7 @@ DCCXCIIOrgano = {
     h r c
     h a g
     d' d8 c h a %115
-    g4 r g'-\solo
+    g4 r g'
     g,8 h d h g h
     c h c e d c
     a c e gis a g
@@ -145,13 +145,13 @@ DCCXCIIOrgano = {
     a r a'
     fis8 fis d d c c %140
     h h dis dis e e
-    cis cis a a d d
+    cis! cis a a d d
     fis fis a a a, a
     d4 r r
-    \mvTr fis2.~\pE-\solo %145
+    \mvTr fis2.~\p-\solo %145
     fis~
     fis~
-    fis8 fis fis\fz fis fis fis
+    fis8 fis\f fis fis fis fis
     fis4 r r
     r r ais, %150
     h8 ais h cis d e
@@ -169,7 +169,7 @@ DCCXCIIOrgano = {
     e r e
     d r d
     cis!8\fz cis cis cis cis cis %165
-    cis cis\p cis cis cis cis
+    cis\p cis cis cis cis cis
     d4 ais h
     fis r8 fis' fis fis
     eis4-!^\markup \remark "staccato" eis-! eis-!
@@ -183,8 +183,8 @@ DCCXCIIOrgano = {
     fis'8\f fis\p fis fis fis fis
     g! g g g g g
     a a a a a a
-    d, d d' a\fz fis d %180
-    cis\p cis cis cis cis cis
+    d, d d'\fz a fis d %180
+    cis cis\p cis cis cis cis
     d d d d d d
     e e e e e e
     a,4 r8 a' a a
@@ -197,7 +197,7 @@ DCCXCIIOrgano = {
     a4 a a
     a8 a, a a a a
     a2\fermata r4
-    d\f fis d
+    \mvTr d\f-\soloE fis d
     cis a g %195
     fis fis' d
     cis a' g
@@ -243,8 +243,8 @@ DCCXCIIBassFigures = \figuremode {
   <[6]>2 <2>4
   <6>2. %5
   <6 5>
-  r4 <7>2
-  r4 <6 5>2
+  r2 <7>4
+  r <6 5>2
   r2.
   r %10
   <7 2>4 <8 3>2
@@ -282,7 +282,7 @@ DCCXCIIBassFigures = \figuremode {
   <9 4> <[8] 3> <5>
   <[8 5\+] _+>2 <7 \t \t>4
   r2 <6>4 %45
-  <7 4>8 \bc <\t _+>r2
+  <_ 4>8 <_ _+> <7 \t>2
   <9 4>4 <[8] 3>2
   r2.
   <_+>
@@ -324,7 +324,7 @@ DCCXCIIBassFigures = \figuremode {
   r2. %85
   r4 <\t> <[6]>
   <7> q2
-  r2 <7>4
+  r2 q4
   r2.
   <6> %90
   r2 <7>4

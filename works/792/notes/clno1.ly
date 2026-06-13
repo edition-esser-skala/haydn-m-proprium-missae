@@ -31,7 +31,7 @@ DCCXCIIClarinoI = {
     c e8 e d d %25
     c4 g r
     R2.*2
-    r4 r f'\fE
+    r4 r f'
     f( e) c %30
     \pao g r \pao g
     e r r
@@ -97,7 +97,7 @@ DCCXCIIClarinoI = {
     c d8 d d d
     e4 r r
     R2.*3 %147
-    r8 \pa e,\fE e e e e
+    r8 \pa e, e e e e
     e2.~
     e %150
     e4 e e

@@ -22,7 +22,7 @@ DCCXCIIBasso = {
     g a4. a8 %25
     fis4 r r
     R2.*37 %63
-    \mvTr d4\fE^\tutti fis a
+    \mvTr d4\fE^\tuttiE fis a
     a2. %65
     a
     a4. a8 a4
@@ -174,7 +174,7 @@ DCCXCIIBassoLyrics = \lyricmode {
   ver -- %15
   si
   Do -- mi --
-  num,
+  num:
   De -- o
   no -- stro %20
   sit iu --
@@ -189,11 +189,11 @@ DCCXCIIBassoLyrics = \lyricmode {
   gnum
   Do -- mi -- num
   no --
-  strum,
+  strum:
   %70
   nam ma -- gna
   vir -- tus
-  e -- ius
+  e -- ius,
   et sa -- pi --
   en -- ti -- ae %75
   e -- ius
@@ -206,7 +206,7 @@ DCCXCIIBassoLyrics = \lyricmode {
   re -- gnum %85
   o -- mni -- um __
   sae -- cu --
-  lo -- rum,
+  lo -- rum:
   re -- gnum
   o -- mni -- um %90
   sae -- cu --
@@ -247,7 +247,7 @@ DCCXCIIBassoLyrics = \lyricmode {
   o -- mni -- bus
   vi -- is
   su --
-  is,
+  is:
   %135
   et
   san --
@@ -282,7 +282,7 @@ DCCXCIIBassoLyrics = \lyricmode {
   in -- iu -- ri -- am
   pa -- ti --
   en -- ti -- %175
-  bus,
+  bus:
 
   dat %181
   e -- scam
@@ -305,7 +305,7 @@ DCCXCIIBassoLyrics = \lyricmode {
   ver --
   si
   Do -- mi -- %210
-  num,
+  num:
   De -- o
   no -- stro
   sit iu --
@@ -322,5 +322,5 @@ DCCXCIIBassoLyrics = \lyricmode {
   fi -- %225
   at,
   fi --
-  at. %228 finis
+  at! %228 finis
 }

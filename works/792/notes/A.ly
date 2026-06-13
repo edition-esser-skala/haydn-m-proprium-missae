@@ -32,7 +32,7 @@ DCCXCIIAlto = {
     r4 r cis'
     cis4. eis,8 eis4
     fis \appoggiatura e'8 d4 \appoggiatura cis8 h4 %45
-    \appoggiatura a8 gis4 h8([ gis)] e([ d)]
+    \appoggiatura a8 gis4 h8([ \hA gis)] e([ d)]
     d4 cis r
     r r a'
     gis8. h16 a4 cis
@@ -65,7 +65,7 @@ DCCXCIIAlto = {
     R2.*3 %82
     \key g \major R2.*41 %123
     \key d \major \grace s8 R2.*2 %125
-    r4 \mvTr d(\fE^\tutti fis)
+    r4 \mvTr d(\fE^\tuttiE fis)
     a2 a4
     a4. a8 a4
     a a r
@@ -161,7 +161,7 @@ DCCXCIIAltoLyrics = \lyricmode {
   ver -- %15
   si
   Do -- mi --
-  num,
+  num:
   De -- o
   no -- stro %20
   sit iu --
@@ -176,7 +176,7 @@ DCCXCIIAltoLyrics = \lyricmode {
   tri -- tos
   cor -- de, con -- %35
   tri -- tos
-  cor -- de
+  cor -- de:
 
   et %43
   al -- li -- gat
@@ -200,11 +200,11 @@ DCCXCIIAltoLyrics = \lyricmode {
   gnum
   Do -- mi -- num
   no --
-  strum,
+  strum:
   %70
   nam ma -- gna
   vir -- tus
-  e -- ius
+  e -- ius,
   et sa -- pi --
   en -- ti -- ae %75
   e -- ius
@@ -220,7 +220,7 @@ DCCXCIIAltoLyrics = \lyricmode {
   o -- mni -- bus
   vi -- is
   su --
-  is,
+  is:
   %135
   et
   san --
@@ -255,7 +255,7 @@ DCCXCIIAltoLyrics = \lyricmode {
   in --
   iu -- ri -- am pa -- ti --
   en -- ti -- %175
-  bus,
+  bus:
   dat
   e -- scam
   e -- su -- ri --
@@ -278,7 +278,7 @@ DCCXCIIAltoLyrics = \lyricmode {
   ver --
   si
   Do -- mi -- %210
-  num,
+  num:
   De -- o
   no -- stro
   sit iu --
@@ -295,5 +295,5 @@ DCCXCIIAltoLyrics = \lyricmode {
   fi -- %225
   at,
   fi --
-  at. %228 finis
+  at! %228 finis
 }

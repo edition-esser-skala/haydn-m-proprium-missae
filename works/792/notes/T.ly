@@ -22,7 +22,7 @@ DCCXCIITenore = {
     g a4. a8 %25
     fis4 r r
     R2.*37 %63
-    \mvTr d4\fE^\tutti fis a
+    \mvTr d4\fE^\tuttiE fis a
     a2. %65
     a
     a4. a8 a4
@@ -113,7 +113,7 @@ DCCXCIITenore = {
     ais2. %165
     ais4. e'8 e4
     d( cis) h
-    h8 .ais16 ais4 r
+    h8. ais16 ais4 r
     h2.
     a!4 r cis %170
     h2 h4
@@ -174,7 +174,7 @@ DCCXCIITenoreLyrics = \lyricmode {
   ver -- %15
   si
   Do -- mi --
-  num,
+  num:
   De -- o
   no -- stro %20
   sit iu --
@@ -189,11 +189,11 @@ DCCXCIITenoreLyrics = \lyricmode {
   gnum
   Do -- mi -- num
   no --
-  strum,
+  strum:
   %70
   nam ma -- gna
   vir -- tus
-  e -- ius
+  e -- ius,
   et sa -- pi --
   en -- ti -- ae %75
   e -- ius
@@ -206,7 +206,7 @@ DCCXCIITenoreLyrics = \lyricmode {
   re -- gnum %85
   o -- mni -- um
   sae -- cu --
-  lo -- rum,
+  lo -- rum:
   re -- gnum
   o -- mni -- um %90
   sae -- cu --
@@ -247,7 +247,7 @@ DCCXCIITenoreLyrics = \lyricmode {
   o -- mni -- bus
   vi -- is
   su --
-  is,
+  is:
   %135
   et
   san --
@@ -282,7 +282,7 @@ DCCXCIITenoreLyrics = \lyricmode {
   in --
   iu -- ri -- am pa -- ti --
   en -- ti -- %175
-  bus,
+  bus:
   dat
   e -- scam
   e -- su -- ri --
@@ -305,7 +305,7 @@ DCCXCIITenoreLyrics = \lyricmode {
   ver --
   si
   Do -- mi -- %210
-  num,
+  num:
   De -- o
   no -- stro
   sit iu --
@@ -322,5 +322,5 @@ DCCXCIITenoreLyrics = \lyricmode {
   fi -- %225
   at,
   fi --
-  at. %228 finis
+  at! %228 finis
 }
