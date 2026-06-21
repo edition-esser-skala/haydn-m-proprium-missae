@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026.06.0 – 2026-06-21
+
+### Added
+
+- works: MH 799
+- MH 34: piano reduction
+
+### Changed
+
+- MH 253: revised after autograph score in H-Bn
+- MH 792: revised after autograph score in H-Bn
+
+
 ## 2026.02.0 – 2026-02-28
 
 ### Added
