@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026.011.0 – 2026-11-14
+
+### Changed
+
+- MH 275: revised after autograph score in H-Bn
+- updated files to EES Tools v2026.11.0
+
+
 ## 2026.06.0 – 2026-06-21
 
 ### Added
