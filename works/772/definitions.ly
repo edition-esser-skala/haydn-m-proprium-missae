@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoDCCLXXII = \tempoMarkup "Allegro moderato"
 tempoDCCLXXIIb = \tempoMarkup "Vivace"

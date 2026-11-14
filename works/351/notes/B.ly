@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 CCCLIBasso = {
   \relative c {
@@ -97,7 +97,7 @@ CCCLIBassoLyrics = \lyricmode {
   sae -- cu -- lo, a __ sae -- cu -- lo
   no -- men tu -- um, al -- le -- %40
   lu -- ia, al -- le -- lu -- ia,
-  
+
   al -- le -- lu -- ia, al -- le --
   lu -- ia, al -- le -- lu -- ia, al --
   le -- lu -- ia, al -- le -- %45

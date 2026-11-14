@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 DCCCXSoprano = {
   \relative c' {
@@ -130,4 +130,4 @@ DCCCXSopranoLyrics = \lyricmode {
   ia. %60 finis
 }
 
-\version "2.24.0"
+\version "2.26.0"

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoDCCCXXVII = \tempoTitleMarkup "A 4 voci in canone" "Adagio cantabile"
 tempoDCCCXXVIIb = \tempoTitleMarkup "Chorus" "Presto"

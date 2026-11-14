@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 CCLXXVIIaAlto = {
   \relative c' {
@@ -1124,7 +1124,7 @@ CCLXXVIIiAltoLyrics = \lyricmode {
   do --
   lor
   me --
-  
+
   us. %85
   __ %86 finis
 }
