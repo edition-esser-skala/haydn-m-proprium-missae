@@ -6,20 +6,16 @@ scoring: S, A, T, B (coro), 2 vl, b, org
 ark: 68748/e1jmh275
 license: cc-by-sa-4.0
 sources:
-  B1:
-    siglum: F-Pn
-    shelfmark: D-5569 (8)
-    date: 1830–1840
-    rism: 840026250
-    url: https://gallica.bnf.fr/ark:/12148/cb409440402
-    license: custom (free for non-commercial purposes)
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms. Mus. II. 7
+    date: 1778-03-15
+    rism: 530001728
+    url: https://copia.oszk.hu/kotta/antifona-sub-vestrum-praesidium/
+    license: public domain
     principal: true
-    notes: composed on 1776-03-15 according to the copyist
 toe: |
-  11 & vl 1 & grace note missing in \B1 \\
-  30 & vl 2 & last \eighthNote\ in \B1: g′8 \\
-  36 & T    & 4th \quarterNote\ in \B1: c′8–\flat b8 \\
-  49 & A    & 4th \quarterNote\ in \B1: f′4 \\
+  – & coro & Double caps spelling of “JEsus”, “MAria”, and “JOseph” according to \A1. \\
 lyrics:
   Sub vestrum praesidium confugimus,\\
   Jesu, Maria, Joseph.\\

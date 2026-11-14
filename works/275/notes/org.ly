@@ -49,12 +49,12 @@ CCLXXVOrgano = {
     r8 c c c c4 f,8 r
     r f' f f f4 b,8 r
     r g' g g g4 c,8 c'~ %45
-    c c, b! b'4 b,8 a b
+    c[ c,] b! b'4 b,8 a b
     c c c c f, f'\p a f
     c' c, c c c4 f,8 r
     r f' f f f4 b,8 r
     r g' g g g4 c,8 c'~ %50
-    c c, b! b'4 b,8 a b
+    c[ c,] b! b'4 b,8 a b
     c c c c f,4 r
     r f'8\f f f f, r b
     c b c c f f, r4
@@ -66,55 +66,55 @@ CCLXXVOrgano = {
 
 CCLXXVBassFigures = \figuremode {
   r4. <6>8 <4> <3> <4 2> <5 3>
-  <6 4>4. <7 4>8 <8 [3]>2
-  <\l>4 \once \bassFigureExtendersOn q8 <7>4 <6>8 q q
+  <6 4>4 <\t \t>8 <7 4>8 <8 [3]>2
+  <_>4 \once \bassFigureExtendersOn q8 <7>4 <6>8 q q
   <4>4 <7>2.
   r4 <6 5>2 r8 <[6]> %5
   <2> <6> q4 <6 4>4 \bo <[5] 3>8 \bc <[\t] \t>
   <6>4 <6 5> <9>8 <8> \bo <9 [5]> \bc <8 [6]>
   <2> <6> <6 5>4 <6 4>8 <[5] 3>4.
-  <_->2 <\t>4 <6- _!>8 <5 \t>
-  <[5-]>4 <6> <_-> <6- _!>8 <5 \t> %10
-  <[5-]>4 <6> <_->4. q8
-  <_!> <4 2!> <5 _!> <6! 4> \bo <8 6 [_!]> \bc <7 5 [\t]> <\t \t> <6 5>
-  r <6> <6 4> <[5] _!> r4 <_!>
+  <_->2 <\t>4 <6- _!>8 <\t \t>16 <5 \t>
+  <3>8 <\t> <6>4 <_-> <6- _!>8 <5 \t> %10
+  <3>4 <6> <_->4. q8
+  <_!> <4 2!> <[5] _!> <6! 4> \bo <8 6 [_!]> \bc <7 5 [\t]> <\t \t> <6 5>
+  r <6> <6 4> <[5] _!>4. <_!>4
   r4. <[_!]>8 r2
-  <_->4. <6 \t>4 <[6!] 4\+ 2>4. %15
-  <[6]>4 <6\\> <6 4>8 <[5] _+>4.
-  r4. <7 [_+]> <[6]>8 <6\\>
+  r8 <_ _->4 <6 \t>4 <4\+ 2>4. %15
+  <[6]>4 <6\\> <6 4>8 <_+>2 \once \bassFigureExtendersOn
+  q4 <7 [_+]>2 <6\\>8
   r <6> <9 4> <[8] 3> <_+>4. \once \bassFigureExtendersOn q8
   <4\+ _->4. \once \bassFigureExtendersOn q8 <6> <6\\ [5-]> <6>4
   <4\+ _->4. \once \bassFigureExtendersOn q8 <6> <6\\ [5-]> <6> <_-> %20
-  <6 4>4. <[5] _+> <_+>4
-  r4 <_->8 <[_+]>2 <\t>8
+  <6 4>4 \once \bassFigureExtendersOn q8 <[5] _+>4. <_+>4
+  r4 <_->8 <_+>2 <\t>8
   <7>4 \once \bassFigureExtendersOn q8 <6 4>16 <5 3> <9 4>8 <[8] 3>4 <7->8
-  \bo <7 [5-]>4 \once \bassFigureExtendersOn \bc q8 <6 4>16 <5- 3> <9 4->8 <8 3>4.
-  <[6]>4. <2>8 <6>8. \once \bassFigureExtendersOn q16 r4 %25
-  <[6]>4. <2>8 <6>8. \once \bassFigureExtendersOn q16 <6 _->8 <6 4- [3]>
-  <6 5->4. <\t \t>4 <5>8 <6 4> <[5] 3>
+  \bo <7 [5-]>4 \once \bassFigureExtendersOn \bc q8 <6 4>16 <5- 3> <9 4->8 <[8] 3>4.
+  r4. <2>8 <6>8. \once \bassFigureExtendersOn q16 r4 %25
+  r4. <2>8 <6>8. \once \bassFigureExtendersOn q16 <6 _->8 <6 4>
+  <6 5->2 r8 <5>8 <6 4> <[5] 3>
   r2 <[6]>
   r <7>4 \once \bassFigureExtendersOn q8 <8 6>16 <7 5>
-  r2 <2>8 <6> <[6]>4 %30
+  r2 <2>8 <\t> <6>4 %30
   <6 5>1
-  <[8] _!>4 <7 \t> <3>4. \once \bassFigureExtendersOn q8
-  <[8] _!>4 <7 \t> <3>4. \once \bassFigureExtendersOn q8
+  <_ _!>4 <7 \t> <3>4. \once \bassFigureExtendersOn q8
+  <_ _!>4 <7 \t> <3>4. \once \bassFigureExtendersOn q8
   <6->4. <[6]>2 <7>8
   <9 4>4 <5>8 <7> <3>4. <\t>8 %35
   <6> q4 q8 <9 4> <[8] 3> <4 2> <5 3>
-  <6 4>4. <7 4>8 <8 [3]>2
+  <6 4>4 <\t \t>8 <7 4>8 <8 [3]>2
   <7 4> <8 [3]>
-  <\l>4 \once \bassFigureExtendersOn q8 <7>4 <6>8 q q
+  <_>4 \once \bassFigureExtendersOn q8 <7>4 <6>8 q q
   <4>4 <7> <3>4. \once \bassFigureExtendersOn q8 %40
-  <5>4. \once \bassFigureExtendersOn q8 r <6> q <7>
+  <5>4. \once \bassFigureExtendersOn q4 <6>8 q <7>
   <9 4>4 <6>2.
-  <7 [5]>4. <6 4>8 <7 [5]>2
-  <[7- 5]>4. <6 4>8 <7- [5]>2
-  <[7] _!>4. <6! 4>8 <7 _!>2 %45
+  r8 <[7]>4 <6 4>8 <7>2
+  r8 <[7-]>4 <6 4>8 <7->2
+  r8 <[7] _!>4 <6[!] 4>8 <7 _!>2 %45
   <4\+ 2>4 <6>8 <\t> <2> <\t> <6[!]> <6>
   <6 4>4 <[5] 3>2.
-  <7 [5]>4. <6 4>8 <7 [5]>2
-  <7- [5]>4. <6 4>8 <7- [4]>2
-  <7 _!>4. <6! 4>8 <7 _!>2 %50
+  <[7]>4. <6 4>8 <7>2
+  r8 <[7-]>4 <6 4>8 <7->2
+  r8 <[7] _!>4 <6[!] 4>8 <7 _!>2 %50
   <4\+ 2>4 <6>8 <\t> <2> <\t> <6[!]> <6>
   <6 4>4 <[5] 3>2.
   r2.. <5>16 <6>

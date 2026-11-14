@@ -52,7 +52,7 @@ CCLXXVAlto = {
     a4 b g f8 g
     f4( e8.) f16 f4 r
     r8 e4\p f8 c8. c16 c8 r
-    r a' a b f8. f16 f8^\critnote r
+    r a' a b f8. f16 f8 r
     r h h c g8. g16 g8 r %50
     a4 b g f8 g
     f4( e8.) f16 f4 f8\f f
@@ -67,8 +67,8 @@ CCLXXVAlto = {
 CCLXXVAltoLyrics = \lyricmode {
   Sub ve -- strum prae --
   si -- di -- um con -- fu -- gi -- mus,
-  Je -- su, Ma --
-  ri -- a, Jo -- seph.
+  JE -- su, MA --
+  ri -- a, JO -- seph.
   No -- stras de -- pre -- ca -- ti -- %5
   o -- nes ne de -- spi -- ci -- te
   in ne -- ces -- si --
@@ -79,7 +79,7 @@ CCLXXVAltoLyrics = \lyricmode {
   o -- si et
   be -- ne -- di -- cti.
   Tu a -- man --
-  tis -- si -- me Je -- su, %15
+  tis -- si -- me JE -- SU, %15
   spar -- ge in nos
   ple -- na __ ma -- nu coe --
   le -- stes gra -- ti -- as,
@@ -93,9 +93,9 @@ CCLXXVAltoLyrics = \lyricmode {
   dul -- ce -- di -- nem be -- ne -- di -- cti
   fru -- ctus ven -- tris tu --
   i.
-  Tu vir -- gi -- ne -- ae
+  Tu vir -- gi -- ne -- e
   Pa -- ter, tu __ vir -- %30
-  gi -- ne -- ae Pa -- ter, lar --
+  gi -- ne -- e Pa -- ter, lar --
   gi -- re fa -- mu -- lis tu -- is o -- mnem
   be -- ne -- di -- cti -- o -- nem
   cor -- po -- ris et a -- ni -- mae, et
@@ -107,14 +107,14 @@ CCLXXVAltoLyrics = \lyricmode {
   tis -- si -- mi, %40
   Pa -- tro -- ni cle -- men --
   tis -- si -- mi.
-  Je -- su vul -- ne -- ra,
-  Ma -- ri -- ae u -- te -- ra,
-  Jo -- se -- phi me -- ri -- ta %45
+  JE -- su vul -- ne -- ra,
+  MA -- ri -- ae u -- te -- ra,
+  JO -- se -- phi me -- ri -- ta %45
   da -- bunt re -- gna coe --
   le -- sti -- a,
-  Je -- su vul -- ne -- ra,
-  Ma -- ri -- ae u -- te -- ra,
-  Jo -- se -- phi me -- ri -- ta %50
+  JE -- su vul -- ne -- ra,
+  MA -- ri -- ae u -- te -- ra,
+  JO -- se -- phi me -- ri -- ta %50
   da -- bunt re -- gna coe --
   le -- sti -- a, da -- bunt
   re -- gna coe --

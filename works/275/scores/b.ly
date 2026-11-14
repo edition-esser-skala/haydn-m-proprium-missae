@@ -9,6 +9,7 @@
   \bookpart {
     \section "275" "Sub vestrum præsidium"
     \addTocEntry
+    \paper { system-count = #15 }
     \score {
       <<
         \new Staff { \CCLXXVOrgano }

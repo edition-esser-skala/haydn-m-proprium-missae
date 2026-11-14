@@ -13,8 +13,8 @@ CCLXXVSoprano = {
     f b a d
     e,8([ f)] b a a g r4
     g g8 g es'4. es16 d
-    \appoggiatura d8 c4 c8 g es'8. es16 es8 d %10
-    \appoggiatura d c4 c c2
+    \appoggiatura d c4 c8 g es'8. es16 es8 d %10
+    \appoggiatura d16 c4 c c2
     h8 c d e! \appoggiatura g f4 f8 f
     e d c([ h)] c4 r
     r2 c4 c8 c
@@ -50,7 +50,7 @@ CCLXXVSoprano = {
     es4. d8 a8. a16 b8 d
     f4. e8 h8. h16 c8 r %45
     d4. d8 c([ e)] f! b,
-    a4( g8.) f16 f4 r
+    a4( g8.)\trill f16 f4 r
     b4.\p a8 e8. e16 f8 c'
     es4. d8 a8. a16 b8 d
     f4. e8 h8. h16 c8 r %50
@@ -67,8 +67,8 @@ CCLXXVSoprano = {
 CCLXXVSopranoLyrics = \lyricmode {
   Sub ve -- strum prae --
   si -- di -- um con -- fu -- gi -- mus,
-  Je -- su, Ma -- ri -- a,
-  Jo -- seph.
+  JE -- su, MA -- ri -- a,
+  JO -- seph.
   No -- stras de -- pre -- ca -- ti -- %5
   o -- nes ne de -- spi -- ci -- te
   in ne -- ces -- si --
@@ -79,7 +79,7 @@ CCLXXVSopranoLyrics = \lyricmode {
   tro -- ni glo -- ri -- o -- si et
   be -- ne -- di -- cti.
   Tu a -- man --
-  tis -- si -- me Je -- su, %15
+  tis -- si -- me JE -- SU, %15
   spar -- ge in nos
   ple -- na ma -- nu coe --
   le -- stes gra -- ti -- as,
@@ -93,9 +93,9 @@ CCLXXVSopranoLyrics = \lyricmode {
   ce -- di -- nem be -- ne -- di --
   cti fru -- ctus ven -- tris tu --
   i.
-  Tu vir -- gi -- ne -- ae
+  Tu vir -- gi -- ne -- e
   Pa -- ter, tu vir -- %30
-  gi -- ne -- ae Pa -- ter, lar --
+  gi -- ne -- e Pa -- ter, lar --
   gi -- re fa -- mu -- lis tu -- is o -- mnem
   be -- ne -- di -- cti -- o -- nem
   cor -- po -- ris et a -- ni -- mae, et
@@ -107,13 +107,13 @@ CCLXXVSopranoLyrics = \lyricmode {
   tis -- si -- mi, %40
   Pa -- tro -- ni cle -- men --
   tis -- si -- mi.
-  Je -- su vul -- ne -- ra, Ma --
-  ri -- ae u -- te -- ra, Jo --
+  JE -- su vul -- ne -- ra, MA --
+  ri -- ae u -- te -- ra, JO --
   se -- phi me -- ri -- ta %45
   da -- bunt re -- gna coe --
   le -- sti -- a,
-  Je -- su vul -- ne -- ra, Ma --
-  ri -- ae u -- te -- ra, Jo --
+  JE -- su vul -- ne -- ra, MA --
+  ri -- ae u -- te -- ra, JO --
   se -- phi me -- ri -- ta %50
   da -- bunt re -- gna coe --
   le -- sti -- a, da -- bunt
