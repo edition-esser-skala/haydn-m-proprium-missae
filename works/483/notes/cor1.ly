@@ -31,7 +31,7 @@ CDLXXXIIICornoI = {
     \pao d4 r8 \pa d d g g d \pd %25
     d4 \pao d r8 d d d
     e4 g r8 d d d
-    \once \partCombineChords e4 r8 e \pao d4 d8 d
+    \pco e4 r8 e \pao d4 d8 d
     \pao d4 r d r
     r \pa d8 d \pd d4 r8 d %30
     c4 d \pa c8 c c c \pd
@@ -42,7 +42,7 @@ CDLXXXIIICornoI = {
     r r8 d d e c e
     g,4 r g r
     g r r8 d' c d
-    \once \partCombineChords e4 r c r
+    \pco e4 r c r
     c r r8 e g e %40
     g4 r r2
     r r8 d d d

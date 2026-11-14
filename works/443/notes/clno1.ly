@@ -36,7 +36,7 @@ CDXLIIIClarinoI = {
     R1*3 %36
     r2 e4 e
     d2 d4 d
-    d \once \partCombineChords e r2
+    d \pco e r2
     R1*3 %42
     r2 e4 e
     c2 r

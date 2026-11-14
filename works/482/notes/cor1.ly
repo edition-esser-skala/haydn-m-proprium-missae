@@ -118,7 +118,7 @@ CDLXXXIICornoI = {
     c~ %115
     c4 c c
     \pao g2.
-    r4 \once \partCombineChords e'-!\f d-!
+    r4 \pco e'-!\f d-!
     c-! r r
     r c c %120
     c r r

@@ -4,7 +4,7 @@ CXLSopranoI = {
   \relative c' {
     \clef treble
     \key c \major \time 2/2 \autoBeamOff \tempoCXL
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c'1\fE
     c2 h
     a1
@@ -182,7 +182,7 @@ CXLSopranoI = {
     \time 2/1 d\breve \noBreak
     c\fermata \bar "||"
     \tempoCXLe \time 3/2
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1. \noBreak
     e %200
     e
@@ -198,7 +198,7 @@ CXLSopranoI = {
     h h1 \noBreak
     h1.\fermata \bar "||"
     \time 2/2 \tempoCXLf
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       e1~ \noBreak
     e2 e
     d1 %215

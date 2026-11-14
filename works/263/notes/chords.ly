@@ -8,7 +8,7 @@ CCLXIIIChords = {
     \appoggiatura a g8 f16 e \appoggiatura g8 f4 \appoggiatura f8 e4 r8 \voiceOne \tiny <c g>
     <g d'>4 r8 <h d> <c e>4 r8 <g d'>
     <a c>4 <fis a> <h, g'> <e g>8 <d fis>
-    <d g>8 \noBeam \oneVoice \normalsize g' g16 c e, a g( f) f8 f16 a d, f %5
+    <d g>8 \brkBeam \oneVoice \normalsize g' g16 c e, a g( f) f8 f16 a d, f %5
     e g c, e a, d f d \afterGrace c4 { d16[ c] } h8 g16.( a64 b)
     a8-! a16.( h64 c) h8-! h16.( c64 d) c8-! d16.( e64 f) e8 \tuplet 3/2 8 { g16 f e
     a[ g f] e d c } d4\trill \tuplet 3/2 8 { e16[ d c] g' f e c'[ h a] g f e
@@ -30,7 +30,7 @@ CCLXIIIChords = {
     c4 \oneVoice \normalsize r16 g a b a4 r16 a h c
     h8 g' \tieDashed g4~\trillE g2~ %25
     g4~ g8 d \tieSolid e8.\trill f32 g \appoggiatura g f8 e16 d
-    c8.\trill d32 e d8 \noBeam \voiceOne \tiny <g, c> <f a>4 <g h>
+    c8.\trill d32 e d8 \brkBeam \voiceOne \tiny <g, c> <f a>4 <g h>
     <g c>8 <g d'> <g c> \oneVoice \normalsize g16.([ a64 b)] a8-! a16.( h64 c) h8-! h16.( c64 d)
     \tuplet 3/2 8 { c16[ d e] d e f } e4 \voiceOne \tiny <a, d> <e c'>8 <d h'>
     r <g c> r <g d'> r <c e>4 <a c>8 %30
@@ -55,10 +55,10 @@ CCLXIIIChords = {
     g8[ e] <d f> <c e> q <h d> <c g'>4
     <f a>2 <d a'>8 r r4 %50
     <g h>2 q8 r r4
-    <g c> <g h> <g c> <g d'>8 \noBeam \oneVoice \normalsize d'
-    e8. f32 g \appoggiatura g16 f8 e16 d c8.\trill d32 e d8 \noBeam \voiceOne \tiny <g, c>
+    <g c> <g h> <g c> <g d'>8 \brkBeam \oneVoice \normalsize d'
+    e8. f32 g \appoggiatura g16 f8 e16 d c8.\trill d32 e d8 \brkBeam \voiceOne \tiny <g, c>
     <f a>4 <g h> <g c>8 <g d'> <g c> \oneVoice \normalsize g16.([ a64 b)]
-    a8-! a16.( h64 c) h8-! h16.( c64 d) c8-! d16.( e64 f) e8 \noBeam \voiceOne \tiny <c e> %55
+    a8-! a16.( h64 c) h8-! h16.( c64 d) c8-! d16.( e64 f) e8 \brkBeam \voiceOne \tiny <c e> %55
     <a d>4 <e c'>8 <d h'> r <g c> r <g d'>
     <c e>4. <a c>8 <f d'> <e c'>4 <d h'>8
     <g c>4. <g h>8 <e c'>4 <a c>8 <g h>
@@ -66,7 +66,7 @@ CCLXIIIChords = {
     <f a>4 r <a c>2 %60
     <g h>4 <g c> <g d'>4. <f h>8
     <g c>4 a8 c <e, c'>4 <d h'>
-    <g c>8 \noBeam \oneVoice \normalsize g' g16 c e, a g( f) f8 f16 a d, f
+    <g c>8 \brkBeam \oneVoice \normalsize g' g16 c e, a g( f) f8 f16 a d, f
     e g c, e a, d f d \afterGrace c4 { d16[ c] } h8 g16.( a64 b)
     a8-! a16.( h64 c) h8-! h16.( c64 d) c8-! d16.( e64 f) e8 \tuplet 3/2 8 { g16 f e %65
     a[ g f] e d c } d4\trill \tuplet 3/2 8 { e16[ d c] g' f e c'[ h a] g f e

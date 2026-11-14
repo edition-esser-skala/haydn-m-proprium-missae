@@ -1,12 +1,5 @@
 \version "2.24.0"
 
-\layout {
-  \context {
-    \Lyrics
-    \override StanzaNumber.font-size = #-1
-  }
-}
-
 tempoCCCXCV = \tempoMarkup "[no tempo]"
 
 \include "notes/vl1.ly"

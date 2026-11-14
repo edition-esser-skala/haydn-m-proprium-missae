@@ -60,7 +60,7 @@ CDXCClarinoI = {
     r r g
     g e'8 d c e %55
     d4 r r
-    d2 \once \partCombineChords e4
+    d2 \pco e4
     r e d
     c c c
     r c c %60
@@ -68,7 +68,7 @@ CDXCClarinoI = {
     R2.
     c4 e8 d c e
     d4 r r
-    d2 \once \partCombineChords e4 %65
+    d2 \pco e4 %65
     r e d
     \pa c8 c e c g e
     c4 \pd r r

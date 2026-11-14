@@ -47,7 +47,7 @@ CXXVIIIOrgano = {
     g a h h, c d
     g, g'\p g g g g
     fis4. e8 d c
-    h \noBeam \clef "treble_8" h' h4 h
+    h \brkBeam \clef "treble_8" h' h4 h
     c r r %45
     r8 cis cis4 cis
     d r r

@@ -19,7 +19,7 @@ DXXIIClarinoI = {
     r4 e e e
     d d r2
     r4 d d d %15
-    \once \partCombineChords e r r2
+    \pco e r r2
     R1*2
     r4 \pa d d d \pd
     r \pa d8. d16 d4 d \pd %20

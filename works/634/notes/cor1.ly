@@ -26,7 +26,7 @@ DCXXXIVCornoI = {
     \pao d r r d8[ fis]
     g4 r r \pa d8 d
     d4 \pd r r d8 d %25
-    \once \partCombineChords e4 r r2
+    \pco e4 r r2
     \pa d4 d \pd d r
     r2 r8 d[ c g]
     c4 d8. f16 \appoggiatura f e8 d d r

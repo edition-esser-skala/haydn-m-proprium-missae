@@ -4,7 +4,7 @@ CCCXXVIIITenore = {
   \relative c' {
     \clef "treble_8"
     \key f \major \time 2/2 \autoBeamOff \tempoCCCXXVIII
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c1~
     c2 c
     c c

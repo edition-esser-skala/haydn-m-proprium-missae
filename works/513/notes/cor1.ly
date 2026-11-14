@@ -42,7 +42,7 @@ DXIIICornoI = {
     e4 r r2
     r r4 \pa d8 c \pd
     d d d d c4 r
-    d8 d d d \once \partCombineChords e4 r
+    d8 d d d \pco e4 r
     r8 c c4 r8 c c4 %40
     r2 c
     c4 r c2
@@ -74,7 +74,7 @@ DXIIICornoI = {
     c4 r \pao c2
     r4 \pa d8 d e e e e \pd
     f4 r g2 %70
-    \pa f8 d d d \pd d4 \once \partCombineChords e
+    \pa f8 d d d \pd d4 \pco e
     r r8 \pao d e e f f
     e c c c c4 r
     \pa c c \pd d8 d d d

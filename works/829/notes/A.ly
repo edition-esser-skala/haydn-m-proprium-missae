@@ -318,7 +318,7 @@ DCCCXXIXcAlto = {
     e) d( fis8.) g16
     g4 r r
     R2.*4 \bar "||" %188
-    \key d \major d4 e eis \noBeam
+    \key d \major d4 e eis \brkBeam
     fis4. e8 d4 %190
     e2 cis4
     cis h r

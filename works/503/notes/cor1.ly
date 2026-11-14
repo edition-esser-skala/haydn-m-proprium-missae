@@ -135,10 +135,10 @@ DIIICornoI = {
     d8 d d d e4
     r8 f e4 d %135
     c r8 c d d
-    \once \partCombineChords e4 r8 c d g
+    \pco e4 r8 c d g
     g f e4 g
     e r8 c d d
-    \once \partCombineChords e4 r8 c d g %140
+    \pco e4 r8 c d g %140
     g f e4 d
     \pa g8 e c c d d \pd
     e c c c d d

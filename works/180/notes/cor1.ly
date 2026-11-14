@@ -14,7 +14,7 @@ CLXXXCornoI = {
     \pao g4 r r2
     R1*3 %11
     c4\f r r r8 d
-    \once \partCombineChords e4 r8 d \pa c g e\fermata \pd r
+    \pco e4 r8 d \pa c g e\fermata \pd r
     R1*2 %15
     r2 r8 c'16.\fE c32 c4
     R1*3

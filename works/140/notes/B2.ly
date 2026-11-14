@@ -4,7 +4,7 @@ CXLBassoII = {
   \relative c {
     \clef bass
     \key c \major \time 2/2 \autoBeamOff \tempoCXL
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R1*6 %6
     r2 g'\fE
     g f
@@ -162,7 +162,7 @@ CXLBassoII = {
     \time 2/1 g'1( g,) \noBreak
     c\breve\fermata \bar "||"
     \tempoCXLe \time 3/2
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       e1. \noBreak
     e %200
     r2 c1
@@ -178,7 +178,7 @@ CXLBassoII = {
     e h'1 \noBreak
     e,1.\fermata \bar "||"
     \time 2/2 \tempoCXLf
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R1*2
     g1~ %215
     g2 g

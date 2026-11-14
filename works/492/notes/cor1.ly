@@ -51,9 +51,9 @@ CDXCIICornoI = {
     r2 r8 d c d %45
     e e r \pao c d d r \pao g,
     g g r c \pa c f e d \pd
-    \once \partCombineChords g c,16 c c8 r r c16 c c8 r
+    \pco g c,16 c c8 r r c16 c c8 r
     r d16 d d8 r c r c r
-    \pa g16 g e c g'8 g \pd g r \once \partCombineChords d' r %50
+    \pa g16 g e c g'8 g \pd g r \pco d' r %50
     c r c r c[ r16 d] e8 d
     c r d r c r c c
     c4 r r8 c c c

@@ -9,7 +9,7 @@ DCXXVIIIaOrgano = {
     \time 7/1 s1*7 \bar "|" \noBreak
     \time 5/1 s1*5 \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \time 2/2 e1 \noBreak
     a, %5
     e'4 e fis gis
@@ -45,11 +45,11 @@ DCXXVIIIaOrgano = {
     \time 4/2 a\breve \noBreak
     e'\fermata \markFine \bar "||"
     \omit Staff.TimeSignature
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \time 10/1 s1*10 \noBreak
     s \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \time 2/2 a,2 f'~ \noBreak %40
     f e4 d
     cis2 \once \tieDashed g'~

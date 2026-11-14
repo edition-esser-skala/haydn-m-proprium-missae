@@ -238,7 +238,7 @@ DCCCIXIuravitFagottoI = {
     f4 r f2 \pd
     b,,8 c d d' es es, r es
     f f f f f'4~ f16 es\p d c
-    \pao b8 r r4 \once \partCombineChords f'2
+    \pao b8 r r4 \pco f'2
     f,4 \pa f4. \pd f8 f f %220
     f4. f8 \pao b,4 r
     b'2 b4. g8 \noBreak

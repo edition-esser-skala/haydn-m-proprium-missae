@@ -11,7 +11,7 @@ CCCLXXXVCornoI = {
     r4 c8 c %5
     c r \pao g r
     r c c c
-    c r \pa g[ \once \partCombineChords r16 g]
+    c r \pa g[ \pco r16 g]
     g8 c e c
     g4 \pd r %10
     r8 c c c
@@ -34,7 +34,7 @@ CCCLXXXVCornoI = {
     g
     r8 \pa c d d
     g, \pd r \pao d' r %30
-    \pa d[ \once \partCombineChords r16 g,] c8 d
+    \pa d[ \pco r16 g,] c8 d
     g, \pd d'4 d8
     d g,4 c8
     \pao g d'4 d8
@@ -52,7 +52,7 @@ CCCLXXXVCornoI = {
     r4 c8 c
     c r \pao g r
     r c c c
-    c r \pa g[ \once \partCombineChords r16 g]
+    c r \pa g[ \pco r16 g]
     g8 c e c %50
     g4 \pd r
     r8 c c c

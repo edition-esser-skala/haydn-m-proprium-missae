@@ -149,7 +149,7 @@ CCCICOrgano = {
     d cis d c h g
     c e c h a d
     h g c h a c %145
-    << { d d' h g d d, } \\ { \once \override TextScript.X-offset = #1 d2._\markup \remark "Pedale" } >>
+    << { d d' h g d d, } \\ { \mvT #1 d2._\markup \remark "Pedale" } >>
     g8 g' h g h g
     fis a d a fis d
     g d h d g, g'

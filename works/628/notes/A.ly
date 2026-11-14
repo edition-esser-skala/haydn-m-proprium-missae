@@ -9,7 +9,7 @@ DCXXVIIIaAlto = {
     \time 7/1 s1*7 \bar "|" \noBreak
     \time 5/1 s1*5 \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \time 2/2 r4 e fis gis \noBreak
     a2. a4 %5
     gis2 e
@@ -45,11 +45,11 @@ DCXXVIIIaAlto = {
     \time 4/2 e4 d c d e1 \noBreak
     e\breve\fermata \markFine \bar "||"
     \omit Staff.TimeSignature
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \time 10/1 s1*10 \noBreak
     s \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \time 2/2 c2 d~ \noBreak %40
     d g4( f)
     e2 cis4( d)

@@ -121,7 +121,7 @@ CCXXIViolinoII = {
     es8\f es16 g f as %115
     \appoggiatura as32 g16[ f32 es] es8 b16[ h]
     c as'32 f c'[ as f' c] as' f as f
-    \appoggiatura es d16[ f32 d] es8 \noBeam b,\p
+    \appoggiatura es d16[ f32 d] es8 \brkBeam b,\p
     c c c
     b b r %120
     es16\f es es es es es

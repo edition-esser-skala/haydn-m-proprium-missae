@@ -61,7 +61,7 @@ DIVCornoI = {
     d8. g,16 g8 d' d d
     e4 g r8 f %60
     e4( d8) d d d
-    \once \partCombineChords e4 e r
+    \pco e4 e r
     r \partCombineChords d8 d d d \pd
     c4 r c
     c r8 c c c %65

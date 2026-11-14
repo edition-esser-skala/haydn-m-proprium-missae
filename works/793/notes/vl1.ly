@@ -110,11 +110,11 @@ DCCXCIIIViolinoI = {
     r8 e,32\p f g f e8( c') r f,32 g a g f8( c')
     r g32 a b a g8( c) r f,32 g f g f8( a,)
     r16 f' b,( b') f f a,( es') d f\f b32[ a d c] b16 f g32[ b a g]
-    f16-! f b32[ a d c] b16 f g32[ b a g] f8 \noBeam <b b, d,> r4 %105
+    f16-! f b32[ a d c] b16 f g32[ b a g] f8 \brkBeam <b b, d,> r4 %105
     r16 d,\p g( f) r c g'( f) r b, f'( es) r c\f b'( a)
     r f d'( c) b( a) g( f) es( d) c( b) a( c) es( c)
     d( f) es g b,8 c d16 f b32[ a d c] b16 f g32[ b a g]
-    f16-\parenthesize-! f b32[ a d c] b16 f g32[ b a g] f8 \noBeam <b b, d,> r4
+    f16-\parenthesize-! f b32[ a d c] b16 f g32[ b a g] f8 \brkBeam <b b, d,> r4
     r16 d,\p g( f) r c g'( f) r b, f'( es) r c\f b'( a) %110
     r f g( a) b( c) d( b) a( b) c( d) es( c) a-! es-!
     d( b') g( b) f( d) f( a,) b8 b(\p f' a)

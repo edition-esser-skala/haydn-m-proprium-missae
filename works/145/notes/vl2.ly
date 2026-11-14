@@ -156,7 +156,7 @@ CXLVbViolinoII = {
     r g, e c g' c
     r c h! d, h' d
     r e, c a e' a
-    r a \noBeam d, r c r %90
+    r a \brkBeam d, r c r %90
     h gis'\f gis16 fis gis a gis fis gis a
     gis4 r r
     r8 e'\p e16 dis e f e dis e f

@@ -90,7 +90,7 @@ DXXVClarinoI = {
     c4 r r
     r d e
     f8 f e e d d
-    c4 r \once \partCombineChords g'
+    c4 r \pco g'
     f r f %95
     e r r
     R2.
@@ -138,7 +138,7 @@ DXXVClarinoI = {
     f e g
     e c r
     f d r
-    e \once \partCombineChords g r
+    e \pco g r
     f e g %145
     e g r
     f e8 c d d

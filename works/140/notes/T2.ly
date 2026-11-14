@@ -4,7 +4,7 @@ CXLTenoreII = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 2/2 \autoBeamOff \tempoCXL
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R1*8 %8
     r2 g\fE
     a4 g a h %10
@@ -165,7 +165,7 @@ CXLTenoreII = {
     \time 2/1 c h8[ a] g4 f8[ e] d2 g \noBreak
     g\breve\fermata \bar "||"
     \tempoCXLe \time 3/2
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       g1. \noBreak
     g %200
     r2 g1
@@ -181,7 +181,7 @@ CXLTenoreII = {
     h4( e,) fis1 \noBreak
     gis1.\fermata \bar "||"
     \time 2/2 \tempoCXLf
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R1*2
     h1~ %215
     h2 h

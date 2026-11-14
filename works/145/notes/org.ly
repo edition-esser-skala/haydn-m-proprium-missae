@@ -18,14 +18,14 @@ CXLVaOrgano = {
     r c'8 c, g'4 g,
     r8 g' g gis a4 a,
     r8 d d fis g4 g,
-    \clef treble d'''4-! d8-! \noBeam \clef bass g,, d h g h' %15
+    \clef treble d'''4-! d8-! \brkBeam \clef bass g,, d h g h' %15
     g d h d' h g d h
     g g' d d g, g' r g
     d' r d r d d, r d
     g g, \clef treble h''[ d] f!4 \clef bass g,,8 g
     c c, g'4 r8 g g g %20
     c g e c g' g, \clef treble d'''[ d]
-    d8. gis,16 gis8 \noBeam \clef bass e, a4 e
+    d8. gis,16 gis8 \brkBeam \clef bass e, a4 e
     \clef treble e'' e8 e\clef bass a,, a c h16 a
     gis8 e r e a a c h16 a
     gis8 e r e a4 e \noBreak %25

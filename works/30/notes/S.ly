@@ -39,7 +39,7 @@ XXXSoprano = {
     h4 h2
     a4 r r
     R2.*5 %39
-    \once \override TextScript.X-offset = #-5 e'4.(\pE^\solo cis8) e([ cis)] %40
+    \mvT = #-5 e'4.(\pE^\solo cis8) e([ cis)] %40
     h8.([ cis32 d)] cis4 r
     a2 a4
     a16[ gis a h] cis[ h cis d] e4

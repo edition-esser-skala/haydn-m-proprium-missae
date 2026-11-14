@@ -68,7 +68,7 @@ CDXCICornoI = {
     c c, \pd r4 r8 f' e d
     c c\p \pa g[ g] g2 \pd
     r8 d' d f e g f d
-    \once \partCombineChords e g,4\f g g g8~ %65
+    \pco e g,4\f g g g8~ %65
     g g4 g8 g e' r d
     c g' f d c4 r\fermata \bar "|." %67 finis
   }

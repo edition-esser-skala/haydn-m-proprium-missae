@@ -104,8 +104,8 @@ DLXXVCornoId = {
     d f
     e r
     e r
-    r4 e \once \partCombineChords e e %5
-    \once \partCombineChords e2 r
+    r4 e \pco e e %5
+    \pco e2 r
     e f4 d
     c2 r4 e
     d2 r4 d

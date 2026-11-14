@@ -54,7 +54,7 @@ DIICornoI = {
     c r c c c r c r
     c r c r r2
     r r4 d8 d %50
-    \once \partCombineChords e r d g g f e d
+    \pco e r d g g f e d
     c r c c c r c r
     c r c e d r d e
     f f e d c r c c

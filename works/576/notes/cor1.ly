@@ -4,7 +4,7 @@ DLXXVICornoI = {
   \relative c' {
     \clef treble
     \key c \major \time 2/2 \tempoDLXXVI
-    c'4 \once \partCombineChords e c2
+    c'4 \pco e c2
     r e
     e4 e c2
     R1*2 %5

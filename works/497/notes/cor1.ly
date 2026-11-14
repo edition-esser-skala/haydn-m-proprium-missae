@@ -27,7 +27,7 @@ CDXCVIICornoI = {
     d4. \pd r8 r \pao d
     g4 r8 g4 r8
     r \pa d d \pd d[ r d]
-    \pa e[ \once \partCombineChords r d] g[ \once \partCombineChords r d]
+    \pa e[ \pco r d] g[ \pco r d]
     d d d \pd d4 r8 %25
     \pa g, g g g4 \pd r8
     \pao g4 r8 r4 r8
@@ -67,7 +67,7 @@ CDXCVIICornoI = {
     d4 r8 \partCombineChords c c e
     \pa d g, g \pd g4 r8
     r4 r8 r4 c8
-    \pa g[ \once \partCombineChords r d'] \pd c c c
+    \pa g[ \pco r d'] \pd c c c
     c4 r8 c4 r8 %65
     c e d c4 r8
     r4 d8 c[ r d]
@@ -88,7 +88,7 @@ CDXCVIICornoI = {
     d4 d8 c4 r8
     c e d \pa c g e
     c4 \pd r8 c' e g
-    \once \partCombineChords e r r c e g %85
-    \once \partCombineChords e r g, g r r\fermata \bar "|." %86 finis
+    \pco e r r c e g %85
+    \pco e r g, g r r\fermata \bar "|." %86 finis
   }
 }

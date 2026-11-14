@@ -9,7 +9,7 @@ DCXXVIIIaTenore = {
     \time 7/1 s1*7 \bar "|" \noBreak
     \time 5/1 s1*5 \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \time 2/2 h1 \noBreak
     a2 e %5
     r4 gis a h
@@ -45,11 +45,11 @@ DCXXVIIIaTenore = {
     \time 4/2 r e'4 d c2 c \noBreak
     c( h4 a) h1\fermata \markFine \bar "||"
     \omit Staff.TimeSignature
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \time 10/1 s1*10 \noBreak
     s \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \time 2/2 a1 \noBreak %40
     h2 cis4 d
     e2 a,4( h)

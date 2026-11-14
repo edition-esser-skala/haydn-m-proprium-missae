@@ -236,7 +236,7 @@ DCCCXXIXbOrgano = {
     g g g g c c c c
     c c h fis! r fis' g cis,
     d d\f d d d d d d %115
-    d[ d] \clef treble b''\pE \noBeam \clef bass d,, es[ es es es]
+    d[ d] \clef treble b''\pE \brkBeam \clef bass d,, es[ es es es]
     d4 d d2\fermata \bar "||" %117 finis
   }
 }

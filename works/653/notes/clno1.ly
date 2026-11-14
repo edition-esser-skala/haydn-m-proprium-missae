@@ -106,7 +106,7 @@ DCVIIIClarinoI = {
     r c d
     e r r
     r c d
-    e \once \partCombineChords g r
+    e \pco g r
     R2. %125
     d4 r r
     d r r

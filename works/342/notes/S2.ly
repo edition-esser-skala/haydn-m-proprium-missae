@@ -8,7 +8,7 @@ CCCXLIISopranoII = {
     \time 12/1 s1*12 \noBreak
     \time 16/1 s1*16 \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \tempoCCCXLIIb \time 2/2
       R1*5 %7
     \mvTr f1\fE^\tuttiE

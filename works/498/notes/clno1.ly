@@ -31,7 +31,7 @@ CDXCVIIIClarinoI = {
     d d g, g g d' g, g %25
     g r d' r d4 r
     e8 r e r e4 r
-    d8 r d r \once \partCombineChords e4 r
+    d8 r d r \pco e4 r
     r2 d4 r8 c
     d r c r d4 r8 g, %30
     c e c g c e c g
@@ -55,7 +55,7 @@ CDXCVIIIClarinoI = {
     g4 r r2
     r r8 d' d4
     r2 r8 d d d
-    \once \partCombineChords e4 r c r
+    \pco e4 r c r
     c r r2 %55
     c4 d8 d \pa e c,16 e g8 c \pd
     c4 r \pao d r

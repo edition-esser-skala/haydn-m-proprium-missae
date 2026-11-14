@@ -82,7 +82,7 @@ CCCXCVIIOrgano = {
     a4 r c \noBreak
     d e e
     \time 2/2 \tempoCCCXCVIIb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       a, a' a a \noBreak
     << { r e' e e } \\ { a,2 g } >>
     f1 %80

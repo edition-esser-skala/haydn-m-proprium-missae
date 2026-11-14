@@ -66,7 +66,7 @@ DCXXXVIIIClarinoI = {
     r4 d' c8 e, e4
     r2 d'4. f8
     e e d d c4 r
-    r d \once \partCombineChords e r
+    r d \pco e r
     \pao g,8 r \pao g r \pa e' e d4 \pd %65
     c r r d8 d
     e4 r r \pa d8 d \pd
@@ -75,7 +75,7 @@ DCXXXVIIIClarinoI = {
     \pao d4 r r d8[ fis] %70
     g4 r r \pa d8 d \pd
     d4 r r d8 d
-    \once \partCombineChords e4 r r2
+    \pco e4 r r2
     R1
     g,4 g r8 g[ g d'] %75
     c4 r \pao c, r

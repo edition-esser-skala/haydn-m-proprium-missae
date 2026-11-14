@@ -82,7 +82,7 @@ CCCXCVIIViolinoII = {
     a8 e' e16( d) d( c) c( h) h( a) \noBreak
     h c d h a h c a h,8 gis'
     \time 2/2 \tempoCCCXCVIIb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       a4 e c8 e a c \noBreak
     h4 e, r h'
     c8 h a gis a h c d %80
@@ -195,7 +195,7 @@ CCCXCVIIViolinoIIb = {
     a8 e' e16( d) d( c) c( h) h( a) \noBreak
     h c d h a h c a h,8 gis'
     \time 2/2 \tempoCCCXCVIIb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       a4 r r2 \noBreak
     R1
     r4 a a a %80

@@ -8,7 +8,7 @@ CCLXXXIChords = {
     q4 <e g>8 <c' e> q4 <h d>8 \tuplet 3/2 8 { q16 <a c> <g h>
     <d' f> <c e> <h d> } <f' a>4 <e g>16 <d f> \appoggiatura <e g>16 <d f>8 <c e> r8 \tiny \voiceOne g
     <f a> g r g <f a> g r g
-    <d a'>2 <d g>8 \noBeam \normalsize \oneVoice g h32 g fis g h[ g c g] %5
+    <d a'>2 <d g>8 \brkBeam \normalsize \oneVoice g h32 g fis g h[ g c g] %5
     d'[ g, fis g] d' g, e' g, f'[ g, e' g,] f' g, d' g, e'16. c32 c8\trill e32[ c h c] e c f c
     g'[ c, h c] g' c, a' c, b'[ c, a' c,] b' c, g' c, a'[ f e d] cis d f a g[ e d c] h c e g
     h,[ f' d f] g f d f g,[ f' d f] g f d f h,[ f' d f] g f d f h,[ c d e] f g a h
@@ -22,7 +22,7 @@ CCLXXXIChords = {
     q4 <e g>4 g2
     <f g> <e g>4 r8 g
     <f a> g r g <f a> g r g
-    <d a'>4 <d g> <e g>8 \noBeam \normalsize \oneVoice g' e32[ g c h] a g f e
+    <d a'>4 <d g> <e g>8 \brkBeam \normalsize \oneVoice g' e32[ g c h] a g f e
     d[ f a g] f e d c h[ f' d c] h a g f e c' g e c8 r \tiny \voiceOne <e g> %20
     a2 g4 r8 g
     g4. <e h'>8 <d gis h> <c a'> <e a>4
@@ -43,14 +43,14 @@ CCLXXXIChords = {
     g4 r8 <g h> <d h'> <c a'> r <fis a>
     q2 <d g>4 r8 g
     g4 r8 g g4 r8 g
-    <e g>4 <d fis> <d g>8 \noBeam \oneVoice \normalsize d' h32[ d g fis] e d c h %40
-    a[ c e d] c h a g fis[ c' a g] fis e d c h8 \noBeam \tiny \voiceOne <d g> <d e>4
+    <e g>4 <d fis> <d g>8 \brkBeam \oneVoice \normalsize d' h32[ d g fis] e d c h %40
+    a[ c e d] c h a g fis[ c' a g] fis e d c h8 \brkBeam \tiny \voiceOne <d g> <d e>4
     <c e> r8 a' a2~
     a4 r8 <a c> <e c'> <d h'> r <gis h>
     q2 <e a>4 r8 a
     a4 r8 a a4 r8 a %45
-    <f a>4 <e gis> <e a>8 \noBeam \oneVoice \normalsize e' c32[ e a g!] f e d c
-    h[ d f e] d c h a gis[ d' h a] gis fis e d c8 \noBeam \tiny \voiceOne f e g
+    <f a>4 <e gis> <e a>8 \brkBeam \oneVoice \normalsize e' c32[ e a g!] f e d c
+    h[ d f e] d c h a gis[ d' h a] gis fis e d c8 \brkBeam \tiny \voiceOne f e g
     f4 r8 f f4. g8
     a4 b a g
     f2 g4. e8 %50
@@ -68,7 +68,7 @@ CCLXXXIChords = {
     q4 <e g> g2
     <f g> <e g>4 r8 g
     <f a> g r g <f a> g r g
-    <d a'>4 <d g> <e g>8 \noBeam \normalsize \oneVoice g' e32[ g c h] a g f e %65
+    <d a'>4 <d g> <e g>8 \brkBeam \normalsize \oneVoice g' e32[ g c h] a g f e %65
     d[ f a g] f e d c h[ f' d c] h a g f e8 r r \tiny \voiceOne <e g>
     <c f>4 <d g>8 <c e> <b e> <a f'> <d a'>4
     <d g>4. <c fis>8 <d g>4 h'
@@ -81,14 +81,14 @@ CCLXXXIChords = {
     <g d'> e' f g %75
     a g f <g, f'>
     <d' f>1
-    <g, e'>4 d' c8 \noBeam \oneVoice \normalsize g'' e32[ g c h] a g f e
+    <g, e'>4 d' c8 \brkBeam \oneVoice \normalsize g'' e32[ g c h] a g f e
     d[ f a g] f e d c h[ f' d c] h a g f e c' g e c8 r \voiceOne \tiny <e g>~
     q <a c> <g h> <f a> q4 <e g>8 <f a> %80
     q4 <e g> q r8 q~
     q4 <f a> q <e g>8 <f a>
     q4 <e g> q r8 q
     q <d f>4.~ q8 <c e>4.
-    <c a'>2 <e g>8 \noBeam \normalsize \oneVoice g h32[ g fis g] h g c g %85
+    <c a'>2 <e g>8 \brkBeam \normalsize \oneVoice g h32[ g fis g] h g c g %85
     d'[ g, fis g] d' g, e' g, f'[ g, e' g,] f' g, d' g, e'16. c32 c8\trill e32[ c h c] e c f c
     g'[ c, h c] g' c, a' c, b'[ c, a' c,] b' c, g' c, a'[ f e d] cis d f a g[ e d c] h c e g
     h,[ f' d f] g f d f g,[ f' d f] g f d f h,[ f' d f] g f d f g,[ f' d f] g f d f

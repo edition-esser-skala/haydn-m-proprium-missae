@@ -15,14 +15,14 @@ CCCLXXXICornoI = {
     g2~ g8 g' g g \pd
     g4 r \pao d8 r \pao d r %10
     r4 \pao d r8 d d d
-    \once \partCombineChords e4 r r2
+    \pco e4 r r2
     R1
     r2 r8 \pa g, g g \pd
     \pa g2~\p g8 g \pd d'4\f %15
     r8 \pa d d4 \pd r8 d d d
-    \once \partCombineChords e4 r r2
+    \pco e4 r r2
     r r4 \pa g,8 g \pd
-    \once \partCombineChords e'4 r r2
+    \pco e'4 r r2
     r4 \pa d8 d \pd d4 r8 \pao d %20
     d4 r8 \pa d d g4 fis8 \pd
     g4 r r2

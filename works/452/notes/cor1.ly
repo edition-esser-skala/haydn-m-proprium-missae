@@ -103,7 +103,7 @@ CDLIICornoI = {
     r8 f e e d d
     c4 r8 c c c
     d4 r8 d d d
-    \once \partCombineChords e4\p r r %135
+    \pco e4\p r r %135
     g,2 g'4
     g f r
     g,2 d'4

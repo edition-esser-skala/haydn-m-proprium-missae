@@ -9,10 +9,10 @@ DICornoI = {
     c r c c c r c c
     \pao g4 r r8 d' d d
     d4 r r8 d d d %5
-    \once \partCombineChords e4 r r8 d d d
+    \pco e4 r r8 d d d
     \pao d4 r r8 \pa d d d
     d4 d d \pd r8 d
-    \once \partCombineChords e4 r8 e \pao d4 r
+    \pco e4 r8 e \pao d4 r
     r2 d4 d8 d %10
     e4 r r8 \pa d d d
     d4 \pd r r8 \pa d d d
@@ -45,12 +45,12 @@ DICornoI = {
     c4 r8 f f4 e %40
     r2 r8 g g f
     e e d d c r d r
-    c r r4 d8 \once \partCombineChords e r d
+    c r r4 d8 \pco e r d
     c r g' r g r g r
     r4 e8 r e r e r %45
     r4 c8 r c r c r
     R1
-    r4 f8 d \once \partCombineChords e g f e
+    r4 f8 d \pco e g f e
     r d16. d32 d4 r8 c16. c32 e4
     r8 d16. d32 d8 f e f e d %50
     c c c c c4 c

@@ -5,7 +5,7 @@ DXXICornoI = {
     \clef treble
     \key c \major \time 3/4 \tempoDXXI
     r4 c'\fE c
-    \once \partCombineChords e c r
+    \pco e c r
     r \pa d d \pd
     f \pao d r
     r d d %5
@@ -58,7 +58,7 @@ DXXICornoI = {
     g
     r4 d' g
     e c c
-    \once \partCombineChords e c r %55
+    \pco e c r %55
     r \pa d d \pd
     f \pao d r
     r d d
@@ -109,7 +109,7 @@ DXXICornoI = {
     g r r
     r d' g,
     g r r
-    r \once \partCombineChords e' c
+    r \pco e' c
     c r r %115
     d r r
     c r r

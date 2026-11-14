@@ -4,7 +4,7 @@ CCCXXVIIIAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 2/2 \autoBeamOff \tempoCCCXXVIII
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f1~
     f2 f
     e f

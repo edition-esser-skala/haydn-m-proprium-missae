@@ -43,11 +43,11 @@ DXXXICornoI = {
     d4 \pd r
     r g,8 g %65
     g4 r
-    \pa g8[ \once \partCombineChords r16 g g8 \once \partCombineChords r16 g]
+    \pa g8[ \pco r16 g g8 \pco r16 g]
     g4 \pd r
     r8 \pa g g g
     g4 \pd r %70
-    \pa g8[ \once \partCombineChords r16 g g8 \once \partCombineChords r16 g]
+    \pa g8[ \pco r16 g g8 \pco r16 g]
     g4 \pd r
     \pa d'8 d4 d8~
     d d4 d8~

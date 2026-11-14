@@ -322,7 +322,7 @@ DCCCXXIXcSoprano = {
     g,2( \grace h16 a8.)^\critnote g16
     g4 r r
     R2.*4 \bar "||" %188
-    \key d \major h4 h h \noBeam
+    \key d \major h4 h h \brkBeam
     h( ais8.) ais16 h4 %190
     cis2 e,4
     e d r

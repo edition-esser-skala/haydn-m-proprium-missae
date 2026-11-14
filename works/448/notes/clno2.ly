@@ -91,7 +91,7 @@ CDXLVIIIClarinoII = {
     r c g
     e r e
     g r g %100
-    g \once \partCombineChords e r
+    g \pco e r
     c c c
     c r r
     c c c

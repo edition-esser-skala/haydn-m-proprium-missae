@@ -82,7 +82,7 @@ CCCXLVCornoI = {
     R2.*3
     e2 e4 %105
     r e e
-    \once \partCombineChords e r r
+    \pco e r r
     R2.*2
     e2 r4 %110
     r e e

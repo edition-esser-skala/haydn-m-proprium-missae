@@ -67,7 +67,7 @@ CCCXCVIIClarinoI = {
     e4 r r \noBreak
     r e \pao e
     \time 2/2 \tempoCCCXCVIIb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       e2 r \noBreak
     R1*4 %82
     r4 e' f e
@@ -161,7 +161,7 @@ CCCXCVIIClarinoIb = {
     e4 e'2 \noBreak
     r4 \pa e, e8 e \pd
     \time 2/2 \tempoCCCXCVIIb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       e4 r r2 \noBreak
     R1*7 %85
     d'2 c4 e

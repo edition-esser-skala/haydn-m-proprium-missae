@@ -1,12 +1,5 @@
 \version "2.24.0"
 
-\layout {
-  \context {
-    \Lyrics
-    \override StanzaNumber.font-size = #-1
-  }
-}
-
 tempoLXXV = \tempoMarkup "Andante"
 tempoLXXVb = \tempoMarkup "Allegretto"
 tempoLXXVc = \tempoMarkup "Adagio"

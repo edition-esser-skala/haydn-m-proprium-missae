@@ -8,7 +8,7 @@ CCCXLIISopranoI = {
     \time 12/1 \[ f1 e f \] g \[ a g a \] \[ a b a g f \] \noBreak
     \time 16/1 \[ a b a g \] \[ g e g a g f \] \[ e f g f \] \[ f e \] \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \tempoCCCXLIIb \time 2/2
       \mvTr c'1\fE^\tuttiE \noBreak
     c2 a

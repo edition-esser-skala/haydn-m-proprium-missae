@@ -7,18 +7,18 @@ CCCLXVICornoI = {
     c'4.\fE
     c
     c8 c c
-    \pa c[ \once \partCombineChords r c]
+    \pa c[ \pco r c]
     c \pd r r %5
     r r c16. c32
     c8 r r
     R4.
     r8 \pa g g
-    g[ \once \partCombineChords r g] %10
+    g[ \pco r g] %10
     g c c \pd
     c4 c8
     \pao g4 r8
     r g g
-    \pa g[ \once \partCombineChords r g] \pd %15
+    \pa g[ \pco r g] \pd %15
     d'4.~
     d
     r8 d d
@@ -67,8 +67,8 @@ CCCLXVICornoI = {
     e8\fE e e
     e e e
     c r r
-    \pa d[ \once \partCombineChords r d]
-    c[ \once \partCombineChords r c] %75
+    \pa d[ \pco r d]
+    c[ \pco r c] %75
     d e e \pd
     c r r
     R4.*13 %90
@@ -113,13 +113,13 @@ CCCLXVICornoI = {
     c4. %145
     c
     c8 c c
-    \pa c[ \once \partCombineChords r c]
+    \pa c[ \pco r c]
     c \pd r r
     r r c16. c32 %150
     c8 r r
     R4.
     r8 \pa g g
-    g[ \once \partCombineChords r g]
+    g[ \pco r g]
     g c c \pd %155
     c4 c8
     \pao g4 r8

@@ -33,7 +33,7 @@ XXIXChords = {
     q <h d>4 c'8 h a g f
     <g c>4 r8 q <g h> <g c> r q
     <g h> <g c> r q <f h>2
-    q8 <e c'> r <g c> <f a>8 \noBeam <f h>16 <e c'> <f d'>8 <e c'> %30
+    q8 <e c'> r <g c> <f a>8 \brkBeam <f h>16 <e c'> <f d'>8 <e c'> %30
     q <d h'>4 c'8 h a g f
     <g c>2 <g h>
     <h d> <g c>4. <g h>8
@@ -75,7 +75,7 @@ XXIXChords = {
     g4. c'8 h a g f
     e4 r8 e d e r e
     d e r e d2
-    g4 r8 e c8 \noBeam g' g4 %30
+    g4 r8 e c8 \brkBeam g' g4 %30
     g4. c8 h a g f
     e2 d
     <f g> e4. f8

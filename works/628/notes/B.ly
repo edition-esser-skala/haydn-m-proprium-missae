@@ -9,7 +9,7 @@ DCXXVIIIaBasso = {
     \time 7/1 \[ f d \] f \[ e f g \] d \noBreak
     \time 5/1 \[ f a \] \[ g f \] e\fermata \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \time 2/2 e1 \noBreak
     a, %5
     e'4 e fis gis
@@ -45,11 +45,11 @@ DCXXVIIIaBasso = {
     \time 4/2 a\breve \noBreak
     e'\fermata \markFine \bar "||"
     \omit Staff.TimeSignature
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \time 10/1 \[ a1 g \] \[ g a \] a a2 a a1 a a a \noBreak
     a a \[ a g \] \[ g h \] h \[ a h \] a\fermata \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \time 2/2 a,2 f'~ \noBreak %40
     f e4( d)
     cis2 g'~

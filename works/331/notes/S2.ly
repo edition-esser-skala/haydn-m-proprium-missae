@@ -7,7 +7,7 @@ CCCXXXISopranoII = {
       \omit Staff.TimeSignature
     \time 61/4 \[ a'1 h c \] \[ g h a \] a \[ c h \] \[ c d \] \hS d4 d1 \[ d a \] a \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \tempoCCCXXXIa \time 2/2
       R1*2
     d,1
@@ -56,7 +56,7 @@ CCCXXXISopranoII = {
     \omit Staff.TimeSignature \time 50/4
     \[ g1 a \] \hS g4 \[ g1 c \] \[ c h c d \] \hS d4 d1 \[ c d \] c \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \tempoCCCXXXIb \time 2/2
       r2 e, \noBreak
     a a
@@ -84,7 +84,7 @@ CCCXXXISopranoII = {
     \time 41/4 \[ g1 a \] \hS g4 \[ g1 c \] \[ c c c c c c \] \noBreak
     \time 37/4 c \[ c h \] \[ c d \] \hS d4 d1 \[ c d \] c \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \tempoCCCXXXIc \time 2/2
       e,1 \noBreak
     f

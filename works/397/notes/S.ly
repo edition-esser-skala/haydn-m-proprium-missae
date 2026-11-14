@@ -82,7 +82,7 @@ CCCXCVIISoprano = {
     a r r \noBreak
     R2.
     \time 2/2 \tempoCCCXCVIIb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R1*3 %80
     r4 e' e e
     e2 d

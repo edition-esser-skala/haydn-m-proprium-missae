@@ -51,7 +51,7 @@ DCCXCVIIIOrgano = {
       d d, d d d d
       d d' d d d d %45
     } \\ {
-      \once \override TextScript.X-offset = #-1 d4_\bassi r r
+      \mvT = #-1 d4_\bassi r r
       d8 d d d d d
       d4 r r
       d8 d d d d d %45

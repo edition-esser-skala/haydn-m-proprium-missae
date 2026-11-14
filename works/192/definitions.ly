@@ -2,13 +2,6 @@
 
 tempoCXCII = \tempoMarkup "Langſam"
 
-\layout {
-  \context {
-    \Lyrics
-    \override StanzaNumber.font-size = #-1
-  }
-}
-
 \include "notes/fl.ly"
 \include "notes/cl1.ly"
 \include "notes/cl2.ly"

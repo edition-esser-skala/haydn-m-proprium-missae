@@ -317,7 +317,7 @@ DLXXIVCornoIl = {
   \relative c' {
     \clef treble
     \key c \major \time 2/2 \tempoDLXXIVl
-    \once \partCombineChords g''2 c,4 c
+    \pco g''2 c,4 c
     d2 e4 e
     f f f2
     e r4 d

@@ -6,7 +6,7 @@ XXXIClarinoI = {
     \key c \major \time 4/4 \tempoXXXI
     e'2\fpE d4 r
     d2\fpE c4 g'8[\fE f]
-    \once \partCombineChords e4 r f2
+    \pco e4 r f2
     e4 r r r8 d
     c4 r r2 %5
     R1
@@ -27,7 +27,7 @@ XXXIClarinoI = {
     R1*4 %36
     e2\fpE d4 r
     d2\fpE c4 \pa g'8[\fE f]
-    \partCombineChords e4 \pd r8 e d4. f8
+    \pco e4 r8 e d4. f8
     e4 r8 e d4. f8 %40
     e4 r d\fermata r
     r8 g g4 e r

@@ -50,7 +50,7 @@ DCVIClarinoI = {
     c4 \pd r e'
     e d8 g, g g %60
     g4 r d'
-    d \once \partCombineChords e r
+    d \pco e r
     r c e
     d d8 d d f
     f( e) e e e e %65

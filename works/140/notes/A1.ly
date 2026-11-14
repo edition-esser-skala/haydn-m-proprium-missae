@@ -4,7 +4,7 @@ CXLAltoI = {
   \relative c' {
     \clef treble
     \key c \major \time 2/2 \autoBeamOff \tempoCXL
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R1
     r2 g'~\fE
     g f~
@@ -185,7 +185,7 @@ CXLAltoI = {
     \time 2/1 g\breve \noBreak
     g\fermata \bar "||"
     \tempoCXLe \time 3/2
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1. \noBreak
     g1. %200
     g
@@ -201,7 +201,7 @@ CXLAltoI = {
     g fis1 \noBreak
     gis1.\fermata \bar "||"
     \time 2/2 \tempoCXLf
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       g1~ \noBreak
     g2 g
     g1 %215

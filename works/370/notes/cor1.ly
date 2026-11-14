@@ -35,10 +35,10 @@ CCCLXXCornoI = {
     \pao g4 r8 %30
     R4.
     c
-    \pa g8[ \once \partCombineChords r g] \pd
+    \pa g8[ \pco r g] \pd
     c4.
     c8 c c %35
-    \pa g[ \once \partCombineChords r d'] \pd
+    \pa g[ \pco r d'] \pd
     c r r
     c r r
     R4.
@@ -88,7 +88,7 @@ CCCLXXCornoI = {
     e4 r8
     R4. %90
     e
-    \pa e8[ \once \partCombineChords r e,] \pd
+    \pa e8[ \pco r e,] \pd
     c'4.
     c8 c r
     r e e %95
@@ -124,7 +124,7 @@ CCCLXXCornoI = {
     e e e
     e r r %140
     e e e
-    \pa e[ \once \partCombineChords r c]
+    \pa e[ \pco r c]
     d e e,
     e \pd r r
     R4.*2 %146

@@ -125,7 +125,7 @@ DXXIVClarinoI = {
     e g, g4 \pd
     r8 e' d d
     c r g g %125
-    g r \once \partCombineChords d'4
+    g r \pco d'4
     c8 r r4\fermata \bar "|." %127 finis
   }
 }

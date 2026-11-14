@@ -1,10 +1,5 @@
 \version "2.24.0"
 
-markInsertion = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \critnote
-}
-
 tempoCCCLXXIII = \tempoMarkup "Andantino"
 
 \include "notes/cor1.ly"

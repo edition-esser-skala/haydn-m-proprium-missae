@@ -6,7 +6,7 @@ CCCXCVIIIClarinoI = {
     \key c \major \time 4/4 \tempoCCCXCVIII
     R1*64 %64
     c'8\fE c c c d d d d %65
-    \once \partCombineChords e4 r e r
+    \pco e4 r e r
     r8 c c c \pa c c c c \pd
     f4 r r8 d d d
     \pa c c, e c e c e c \pd
@@ -33,7 +33,7 @@ CCCXCVIIIClarinoI = {
     R1*3 %92
     r4 r8 \pa g\f g g g g \pd
     g c c c d d d d
-    \once \partCombineChords e4 r e r %95
+    \pco e4 r e r %95
     c r c r
     r2 \pa g8 d' d d
     c c, e c e c e c \pd

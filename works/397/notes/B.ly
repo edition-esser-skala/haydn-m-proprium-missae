@@ -82,7 +82,7 @@ CCCXCVIIBasso = {
     a,4 r r \noBreak
     R2.
     \time 2/2 \tempoCCCXCVIIb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r4 a' a a\noBreak
     a2 g
     f1 %80

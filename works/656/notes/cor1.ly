@@ -4,7 +4,7 @@ DCLVICornoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoDCLVI
-    c'4\fE r \once \partCombineChords e
+    c'4\fE r \pco e
     d r d
     e r \pa g,
     g \pd c8 c c c
@@ -39,10 +39,10 @@ DCLVICornoI = {
     d r r
     r d \pao d
     d r g %35
-    e \once \partCombineChords e r
+    e \pco e r
     r \pa d d \pd
     d r8 d c d
-    e4 c \once \partCombineChords e
+    e4 c \pco e
     d r d %40
     e r \pa g,
     g c8 c c c

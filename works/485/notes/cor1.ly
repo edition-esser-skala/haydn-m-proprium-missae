@@ -105,10 +105,10 @@ CDLXXXVCornoI = {
     e( d) c c
     e e d d
     c r d r
-    \once \partCombineChords e r d r %110
+    \pco e r d r %110
     c r e d
     c r d r
-    \once \partCombineChords e r d r
+    \pco e r d r
     c r e d
     c[ e] g e16 c %115
     g4 r8 d'

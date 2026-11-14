@@ -38,11 +38,11 @@ DCCCXXVIIClarinoI = {
     \pao c, r r
     \pao c r r
     \pao c r r %115
-    \pa c[ \once \partCombineChords r c'] \pd
+    \pa c[ \pco r c'] \pd
     c r r
     R4.*3 %120
     r8 \pa c, c
-    c[ \once \partCombineChords r c'] \pd
+    c[ \pco r c'] \pd
     c r r
     R4.*5 %128
     c4 r8

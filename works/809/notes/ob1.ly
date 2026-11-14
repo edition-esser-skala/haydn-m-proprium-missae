@@ -265,7 +265,7 @@ DCCCIXTorrenteOboeI = {
     r a, c h g h
     d4. r8 g d
     r fis fis r g d
-    \once \partCombineChords c' c,4 h8 d e %285
+    \pco c' c,4 h8 d e %285
     h4 a8 \pao g r r
     d'4.\p g
     e d8 r r
@@ -310,7 +310,7 @@ DCCCIXTorrenteOboeI = {
     h,4 a8 \pa g g\f h \pd
     d4. r8 g d %345
     r fis fis r g d
-    \once \partCombineChords c' c,4 h8 d e \noBreak
+    \pco c' c,4 h8 d e \noBreak
     h4 a8 \pao g r r \bar "|"
     \key d \major R2. \noBreak
     r4 r8 cis4. %350

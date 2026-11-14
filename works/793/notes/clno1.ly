@@ -11,7 +11,7 @@ DCCXCIIIClarinoI = {
     r2 r8 g,\fE c c %5
     c g c c c4 r
     c\p d c d\f
-    \pa c8[ \once \partCombineChords r16. c32] \pd e8 d c4 r
+    \pa c8[ \pco r16. c32] \pd e8 d c4 r
     R1*3 %11
     r2 r8 \pa g\fE e c \pd
     c' r c r d4 c
@@ -76,7 +76,7 @@ DCCXCIIIClarinoI = {
     r2 r8 g\fE c c
     c g c c c4 r %80
     c\p d c d\f
-    \pa c8[ \once \partCombineChords r16. c32] \pd e8 d c4 r
+    \pa c8[ \pco r16. c32] \pd e8 d c4 r
     R1*3 %85
     r2 r8 \pa g\fE e c \pd
     c' r c r d4 c

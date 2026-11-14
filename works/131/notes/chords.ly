@@ -83,9 +83,9 @@ CXXXIOrganoR = {
     q es~
     es <b d>
     <d f>4 <f b> <d b'> <c a'>
-    <f b>8 \noBeam \oneVoice \normalsize \tuplet 3/2 8 { b'16 a g } f8 \tuplet 3/2 8 { b16 a g } f8 \tuplet 3/2 8 { b16 a g f[ es d] c b a } %80
+    <f b>8 \brkBeam \oneVoice \normalsize \tuplet 3/2 8 { b'16 a g } f8 \tuplet 3/2 8 { b16 a g } f8 \tuplet 3/2 8 { b16 a g f[ es d] c b a } %80
     g4 \voiceOne \tiny <g c> b4. a8
-    b \noBeam \oneVoice \normalsize \tuplet 3/2 8 { b'16 a g } f8 \tuplet 3/2 8 { b16 a g } f8 \tuplet 3/2 8 { g16 f es d[ c b] a g f }
+    b \brkBeam \oneVoice \normalsize \tuplet 3/2 8 { b'16 a g } f8 \tuplet 3/2 8 { b16 a g } f8 \tuplet 3/2 8 { g16 f es d[ c b] a g f }
     es2\trill \voiceOne \tiny b'~
     b b\fermata
     <f a> <f b>4 \oneVoice \normalsize \tuplet 3/2 8 { d16[ f b] f b d %85

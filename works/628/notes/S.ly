@@ -9,7 +9,7 @@ DCXXVIIIaSoprano = {
     \time 7/1 s1*7 \bar "|" \noBreak
     \time 5/1 s1*5 \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \time 2/2 r4 gis' a h \noBreak
     c2. c4 %5
     h2 r
@@ -45,11 +45,11 @@ DCXXVIIIaSoprano = {
     \time 4/2 c2.( h4 a) e a2~ \noBreak
     a gis4 fis gis1\fermata \markFine \bar "||"
     \omit Staff.TimeSignature
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \time 10/1 s1*10 \noBreak
     s \bar "||"
     \undo \omit Staff.TimeSignature
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \time 2/2 a1 \noBreak %40
     g
     a
